@@ -1,10 +1,8 @@
 			var matrix = document.getElementById("matrix");
 			var matrixCtx = matrix.getContext("2d");
-			//让画板等同屏幕的大小，获取屏幕对象
-			var scr = window.screen;
-			//获取屏幕的宽度和高度，并设置画板的宽高
-			var w = scr.width;
-			var h = scr.height;
+			//获取客户端的宽度和高度，并设置画板的宽高
+			var w = document.documentElement.clientWidth;
+			var h = document.documentElement.clientHeight;
 			matrix.width = w;
 			matrix.height = h;
 			//设置文字大小 
