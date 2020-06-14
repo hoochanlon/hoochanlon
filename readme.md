@@ -23,7 +23,7 @@
 </div>
 ```
 
-实现参考：
+实现参考以及所遇到的难题
 
 * [Font Awesome](https://www.thinkcmf.com/font/search/index.html) 
 * [zzh1918-JS实现动态打字效果](https://blog.csdn.net/qq_37860930/article/details/80859473)
