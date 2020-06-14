@@ -1,6 +1,8 @@
 ### README 
 
-这一个Hacking Style风格化的自我简介演示JS模板
+这一个Hacking Style风格化的自我简介的JS模板
+
+在线演示：https://hoochanlon.github.io/Hacking-AboutMe
 
 <!-- ### 实现参考
 
