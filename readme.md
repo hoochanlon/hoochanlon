@@ -2,7 +2,9 @@
 
 这一个Hacking Style风格化的自我简介的JS模板
 
-在线演示：https://hoochanlon.github.io/Hacking-AboutMe
+在线动态演示：https://hoochanlon.github.io/Hacking-AboutMe
+
+![2012.png](https://i.loli.net/2020/06/14/7OMUfBRkqzce1xA.png)
 
 <!-- ### 实现参考
 
