@@ -4,7 +4,7 @@
 
 在线动态演示：https://hoochanlon.github.io/Hacking-AboutMe
 
-![2012.png](https://i.loli.net/2020/06/14/7OMUfBRkqzce1xA.png)
+[![2012.png](https://i.loli.net/2020/06/14/7OMUfBRkqzce1xA.png)](http://cn.hk.uy/h4V)
 
 <!-- ### 实现参考
 
