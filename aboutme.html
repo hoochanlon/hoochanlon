@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<title>About myself</title>
+		<meta name="keywords" content="简介,诗">
+		<meta name="description" content="模拟终端的简介面板">
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script src="./typing/typing.js"></script>
+        <link rel="stylesheet" href="./typing/typing.css">
+        <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+	</head>
+    <style>
+        body {
+
+            /* overflow: hidden; */
+            background:black;
+            color: #00FF02;
+            font-size: 20px;
+            font-family:courier;
+            }    
+            blink{
+                display:inline;
+         
+            }
+            /* #source{
+                display:none;
+            } */
+            </style>
+	
+	<body>
+        <div id="source">
+          Waiting...<br> 
+          Connecting to my gh-page - About myself<br>
+          Connection Established.<br>
+          Guest Logined,Access Is Granted. Welcome To My Site!<br>
+          <br>
+          > 自我介绍一下，我的用户名是hoochanlon，毕业于湘科职院，我是一名信息运维工程师，同时也是一名技术文档作家。
+          主要负责银行金融信息网络维护，以及从事物业地产的桌面系统安全运营等工作。
+          编著有《这本书能让你连接互联网》、《桌面运维管理指南》等，对数字入侵、服务器投毒、防火墙检测策略有深入研究，
+          并提供网络以及桌面系统安全运营优化方案，作品曾被北邮人论坛、知乎校园官方公众号等多位知名博主推荐。
+          当然，也有着稳实的病毒防控经验，最近，我和我的团队的共同努力推动下，公司已经成功的拿下火绒代理商授权。2020.6.14 记<br>
+          <p>> 兴趣爱好方面:</p>
+          <ul>
+            <li>咖啡与茶</li>
+            <li>常阅览博客、知乎，以及闲暇时读书</li>
+            <li>跳绳、散步、骑行</li>
+            <li>听歌看番剧</li>
+          </ul>
+          <p>> 我对自己的看法是，我较于其他人更擅长总结，情绪化低，明显的例子是：</p>
+          <ul>
+            <li>不间断持续化地写日记，记录归纳工作及生活方面等的现象，并思考更进一步的优化。</li>
+            <li>有次吃了回闭门羹，朋友的良言苦口相告，我第一反应不是情绪（这也是连我自己都没想到的变化），而是想到教训总结去进一步的争取改善。</li>
+          </ul>
+          <br>
+          > <i class="fa fa-github" aria-hidden="true"></i> 
+          个人主页：<a href="http://github.com/hoochanlon">github.com/hoochanlon</a><br>
+          > <i class="fa fa-envelope" aria-hidden="true"></i> 
+          联系邮箱：<a href="mailto:hoochanlon@outlook.com">hoochanlon@outlook.com</a><br> 
+          > <i class="fa fa-users" aria-hidden="true"></i> 
+          所入组织：
+          <li><a href="https://github.com/SpaceVim">SpaceVim</a></li>
+          <li><a href="https://github.com/apacheCN">ApacheCN</a></li>
+          <li><a href="https://programmingwithlove.stackoverflow.wiki/">PWL 用爱发电</a></li>
+          > <span>时间有时就像一个谜一样的旋涡，到处布满疑惑让人沉默不说-《冲出你的窗口》</span>
+        </div>
+        <div id="output-wrap">
+            <span id="output"></span>
+            <span class="typing-cursor">■</span>
+          </div>
+        <script>
+            var typing = new Typing({
+              source: document.getElementById('source'),
+              output: document.getElementById('output'),
+              delay: 80,
+              done: function() {} //完成打印后的回调事件
+            });
+            typing.start();
+          </script>    
+      <div>
+        <script type="text/javascript">
+          setTimeout("javascript:location.href='index.html'", 300000);
+          </script>
+	</body>
+	</html>
+	
+	<head>
+		
+		
