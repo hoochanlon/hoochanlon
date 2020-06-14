@@ -10,8 +10,7 @@
 
 ### usage
 
-`typing-cursor`和`typing-cursor-black`都是闪烁的黑色光标，而`typing-cursor-white`则是闪烁的白色光标。
-**请注意要在`span`里面放置内容`|`**
+在aboutme.html的 `source` 元素输入需要打印的内容，再次运行即会进行动态打印输出信息。
 
 ```html
 <div id="source">
