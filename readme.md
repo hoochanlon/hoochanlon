@@ -23,19 +23,13 @@
 </div>
 ```
 
-### 实现的过程
+### 实现方式
 
-工具：
+* base：html+css+javascript
+* tools：Chrome、VScode、Nokia X6
+* rec：[coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)、[Font Awesome](https://www.thinkcmf.com/font/search/index.html)
 
-* Chrome、VScode、Nokia X6
-
-
-引入
-
-* [coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)
-* [Font Awesome](https://www.thinkcmf.com/font/search/index.html)
-
-参考文献
+参考文献：
 
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)
