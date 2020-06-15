@@ -4,10 +4,6 @@
 
 在线动态演示：https://hoochanlon.github.io/Hacking-AboutMe
 
-<!--
-[![2012.png](https://i.loli.net/2020/06/14/7OMUfBRkqzce1xA.png)](http://cn.hk.uy/h4V)
--->
-
 ### usage
 
 在aboutme.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
@@ -27,7 +23,9 @@
           </div>
 ```
 
+<!--
 ![test.gif](https://i.loli.net/2020/06/15/1WSwQ3MkUixV4jP.gif)
+-->
 
 ### more
 
