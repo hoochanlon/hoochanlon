@@ -23,7 +23,16 @@
 </div>
 ```
 
-实现参考以及所遇到的难题
+### 实现的过程
+
+工具：chrome、vscode、Nokia X6
+
+参考文献
+
+* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)
+
+所遇到的问题
 
 * [Font Awesome](https://www.thinkcmf.com/font/search/index.html) 
 * [zzh1918-JS实现动态打字效果](https://blog.csdn.net/qq_37860930/article/details/80859473)
