@@ -13,15 +13,21 @@
 在aboutme.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
 
 ```html
-<div id="source">
-  这里的呈现效果是有鼠标跟随的！<br />
-  还不错吧？
-</div>
-<div id="output-wrap">
-  <span id="output"></span>
-  <span class="typing-cursor">|</span>
-</div>
+        在source内填入需要进行打印的信息
+        <div id="source">
+          Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Exercitationem
+           modi nostrum architecto 
+        </div><br>
+     
+        output-wrap在网页输出的信息
+        <div id="output-wrap">
+            <span id="output"></span>
+            <span class="typing-cursor">■</span>
+          </div>
 ```
+
+![test.gif](https://i.loli.net/2020/06/15/1WSwQ3MkUixV4jP.gif)
 
 ### more
 
