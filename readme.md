@@ -23,11 +23,12 @@
 </div>
 ```
 
-### 实现方式
+### more
 
-* base：html+css+javascript
-* tools：Chrome、VScode、Nokia X6
-* rec：[coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)、[Font Awesome](https://www.thinkcmf.com/font/search/index.html)
+引入项目：
+
+* [coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)
+* [Font Awesome](https://www.thinkcmf.com/font/search/index.html)
 
 参考文献：
 
