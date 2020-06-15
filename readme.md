@@ -25,7 +25,10 @@
 
 ### 实现的过程
 
-工具：chrome、vscode、Nokia X6
+工具：
+
+* Chrome、VScode、Nokia X6
+* [Font Awesome](https://www.thinkcmf.com/font/search/index.html)
 
 参考文献
 
@@ -33,8 +36,7 @@
 * [w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)
 
 所遇到的问题
-
-* [Font Awesome](https://www.thinkcmf.com/font/search/index.html) 
+ 
 * [zzh1918-JS实现动态打字效果](https://blog.csdn.net/qq_37860930/article/details/80859473)
 * [OmegaXYZ-JavaScript模拟终端输入](https://www.omegaxyz.com/2018/07/01/javascript-terminal/)
 * [csdn-HTML5 canvas自适应手机屏幕大小的一种解决方案](https://blog.csdn.net/qq_39687901/article/details/104071957)
