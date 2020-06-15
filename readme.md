@@ -28,6 +28,11 @@
 工具：
 
 * Chrome、VScode、Nokia X6
+
+
+引入
+
+* [coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)
 * [Font Awesome](https://www.thinkcmf.com/font/search/index.html)
 
 参考文献
@@ -35,9 +40,3 @@
 * [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)
 
-所遇到的问题
- 
-* [zzh1918-JS实现动态打字效果](https://blog.csdn.net/qq_37860930/article/details/80859473)
-* [OmegaXYZ-JavaScript模拟终端输入](https://www.omegaxyz.com/2018/07/01/javascript-terminal/)
-* [csdn-HTML5 canvas自适应手机屏幕大小的一种解决方案](https://blog.csdn.net/qq_39687901/article/details/104071957)
-* [csdn-移动端字体适配小结](https://blog.csdn.net/lixinyi0622/article/details/87347816)
