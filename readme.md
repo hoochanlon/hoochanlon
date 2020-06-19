@@ -6,7 +6,7 @@
 
 ### usage
 
-在aboutme.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
+在hoochanlon.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
 
 ```html
         在source内填入需要进行打印的信息
