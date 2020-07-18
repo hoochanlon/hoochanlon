@@ -1,5 +1,7 @@
 ## README 
 
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=hoochanlon)](https://github.com/anuraghazra/github-readme-stats)
+
 这一个Hacker Style风格化的自我简介的JS模板
 
 在线动态演示：https://hoochanlon.github.io/about.me
