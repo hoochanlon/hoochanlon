@@ -1,13 +1,13 @@
 ## 👋 一个傻傻的运维工程师的GitHub资料卡 [![Page Views Count](https://badges.toozhao.com/badges/01EYZA4ZV2SR5YWGNVWBWM1RM5/blue.svg)](https://badges.toozhao.com/stats/01EYZA4ZV2SR5YWGNVWBWM1RM5 "Get your own page views count badge on badges.toozhao.com")
 
-***[About me](https://hoochanlon.github.io/hoochanlon)***
+***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 ![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true&theme=tokyonight)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/anuraghazra/github-readme-stats)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=helpdesk-guide)](https://github.com/anuraghazra/github-readme-stats)
 
-这一个Hacker Style风格化的自我简介的JS模板
+
 
 ### usage
 
