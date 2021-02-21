@@ -5,7 +5,7 @@
 ![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true&theme=tokyonight)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/anuraghazra/github-readme-stats)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=w3-goto-world)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=helpdesk-guide)](https://github.com/anuraghazra/github-readme-stats)
 
 这一个Hacker Style风格化的自我简介的JS模板
 
