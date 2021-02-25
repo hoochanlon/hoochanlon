@@ -4,8 +4,7 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true&theme=tokyonight)
 
-[![hoochanlon's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=hoochanlon&layout=compact)](https://github.com/anuraghazra/github-readme-stats) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=helpdesk-guide)](https://github.com/hoochanlon/helpdesk-guide)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=helpdesk-guide)](https://github.com/hoochanlon/helpdesk-guide)
 
 ### usage
 
