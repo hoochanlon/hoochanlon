@@ -4,8 +4,6 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true&theme=tokyonight)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=helpdesk-guide)](https://github.com/hoochanlon/helpdesk-guide)
-
 ### usage
 
 在hoochanlon.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
