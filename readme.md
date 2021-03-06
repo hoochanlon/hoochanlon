@@ -2,7 +2,7 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true&theme=tokyonight)
+![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true)
 
 ### usage
 
