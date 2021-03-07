@@ -2,8 +2,7 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-![](https://github-readme-stats.vercel.app/api?username=hoochanlon&show_icons=true)
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=reading-pm-by-lib)](https://github.com/hoochanlon/reading-pm-by-lib)
 ### usage
 
 在hoochanlon.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
