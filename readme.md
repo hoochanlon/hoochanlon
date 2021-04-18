@@ -50,18 +50,3 @@
 |[Font Awesome](https://www.thinkcmf.com/font/search/index.html)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|
 |[icons8](https://icons8.com)|[www.jq22.com](https://www.jq22.com/webqd1311)|
 
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|
-
-引入项目：
-
-* [coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)
-* [Font Awesome](https://www.thinkcmf.com/font/search/index.html)
-* [icons8](https://icons8.com)
-
-
-参考文献：
-
-* [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)
-
