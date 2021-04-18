@@ -1,12 +1,10 @@
-# 👋 Hi there [![Page Views Count](https://badges.toozhao.com/badges/01EYZA4ZV2SR5YWGNVWBWM1RM5/blue.svg)](https://badges.toozhao.com/stats/01EYZA4ZV2SR5YWGNVWBWM1RM5 "Get your own page views count badge on badges.toozhao.com")
+# ***👋 Hi there*** [![Page Views Count](https://badges.toozhao.com/badges/01EYZA4ZV2SR5YWGNVWBWM1RM5/blue.svg)](https://badges.toozhao.com/stats/01EYZA4ZV2SR5YWGNVWBWM1RM5 "Get your own page views count badge on badges.toozhao.com")
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 
-
-
-## usage
+## ***Usage***
 
 在hoochanlon.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
 
@@ -29,8 +27,16 @@
 ![test.gif](https://i.loli.net/2020/06/15/1WSwQ3MkUixV4jP.gif)
 -->
 
-## Stay in touch
 
+## ***More***
+
+|引入项目|参考文献|其他作品|
+|:-:|:-:|:-:|
+|[coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|《解读文稿思考项目管理》|
+|[Font Awesome](https://www.thinkcmf.com/font/search/index.html)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|《这本书能让你连接互联网》|
+|[icons8](https://icons8.com)|[www.jq22.com](https://www.jq22.com/webqd1311)|《桌维网管实典》|
+
+## ***Stay in touch***
 
 <a href="https://hoochanlon.github.io/assets/qr/wx.png">
         <img height="30" width="30" img src="https://img.icons8.com/ios-filled/48/000000/weixing.png"/>
@@ -40,13 +46,3 @@
 <a href="https://hoochanlon.github.io">
 <img height="30" width="30" img src="https://img.icons8.com/ios-filled/50/000000/github-2.png"/>
 </a>
-
-
-## more
-
-|引入项目|参考文献|其他作品|
-|:-:|:-:|:-:|
-|[coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|《解读文稿思考项目管理》|
-|[Font Awesome](https://www.thinkcmf.com/font/search/index.html)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|《这本书能让你连接互联网》|
-|[icons8](https://icons8.com)|[www.jq22.com](https://www.jq22.com/webqd1311)|《桌维网管实典》|
-
