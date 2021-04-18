@@ -50,4 +50,6 @@
         <img height="30" width="30" img src="https://img.icons8.com/ios-filled/50/000000/steam-circled.png"/>
 </a>
 
-
+ <a href="mailto:hoochanlon@outlook.com">
+<img height="30" width="30" img src="https://img.icons8.com/material/50/000000/important-mail.png"/>
+</a>
