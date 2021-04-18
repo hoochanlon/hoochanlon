@@ -26,7 +26,7 @@ No Activity tracked this Week
 </tr>
 </table>
 
-|引入项目|参考文献|其他作品|
+|引入项目|参考文献|个人作品|
 |:-:|:-:|:-:|
 |[typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|《解读文稿思考项目管理》|
 |[Font Awesome](https://www.thinkcmf.com/font/search/index.html) & [icons8](https://icons8.com)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|《这本书能让你连接互联网》|
