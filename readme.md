@@ -2,9 +2,6 @@
 
 ## ***Display***
 
-
-
-
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)，ASCII for waka analysis*** 
 
 <table width="800px">
@@ -25,6 +22,8 @@ No Activity tracked this Week
 </td>
 </tr>
 </table>
+
+### ***More***
 
 |引入项目|参考文献|个人作品|
 |:-:|:-:|:-:|
