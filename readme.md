@@ -4,8 +4,10 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 
 |引入项目|参考文献|其他作品|
 |:-:|:-:|:-:|
@@ -13,11 +15,7 @@
 |[Font Awesome](https://www.thinkcmf.com/font/search/index.html) & [icons8](https://icons8.com)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|《这本书能让你连接互联网》|
 | [waka-readme](https://github.com/athul/waka-readme)|[www.jq22.com](https://www.jq22.com/webqd1311)|《桌维网管实典》|
 
-<!--START_SECTION:waka-->
-```text
-No Activity tracked this Week
-```
-<!--END_SECTION:waka-->
+
 
 ## ***Usage***
 
