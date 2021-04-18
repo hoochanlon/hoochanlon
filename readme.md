@@ -5,6 +5,9 @@
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 <!--START_SECTION:waka-->
+```text
+No Activity tracked this Week
+```
 <!--END_SECTION:waka-->
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
