@@ -44,6 +44,8 @@
 
 * [coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js)
 * [Font Awesome](https://www.thinkcmf.com/font/search/index.html)
+* [icons8](https://icons8.com)
+
 
 参考文献：
 
