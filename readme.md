@@ -2,8 +2,8 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-* [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
-* [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=reading-pm-by-lib)](https://github.com/hoochanlon/reading-pm-by-lib)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=reading-pm-by-lib)](https://github.com/hoochanlon/reading-pm-by-lib)
 
 
 ## usage
@@ -31,13 +31,14 @@
 
 ## Stay in touch
 
-<a href="https://hoochanlon.github.io">
-<img height="30" width="30" img src="https://img.icons8.com/ios-filled/50/000000/github-2.png"/>
-</a>
 
 <a href="https://hoochanlon.github.io/assets/qr/wx.png">
         <img height="30" width="30" img src="https://img.icons8.com/ios-filled/48/000000/weixing.png"/>
  <!-- <img height="30" width="30" src="https://www.flaticon.com/svg/vstatic/svg/51/51834.svg?token=exp=1618735065~hmac=db3a891731ddfe2d9cd4bda13945c624">-->
+</a>
+
+<a href="https://hoochanlon.github.io">
+<img height="30" width="30" img src="https://img.icons8.com/ios-filled/50/000000/github-2.png"/>
 </a>
 
 
