@@ -3,7 +3,7 @@
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=reading-pm-by-lib)](https://github.com/hoochanlon/reading-pm-by-lib)
+
 
 
 ## usage
@@ -44,9 +44,9 @@
 
 ## more
 
-|引入项目|参考文献|
-|:-:|:-:|
-|[coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|
-|[Font Awesome](https://www.thinkcmf.com/font/search/index.html)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|
-|[icons8](https://icons8.com)|[www.jq22.com](https://www.jq22.com/webqd1311)|
+|引入项目|参考文献|其他作品|
+|:-:|:-:|::-|
+|[coffeedeveloper/typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|《解读文稿思考项目管理》|
+|[Font Awesome](https://www.thinkcmf.com/font/search/index.html)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|《这本书能让你连接互联网》|
+|[icons8](https://icons8.com)|[www.jq22.com](https://www.jq22.com/webqd1311)|《桌维网管实典》|
 
