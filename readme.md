@@ -14,6 +14,9 @@
 | [waka-readme-stats](https://github.com/anmol098/waka-readme-stats)|[www.jq22.com](https://www.jq22.com/webqd1311)|《桌维网管实典》|
 
 <!--START_SECTION:waka-->
+```text
+No Activity tracked this Week
+```
 <!--END_SECTION:waka-->
 
 ## ***Usage***
