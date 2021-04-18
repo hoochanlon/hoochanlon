@@ -2,8 +2,9 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=reading-pm-by-lib)](https://github.com/hoochanlon/reading-pm-by-lib) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=learn-my-test)](https://github.com/hoochanlon/learn-my-test)
-### usage
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=reading-pm-by-lib)](https://github.com/hoochanlon/reading-pm-by-lib) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hoochanlon)
+
+## usage
 
 在hoochanlon.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
 
@@ -26,7 +27,15 @@
 ![test.gif](https://i.loli.net/2020/06/15/1WSwQ3MkUixV4jP.gif)
 -->
 
-### more
+## Stay in touch
+
+
+<a href="https://hoochanlon.github.io/assets/qr/wx.png">
+  <img height="30" width="30" src="https://www.flaticon.com/svg/vstatic/svg/51/51834.svg?token=exp=1618735065~hmac=db3a891731ddfe2d9cd4bda13945c624">
+</a>
+
+
+## more
 
 引入项目：
 
