@@ -29,8 +29,10 @@
 ## Stay in touch
 
 
+
 <a href="https://hoochanlon.github.io/assets/qr/wx.png">
-  <img height="30" width="30" src="https://www.flaticon.com/svg/vstatic/svg/51/51834.svg?token=exp=1618735065~hmac=db3a891731ddfe2d9cd4bda13945c624">
+        <img src="https://img.icons8.com/ios-filled/48/000000/weixing.png"/>
+ <!-- <img height="30" width="30" src="https://www.flaticon.com/svg/vstatic/svg/51/51834.svg?token=exp=1618735065~hmac=db3a891731ddfe2d9cd4bda13945c624">-->
 </a>
 
 
