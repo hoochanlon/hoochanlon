@@ -7,10 +7,21 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)，ASCII for waka analysis*** 
 
+<table width="800px">
+<tr>
+<td>
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
+
+</td>
+<td>
+
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
+</td>
+</tr>
+</table>
 
 |引入项目|参考文献|其他作品|
 |:-:|:-:|:-:|
