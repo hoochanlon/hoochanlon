@@ -5,6 +5,8 @@
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=hoochanlon.github.io)](https://github.com/hoochanlon/hoochanlon.github.io)
+
 
 |引入项目|参考文献|其他作品|
 |:-:|:-:|:-:|
