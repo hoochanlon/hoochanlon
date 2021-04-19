@@ -2,7 +2,7 @@
 
 ## ***Display***
 
-***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)，ASCII for waka analysis*** 
+***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)，ASCII for wakatime analysis*** 
 
 <table width="800px">
 <tr>
