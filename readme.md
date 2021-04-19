@@ -50,7 +50,7 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 *  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
 * [lists](https://github.com/jnv/lists) [![stars](https://img.shields.io/github/stars/jnv/lists.svg?style=social)](https://github.com/jnv/lists)
 * [hoochanlon/w3-goto-world](https://github.com/hoochanlon/w3-goto-world) [![stars](https://img.shields.io/github/stars/hoochanlon/w3-goto-world.svg?style=social)](https://github.com/hoochanlon/w3-goto-world)
-* [LxxyxResume](https://github.com/Lxxyx/LxxyxResume) [![stars](https://img.shields.io/github/stars/Lxxyx/LxxyxResume.svg?style=social)](https://github.com/Lxxyx/LxxyxResume)
+* [Lxxyx/LxxyxResume](https://github.com/Lxxyx/LxxyxResume) [![stars](https://img.shields.io/github/stars/Lxxyx/LxxyxResume.svg?style=social)](https://github.com/Lxxyx/LxxyxResume)
 
 <!-- ContributorRepo ends -->
 
