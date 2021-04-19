@@ -32,7 +32,7 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 ```
 <!--END_SECTION:waka-->
 </td>
-
+</tr>
 
 <td valign="top" width="50%">
 
@@ -41,7 +41,6 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 <!--end_CollaboratorRepo-->
 </td>
-</tr>
 
 <td valign="top" width="50%">
 
