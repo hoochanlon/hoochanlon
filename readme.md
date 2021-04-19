@@ -65,7 +65,7 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 </a>
 
 <a href="mailto:hoochanlon@outlook.com">
-<img height="30" width="30" img src="https://img.icons8.com/fluent/50/000000/apple-mail.png"/>
+<img height="30" width="30" img src="https://img.icons8.com/cute-clipart/64/000000/apple-mail.png"/>
 </a>
 
 <a href="https://hoochanlon.github.io/assets/qr/wx.png">
