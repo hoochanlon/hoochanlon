@@ -34,26 +34,6 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)
 
 
-## ***Usage***
-
-在hoochanlon.html的 `source` 元素输入需要打印的内容，再次运行，`output-wrap`元素即会进行动态打印输出信息到网页上。
-
-```html
-        在source内填入需要进行打印的信息
-        <div id="source">
-          Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Exercitationem
-           modi nostrum architecto 
-        </div><br>
-     
-        output-wrap在网页输出的信息
-        <div id="output-wrap">
-            <span id="output"></span>
-            <span class="typing-cursor">■</span>
-          </div>
-```
-
-
 ## ***Stay in touch***
 
 <a href="https://hoochanlon.github.io">
