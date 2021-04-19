@@ -1,4 +1,4 @@
-# ***📌 Hi there*** [![Page Views Count](https://badges.toozhao.com/badges/01EYZA4ZV2SR5YWGNVWBWM1RM5/blue.svg)](https://badges.toozhao.com/stats/01EYZA4ZV2SR5YWGNVWBWM1RM5 "Get your own page views count badge on badges.toozhao.com")
+# ***📌 Hi there*** 
 
 ## ***Display***
 
@@ -53,4 +53,3 @@ Personal works|ContributorRepo|
 <a href="https://steamcommunity.com/profiles/76561199012286628/">
         <img height="30" width="30" img src="https://img.icons8.com/fluent/48/000000/steam.png"/>
 </a>
-
