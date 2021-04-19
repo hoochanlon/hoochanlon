@@ -26,12 +26,12 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 </table>
 
 
-个人作品|Star|
+Personal works|Star|
 |:-:|:-:|
 [《解读文稿思考项目管理》](https://github.com/hoochanlon/reading-pm-by-lib)| [![stars](https://img.shields.io/github/stars/hoochanlon/reading-pm-by-lib.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/reading-pm-by-lib)
 [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book) |[![stars](https://img.shields.io/github/stars/hoochanlon/fq-book.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/fq-book)
 [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) |[![stars](https://img.shields.io/github/stars/apachecn/TI-Analysis.svg?style=flat-square&logo=github)](https://github.com/apachecn/TI-Analysis)
-[《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)| [![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)
+[《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)|[![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)
 
 
 ## ***Stay in touch***
