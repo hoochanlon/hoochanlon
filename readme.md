@@ -2,7 +2,7 @@
 
 ## ***Display***
 
-***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)，ASCII for wakatime analysis*** 
+***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 <table width="800px">
 <tr>
@@ -15,7 +15,7 @@
 </td>
 <td valign="top" width="50%">
  
-***My wakatime*** ⏱
+***Wakatime analysis for ASCII*** ⏱
 
 <!--START_SECTION:waka-->
 ```text
