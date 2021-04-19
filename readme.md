@@ -65,16 +65,15 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 </a>
 
 <a href="mailto:hoochanlon@outlook.com">
-<img height="30" width="30" img src="https://img.icons8.com/material/50/000000/important-mail.png"/>
+<img height="30" width="30" img src="https://img.icons8.com/fluent/50/000000/apple-mail.png"/>
 </a>
 
 <a href="https://hoochanlon.github.io/assets/qr/wx.png">
-        <img height="30" width="30" img src="https://img.icons8.com/ios-filled/48/000000/weixing.png"/>
+        <img height="30" width="30" img src="https://img.icons8.com/doodle/48/000000/weixing.png"/>
  <!-- <img height="30" width="30" src="https://www.flaticon.com/svg/vstatic/svg/51/51834.svg?token=exp=1618735065~hmac=db3a891731ddfe2d9cd4bda13945c624">-->
 </a>
 
 <a href="https://steamcommunity.com/profiles/76561199012286628/">
-        <img height="30" width="30" img src="https://img.icons8.com/ios-filled/50/000000/steam-circled.png"/>
-</a>
+        <img height="30" width="30" img src="https://img.icons8.com/fluent/48/000000/steam.png"/>
 
 
