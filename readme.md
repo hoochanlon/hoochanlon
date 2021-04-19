@@ -8,14 +8,14 @@
 <tr>
 <td valign="top" width="50%">
  
-#### CollaboratorRepo card
+#### CollaboratorRepo 🧷
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 
 </td>
 <td valign="top" width="50%">
  
- #### My wakatime 
+ #### My wakatime ⏱
 
 <!--START_SECTION:waka-->
 ```text
@@ -44,7 +44,7 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 </td>
 <td valign="top" width="50%">
 
-#### ContributorRepo 
+#### ContributorRepo 🛸
 
 <!-- ContributorRepo starts -->
 *  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
