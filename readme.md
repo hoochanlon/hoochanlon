@@ -27,12 +27,36 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 
 个人作品以及相关参与提交开源仓。
 
-Personal works|ContributorRepo|
-|:-:|:-:|
-|[《解读文稿思考项目管理》](https://github.com/hoochanlon/reading-pm-by-lib) [![stars](https://img.shields.io/github/stars/hoochanlon/reading-pm-by-lib.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/reading-pm-by-lib) | [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
-|[《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book) [![stars](https://img.shields.io/github/stars/hoochanlon/fq-book.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/fq-book)|[lists](https://github.com/jnv/lists) [![stars](https://img.shields.io/github/stars/jnv/lists.svg?style=social)](https://github.com/jnv/lists)
-|[《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) [![stars](https://img.shields.io/github/stars/apachecn/TI-Analysis.svg?style=flat-square&logo=github)](https://github.com/apachecn/TI-Analysis)| [hoochanlon/w3-goto-world](https://github.com/hoochanlon/w3-goto-world) [![stars](https://img.shields.io/github/stars/hoochanlon/w3-goto-world.svg?style=social)](https://github.com/hoochanlon/w3-goto-world)
-|[《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)[![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)| [LxxyxResume](https://github.com/Lxxyx/LxxyxResume) [![stars](https://img.shields.io/github/stars/Lxxyx/LxxyxResume.svg?style=social)](https://github.com/Lxxyx/LxxyxResume)
+ <table>
+<td valign="top" width="50%">
+
+#### Personal works starts 🪶
+
+<!-- Personal works starts -->
+
+* [《解读文稿思考项目管理》](https://github.com/hoochanlon/reading-pm-by-lib) [![stars](https://img.shields.io/github/stars/hoochanlon/reading-pm-by-lib.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/reading-pm-by-lib)
+* [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book) [![stars](https://img.shields.io/github/stars/hoochanlon/fq-book.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/fq-book)
+* [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) [![stars](https://img.shields.io/github/stars/apachecn/TI-Analysis.svg?style=flat-square&logo=github)](https://github.com/apachecn/TI-Analysis)
+* [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)[![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)
+
+<!-- Personal works ends -->
+
+</td>
+<td valign="top" width="50%">
+
+#### ContributorRepo
+
+<!-- ContributorRepo starts -->
+*  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
+* [lists](https://github.com/jnv/lists) [![stars](https://img.shields.io/github/stars/jnv/lists.svg?style=social)](https://github.com/jnv/lists)
+* [hoochanlon/w3-goto-world](https://github.com/hoochanlon/w3-goto-world) [![stars](https://img.shields.io/github/stars/hoochanlon/w3-goto-world.svg?style=social)](https://github.com/hoochanlon/w3-goto-world)
+* [LxxyxResume](https://github.com/Lxxyx/LxxyxResume) [![stars](https://img.shields.io/github/stars/Lxxyx/LxxyxResume.svg?style=social)](https://github.com/Lxxyx/LxxyxResume)
+
+<!-- ContributorRepo ends -->
+
+</td>
+  </tr>
+  </table>
 
 
 ## ***Stay in touch***
