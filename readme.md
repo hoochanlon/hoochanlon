@@ -25,13 +25,6 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 </tr>
 </table>
 
-### ***More***
-
-|引入项目|参考文献||
-|:-:|:-:|:-:|
-|[typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|
-|[Font Awesome](https://www.thinkcmf.com/font/search/index.html) & [icons8](https://icons8.com)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|
-| [waka-readme](https://github.com/athul/waka-readme)|[www.jq22.com](https://www.jq22.com/webqd1311)|
 
 个人作品:
 
@@ -39,6 +32,7 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 * [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis)
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)
+
 
 ## ***Usage***
 
@@ -58,6 +52,8 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
             <span class="typing-cursor">■</span>
           </div>
 ```
+
+
 
 <!--
 ![test.gif](https://i.loli.net/2020/06/15/1WSwQ3MkUixV4jP.gif)
@@ -80,5 +76,12 @@ TeX   5 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
 
 <a href="https://steamcommunity.com/profiles/76561199012286628/">
         <img height="30" width="30" img src="https://img.icons8.com/fluent/48/000000/steam.png"/>
+</a>
 
+### ***More***
 
+|引入项目|参考文献|
+|:-:|:-:|
+|[typing.js](https://github.com/coffeedeveloper/typing.js) |[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)|
+|[Font Awesome](https://www.thinkcmf.com/font/search/index.html) & [icons8](https://icons8.com)|[w3cschool-javascript](https://www.w3school.com.cn/js/index.asp)|
+| [waka-readme](https://github.com/athul/waka-readme)|[www.jq22.com](https://www.jq22.com/webqd1311)|
