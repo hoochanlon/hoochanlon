@@ -1,6 +1,6 @@
 # ***📌 Hi, there*** 
 
-## ***Display***
+## 🖥 ***Display***
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
@@ -37,7 +37,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <!--end_CollaboratorRepo-->
 
 
-## 🛸 ***ContributorRepo*** 
+## ⛳️  ***ContributorRepo*** 
 
 <!-- ContributorRepo starts -->
 *  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
