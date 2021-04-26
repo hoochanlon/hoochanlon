@@ -45,10 +45,6 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <a href="#" alt="atom"><code><img height="20" src="https://cdn.icon-icons.com/icons2/1495/PNG/512/atom_103345.png"></code></a>
 <a href="#" alt="typora"><code><img height="20" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/typora_93537.png"></code></a>
 
-**First answer**
-
-<img src="https://latex.codecogs.com/svg.image?\begin{cases}\frac{1}{2}x&plus;x=1&space;\\&space;\frac{1}{2}x&plus;y=\frac{1}{2}\end{cases}" title="\begin{cases}\frac{1}{2}x+x=1 \\ \frac{1}{2}x+y=\frac{1}{2}\end{cases}" />
-
 ## 相关参与开源项目
 
 <table width="800px">
