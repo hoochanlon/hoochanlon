@@ -24,6 +24,9 @@
 
 20分钟以上的地铁阅读，平时忙些生活写作，闲暇时翻看代数几何。
 
+<img src="https://latex.codecogs.com/svg.image?x&plus;y" title="x+y" />
+
+
 <!--START_SECTION:waka-->
 ```text
 Week: 18 April, 2021 - 25 April, 2021
