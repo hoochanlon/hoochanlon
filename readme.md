@@ -22,7 +22,7 @@
 
 ## 🌗 时间占比分析 
 
-通勤时20分钟以上的地铁阅读，工作上进行供应链业务数据分析，日常生活进行记账写作。闲暇翻看一些简易的代数几何，作为爱好阅读，不民科。
+通勤时20分钟以上的地铁阅读，工作上进行供应链业务数据分析，日常生活不时记账规划与点滴写作。闲暇翻看一些简易的代数几何，作为爱好阅读，不民科。
 
 <img src="https://latex.codecogs.com/svg.image?\begin{cases}\frac{1}{2}x&plus;x=1&space;\\&space;\frac{1}{2}x&plus;y=\frac{1}{2}\end{cases}" title="\begin{cases}\frac{1}{2}x+x=1 \\ \frac{1}{2}x+y=\frac{1}{2}\end{cases}" />
 
