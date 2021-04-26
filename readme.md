@@ -6,21 +6,21 @@
 </h1>
 
 
-## 🖥 ***Display***
+## 🖥 展示
 
 <a href="#"><img align="right" src="https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/wx.png" width="200 " height="200" /></a>
 
-### 🪶 ***Personal works starts*** 
+## 🪶 个人作品
 
 <!-- Personal works starts -->
 
-* [《解读文稿思考项目管理》](https://github.com/hoochanlon/reading-pm-by-lib) [![stars](https://img.shields.io/github/stars/hoochanlon/reading-pm-by-lib.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/reading-pm-by-lib)
-* [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book) [![stars](https://img.shields.io/github/stars/hoochanlon/fq-book.svg?style=flat-square&logo=github)](https://github.com/hoochanlon/fq-book)
-* [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) [![stars](https://img.shields.io/github/stars/apachecn/TI-Analysis.svg?style=flat-square&logo=github)](https://github.com/apachecn/TI-Analysis)
-* [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)[![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)
+* [《解读文稿思考项目管理》](https://github.com/hoochanlon/reading-pm-by-lib) 
+* [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
+* [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) 
+* [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)
 <!-- Personal works ends -->
 
-### 🌗 ***Wakatime analysis for ASCII*** 
+## 🌗 时间占比分析 
 
 <!--START_SECTION:waka-->
 ```text
@@ -34,12 +34,13 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 <!--END_SECTION:waka-->
 
+## 开源提交
 
 <table width="800px">
 <tr>
 <td valign="top" width="50%">
 
-### 🧷 ***CollaboratorRepo*** 
+ 🧷 ***CollaboratorRepo*** 
 <!--start_CollaboratorRepo-->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 <!--end_CollaboratorRepo-->
@@ -47,7 +48,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
  
 <td valign="top" width="50%">
 
-### ⛳️  ***ContributorRepo*** 
+ ⛳️  ***ContributorRepo*** 
 
 <!-- ContributorRepo starts -->
 *  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
