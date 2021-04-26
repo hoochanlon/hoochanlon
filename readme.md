@@ -34,6 +34,16 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 <!--END_SECTION:waka-->
 
+**Languages and Tools:**
+
+<a href="#" alt="latex"><code><img height="20" src="https://cdn.icon-icons.com/icons2/2148/PNG/512/latex_icon_132257.png"></code></a>
+<a href="#" alt="ruby"><code><img height="20" src="https://cdn.icon-icons.com/icons2/2107/PNG/64/file_type_ruby_icon_130186.png"></code></a>
+<a href="#" alt="jekyll"><code><img height="20" src="https://cdn.icon-icons.com/icons2/2107/PNG/64/file_type_jekyll_icon_130516.png"></code></a>
+<a href="#" alt="atom"><code><img height="20" src="https://cdn.icon-icons.com/icons2/1495/PNG/512/atom_103345.png"></code></a>
+<a href="#" alt="typora"><code><img height="20" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/typora_93537.png"></code></a>
+
+
+
 ## 开源提交
 
 <table width="800px">
