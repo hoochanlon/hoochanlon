@@ -36,6 +36,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 **Languages and Tools:**
 
+<a href="#" alt="markdown"><code><img height="20" src="https://cdn.icon-icons.com/icons2/1524/PNG/64/markdown_106519.png"></code></a>
 <a href="#" alt="latex"><code><img height="20" src="https://cdn.icon-icons.com/icons2/2148/PNG/512/latex_icon_132257.png"></code></a>
 <a href="#" alt="ruby"><code><img height="20" src="https://cdn.icon-icons.com/icons2/2107/PNG/64/file_type_ruby_icon_130186.png"></code></a>
 <a href="#" alt="jekyll"><code><img height="20" src="https://cdn.icon-icons.com/icons2/2107/PNG/64/file_type_jekyll_icon_130516.png"></code></a>
