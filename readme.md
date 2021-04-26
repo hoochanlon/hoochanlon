@@ -4,7 +4,7 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-
+<a href="#"><img align="right" src="https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/wx.png" width="200 " height="200" /></a>
 
 ## ***Personal works starts*** 🪶
 
