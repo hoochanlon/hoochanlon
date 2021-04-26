@@ -44,8 +44,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <a href="#" alt="typora"><code><img height="20" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/typora_93537.png"></code></a>
 
 
-
-## 参与开源项目
+## 相关参与开源项目
 
 <table width="800px">
 <tr>
@@ -70,7 +69,6 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 </td>
 </tr>
 </table>
-
 
 
 ## 社交联系
