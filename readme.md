@@ -6,7 +6,9 @@
 </h1>
 
 
-## 🖥 展示
+## 🖥 简介
+
+现所在国内曾三线显卡厂信息岗任职
 
 <a href="#"><img align="right" src="https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/wx.png" width="200 " height="200" /></a>
 
