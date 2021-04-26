@@ -6,7 +6,7 @@
 
 <a href="#"><img align="right" src="https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/wx.png" width="200 " height="200" /></a>
 
-## ***Personal works starts*** 🪶
+## 🪶 ***Personal works starts*** 
 
 <!-- Personal works starts -->
 
@@ -17,7 +17,7 @@
 <!-- Personal works ends -->
 
  
-## ***Wakatime analysis for ASCII*** ⏱
+## 🌗 ***Wakatime analysis for ASCII*** 
 
 <!--START_SECTION:waka-->
 ```text
@@ -31,13 +31,13 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 <!--END_SECTION:waka-->
 
-## ***CollaboratorRepo*** 🧷
+## 🧷 ***CollaboratorRepo*** 
 <!--start_CollaboratorRepo-->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 <!--end_CollaboratorRepo-->
 
 
-## ***ContributorRepo*** 🛸
+## 🛸 ***ContributorRepo*** 
 
 <!-- ContributorRepo starts -->
 *  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
