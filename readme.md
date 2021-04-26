@@ -1,8 +1,12 @@
-# ***📌 Hi, there*** 
+<h1 align="center">
+ <i>
+ <img src="https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/Hi.gif" height="32" /> 
+ Hi there, I'm <a href="https://hoochanlon.github.io/hoochanlon" target="_blank">Hoochanlon</a> 
+  </i>
+</h1>
+
 
 ## 🖥 ***Display***
-
-***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
 <a href="#"><img align="right" src="https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/wx.png" width="200 " height="200" /></a>
 
