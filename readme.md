@@ -45,7 +45,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 
 
-## 开源仓提交
+## 参与开源项目
 
 <table width="800px">
 <tr>
@@ -73,7 +73,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 
 
-## ***Stay in touch***
+## 社交联系
 
 <a href="https://hoochanlon.github.io">
 <img height="30" width="30" img src="https://img.icons8.com/ios-filled/50/000000/github-2.png"/>
