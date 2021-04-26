@@ -20,7 +20,7 @@
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)[![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)
 <!-- Personal works ends -->
 
- 
+
 ### 🌗 ***Wakatime analysis for ASCII*** 
 
 <!--START_SECTION:waka-->
@@ -35,11 +35,17 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 <!--END_SECTION:waka-->
 
+<table width="800px">
+<tr>
+<td valign="top" width="50%">
+
 ### 🧷 ***CollaboratorRepo*** 
 <!--start_CollaboratorRepo-->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 <!--end_CollaboratorRepo-->
-
+</td>
+ 
+<td valign="top" width="50%">
 
 ### ⛳️  ***ContributorRepo*** 
 
@@ -49,7 +55,9 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 * [hoochanlon/w3-goto-world](https://github.com/hoochanlon/w3-goto-world) [![stars](https://img.shields.io/github/stars/hoochanlon/w3-goto-world.svg?style=social)](https://github.com/hoochanlon/w3-goto-world)
 * [Lxxyx/LxxyxResume](https://github.com/Lxxyx/LxxyxResume) [![stars](https://img.shields.io/github/stars/Lxxyx/LxxyxResume.svg?style=social)](https://github.com/Lxxyx/LxxyxResume)
 <!-- ContributorRepo ends -->
-
+</td>
+</tr>
+</table>
 
 
 ## ***Stay in touch***
