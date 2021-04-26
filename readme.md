@@ -24,7 +24,7 @@
 
 20分钟以上的地铁阅读，平时忙些供应链数据分析与写作，闲暇时翻看简易的代数几何，作为爱好阅读，不民科。
 
-<a href="#"><img align="middle" src="https://latex.codecogs.com/svg.image?\begin{cases}\frac{1}{2}x&plus;x=1&space;\\&space;\frac{1}{2}x&plus;y=\frac{1}{2}\end{cases}" title="\begin{cases}\frac{1}{2}x+x=1 \\ \frac{1}{2}x+y=\frac{1}{2}\end{cases}" /></a>
+<img align="middle" src="https://latex.codecogs.com/png.image?\dpi{110}&space;\begin{cases}\frac{1}{2}x&plus;x=1&space;\\&space;\frac{1}{2}x&plus;y=\frac{1}{2}\end{cases}" title="\begin{cases}\frac{1}{2}x+x=1 \\ \frac{1}{2}x+y=\frac{1}{2}\end{cases}" />
 
 
 <!--START_SECTION:waka-->
