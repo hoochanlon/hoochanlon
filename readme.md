@@ -4,12 +4,9 @@
 
 ***[一个Hacker Style风格化的自我简介的JS模板 —— About me](https://hoochanlon.github.io/hoochanlon)*** 
 
-<table width="800px">
-<tr>
 
-<td valign="top" width="50%">
 
-***Personal works starts*** 🪶
+## ***Personal works starts*** 🪶
 
 <!-- Personal works starts -->
 
@@ -18,11 +15,9 @@
 * [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) [![stars](https://img.shields.io/github/stars/apachecn/TI-Analysis.svg?style=flat-square&logo=github)](https://github.com/apachecn/TI-Analysis)
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)[![stars](https://img.shields.io/github/stars/hoochanlon/helpdesk-guide.svg??style=flat-square&logo=github)](https://github.com/hoochanlon/helpdesk-guide)
 <!-- Personal works ends -->
-</td>
 
-<td valign="top" width="50%">
  
-***Wakatime analysis for ASCII*** ⏱
+## ***Wakatime analysis for ASCII*** ⏱
 
 <!--START_SECTION:waka-->
 ```text
@@ -35,20 +30,14 @@ Other        9 mins          ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.94 % 
 ```
 <!--END_SECTION:waka-->
-</td>
-</tr>
 
-<td valign="top" width="50%">
-
-***CollaboratorRepo*** 🧷
+## ***CollaboratorRepo*** 🧷
 <!--start_CollaboratorRepo-->
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=dyweb&repo=awesome-resume-for-chinese)](https://github.com/dyweb/awesome-resume-for-chinese)
 <!--end_CollaboratorRepo-->
-</td>
 
-<td valign="top" width="50%">
 
-***ContributorRepo*** 🛸
+## ***ContributorRepo*** 🛸
 
 <!-- ContributorRepo starts -->
 *  [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [![stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome.svg?style=social)](https://github.com/Awesome-Windows/Awesome)
@@ -56,10 +45,7 @@ Git Config   7 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 * [hoochanlon/w3-goto-world](https://github.com/hoochanlon/w3-goto-world) [![stars](https://img.shields.io/github/stars/hoochanlon/w3-goto-world.svg?style=social)](https://github.com/hoochanlon/w3-goto-world)
 * [Lxxyx/LxxyxResume](https://github.com/Lxxyx/LxxyxResume) [![stars](https://img.shields.io/github/stars/Lxxyx/LxxyxResume.svg?style=social)](https://github.com/Lxxyx/LxxyxResume)
 <!-- ContributorRepo ends -->
-</td>
 
-  </tr>
-  </table>
 
 
 ## ***Stay in touch***
