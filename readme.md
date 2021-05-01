@@ -28,10 +28,10 @@
 
 <!--START_SECTION:waka-->
 ```text
-Week: 22 April, 2021 - 29 April, 2021
+Week: 23 April, 2021 - 30 April, 2021
 
-Markdown   5 hrs 26 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀   89.51 % 
-TeX        38 mins         ⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.49 % 
+Markdown   5 hrs 23 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀   89.40 % 
+TeX        38 mins         ⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.60 % 
 ```
 <!--END_SECTION:waka-->
 
