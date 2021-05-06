@@ -22,6 +22,8 @@
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)
 <!-- Personal works ends -->
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=hoochanlon&title=Stars)](https://github.com/ryo-ma/github-profile-trophy)
+
 ## 🌗 时间占比分析 
 
 通勤时20分钟以上的地铁阅读，工作上进行供应链业务数据分析(VBA)，日常生活不时记账规划与点滴写作。闲暇翻看一些较简易且灵活的代数几何，作为爱好阅读，不民科。
