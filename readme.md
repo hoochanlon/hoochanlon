@@ -22,7 +22,14 @@
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)
 <!-- Personal works ends -->
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=hoochanlon&title=Stars)](https://github.com/ryo-ma/github-profile-trophy)
+<table>
+<tr>
+<td>
+* [![trophy](https://github-profile-trophy.vercel.app/?username=hoochanlon&title=Stars)](https://github.com/ryo-ma/github-profile-trophy)
+* [![trophy](https://github-profile-trophy.vercel.app/?username=hoochanlon&title=Followers)](https://github.com/ryo-ma/github-profile-trophy)
+</td>
+</tr>
+</table>
 
 ## 🌗 时间占比分析 
 
