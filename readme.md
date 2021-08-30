@@ -30,7 +30,7 @@
 通勤时20分钟以上的地铁阅读，日常生活不时记账规划与点滴写作。
 <!--START_SECTION:waka-->
 ```text
-Week: 22 August, 2021 - 28 August, 2021
+Week: 23 August, 2021 - 29 August, 2021
 
 JavaScript   1 hr 25 mins    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀   79.04 % 
 Markdown     16 mins         ⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.12 % 
