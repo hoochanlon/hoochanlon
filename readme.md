@@ -16,7 +16,7 @@
 
 <!-- Personal works starts -->
 
-* [《解读文稿思考项目管理》](https://github.com/hoochanlon/reading-pm-by-lib) 
+
 * [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis) 
 * [《桌维网管实典》](https://github.com/hoochanlon/helpdesk-guide)
