@@ -30,7 +30,7 @@
 通勤时20分钟以上的地铁阅读，日常生活不时记账规划与点滴写作。
 <!--START_SECTION:waka-->
 ```text
-Week: 09 January, 2022 - 15 January, 2022
+Week: 10 January, 2022 - 16 January, 2022
 
 Markdown   22 mins         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
 ```
