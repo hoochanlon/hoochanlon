@@ -1,13 +1,19 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
+常用的shell操作指令拷贝
 
-
- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=tetyou)](https://github.com/hoochanlon/tetyou) [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=free-mac-ntfs)](https://github.com/hoochanlon/free-mac-ntfs)
+```
+# 等待补充中
+```
 
 
 <!--
 
 ![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=tetyou)](https://github.com/hoochanlon/tetyou) 
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=free-mac-ntfs)](https://github.com/hoochanlon/free-mac-ntfs)
 
 ##git
 
