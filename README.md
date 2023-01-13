@@ -7,9 +7,19 @@
  /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
 
-1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页，或更换个app，[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
-2. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
-3. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
+### let me see see
+
+不关闭终端，就能保持电脑常亮，不休眠。
+
+```
+caffeinate
+```
+
+1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页。
+2. 终端app：[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
+3. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
+4. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
+5. `sudo -S`之后的`sudo`不再输密码。
 
 vim (突发急用时)
 
@@ -138,28 +148,9 @@ ssh -T git@gitlab.com
 环境变量检测 sh
 （python、ruby、node、yarn、xcode、ohmyzsh）
 
-rename xxx xxx
-
-
-更换vi编辑器
-
-获取IP
-
-关闭打开防火墙
-
-自启加载
-
-软连接，硬链接
-
-授权获取磁盘权限、辅助功能、隐私、定位、录屏
-
-关闭休眠，开启休眠
-
 解压
 
 代理
-
-sudo -S
 
 easy- Mac-shell
 
