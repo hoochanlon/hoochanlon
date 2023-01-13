@@ -191,7 +191,9 @@ ssh -T git@gitlab.com
 -->
 
 <div align="center">
-<i>
-<b>[About Me](https://hoochanlon.github.io/hoochanlon)</b>
-</i>
+  <i>
+    <b>
+      <a href="https://hoochanlon.github.io/hoochanlon">About Me</a>
+    </b>
+  </i>
 </div>
