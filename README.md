@@ -9,17 +9,19 @@
 * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
 * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
 
+## 终端脚本，脚本终端 (GeekStyle for Me)
 
+<details><summary><i><b>终端小技巧与vim日常操作</b></i></summary>
 
-### let me see see
+#### 技巧
 
 1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页。
 2. 终端app：[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
-3. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
+3. sudo -S`之后的`sudo`不再输密码，终端挂载不休眠`caffeinate`
 4. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
-5. `sudo -S`之后的`sudo`不再输密码，终端挂载不休眠`caffeinate`
+5. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
 
-vim (突发急用时)
+#### vim日常操作
 
 ```
 * 模糊搜索、搜索、跳行
@@ -28,6 +30,7 @@ vim (突发急用时)
 * 剪切
 * 定位关标到某个位置
 ```
+</details>
 
 
 <details><summary><i><b>终端代理设置</b></i></summary>
@@ -194,22 +197,5 @@ ssh -T git@gitlab.com
 ```
 
 </details>
-
-
-<!--
-
-环境变量检测 sh
-（python、ruby、node、yarn、xcode、ohmyzsh）
-
-解压
-
-代理
-
-easy- Mac-shell
-
-
--->
-
-
 
 ![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
