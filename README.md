@@ -1,6 +1,12 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-### 网络加速项
+### 国内网络环境加速设置
+
+#### Homebrew
+
+```
+ /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+```
 
 #### Git文件与软件下载与GitHub hosts以及各类包加速（All on One）
 
@@ -9,15 +15,10 @@
 * [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
 * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
 
-#### Homebrew
 
-```
- /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
-```
+### 终端代理设置
 
-### 代理选项
-
-***终端默认是不走系统代理的，即便是"全局代理"，终端环境下的Git也如是。***
+<details><summary><i>终端默认是不走代理的，即便是全局模式。此外，终端设置了代理，Git可不用设</i></summary>
 
 配置Git的代理设置
 
@@ -34,6 +35,9 @@ git config --global --unset https.proxy \
 && \
 git config --global --unset http.proxy
 ```
+
+</details>
+
 
 Mac终端配置http和https访问代理
 
