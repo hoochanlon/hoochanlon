@@ -1,8 +1,10 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-## 加速，全速热爱(All on One)
+## 加速，全速热爱
 
-收集列表
+All on One，加速的合集
+
+<details><summary><i><b>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</b></i></summary>
 
 * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
 * [ghproxy GitHub软件下载](https://ghproxy.com)
@@ -10,15 +12,19 @@
 * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
 * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
 * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
+* [protonvpn，VPN和代理还是有些差别的](https://protonvpn.com)
+
+</details>
 
 自己写的开源小书，以及与网友一起提交的项目
 
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
+* [w3-goto-world，网页知识收纳库](https://github.com/hoochanlon/w3-goto-world)
 * [the0demiurge/ShadowSocksShare，自行折腾分享搬运](https://github.com/the0demiurge/ShadowSocksShare)
 
-## 脚本，不顾一切的热爱(Shell for Mac)
+## 脚本，不顾一切的热爱
 
-当初只为更简单...
+Shell for Mac，当初只为更简单...
 
 <details><summary><i><b>终端小技巧与vim日常操作</b></i></summary>
 
