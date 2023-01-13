@@ -1,14 +1,6 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-<details><summary><i>国内网络环境加速设置<i></summary>
-
-#### Homebrew(Mac、Linux)
-
-```
- /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
-```
-
-#### 加速，全速热爱(All on One)
+## 加速，全速热爱(All on One)
 
 * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
 * [ghproxy GitHub软件下载](https://ghproxy.com)
@@ -17,28 +9,30 @@
 * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
 * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
 
-### 终端代理设置
 
-<details><summary><i>终端默认是不走代理的，即便是全局模式。此外，终端设置了代理，Git可不用设</i></summary>
 
-配置Git的代理设置
+### let me see see
 
-```
-git config --global http.proxy 'socks5://127.0.0.1:1080' \
-&& \
-git config --global https.proxy 'socks5://127.0.0.1:1080'
-```
+1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页。
+2. 终端app：[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
+3. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
+4. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
+5. `sudo -S`之后的`sudo`不再输密码，终端挂载不休眠`caffeinate`
 
-取消Git的代理设置
+vim (突发急用时)
 
 ```
-git config --global --unset https.proxy \
-&& \
-git config --global --unset http.proxy
+* 模糊搜索、搜索、跳行
+* 复制、粘贴
+* 定位删除、修改固定单词。
+* 剪切
+* 定位关标到某个位置
 ```
 
-</details>
 
+<details><summary><i><b>终端代理设置</b></i></summary>
+
+### 即便是全局模式，终端也是不走代理的，需另设
 
 Mac终端配置http和https访问代理
 
@@ -64,30 +58,22 @@ curl cip.cc
 * [冰糖葫芦很乖](https://www.cnblogs.com/Galesaur-wcy/p/15947012.html)
 * [macOS终端使用代理网络](https://github.com/Qingquan-Li/blog/issues/131)
 
+配置好终端代理，可不用配置git代理，这里仅作为附录。
+
+```
+# 配置Git的代理设置
+git config --global http.proxy 'socks5://127.0.0.1:1080' 
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+
+# 取消Git的代理设置
+git config --global --unset https.proxy 
+git config --global --unset http.proxy
+```
 </details>
 
-### let me see see
+<details><summary><i><b>个人常用的shell for Mac </b></i></summary>
 
-1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页。
-2. 终端app：[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
-3. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
-4. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
-5. `sudo -S`之后的`sudo`不再输密码，终端挂载不休眠`caffeinate`
-
-vim (突发急用时)
-
-```
-* 模糊搜索、搜索、跳行
-* 复制、粘贴
-* 定位删除、修改固定单词。
-* 剪切
-* 定位关标到某个位置
-```
-
-
-<details><summary><i>日常のシェル/最後のピアノ/誰がその鐘を鳴らすのか </i></summary>
-
-### bash zsh for Mac
+### bash & zsh
 
 #### 查看系统信息
 
@@ -146,6 +132,12 @@ echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
 ```
 
 ### [Nigate Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac)
+
+#### Homebrew(Mac、Linux)
+
+```
+ /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+```
 
 #### 下载文件内容写入到某个位置
 
