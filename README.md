@@ -1,11 +1,64 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-* ***GitHub主要加速项： [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)，[ghproxy GitHub软件下载](https://ghproxy.com)。***
-* ***Homebrew由发电者及校园组织提供支持***
+### 网络加速项
+
+#### Git文件与软件下载与GitHub hosts以及各类包加速（All on One）
+
+* [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
+* [ghproxy GitHub软件下载](https://ghproxy.com)
+* [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
+* [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
+
+#### Homebrew
 
 ```
  /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
+
+### 代理选项
+
+***终端默认是不走系统代理的，即便是"全局代理"，终端环境下的Git也如是。***
+
+配置Git的代理设置
+
+```
+git config --global http.proxy 'socks5://127.0.0.1:1080' \
+&& \
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+```
+
+取消Git的代理设置
+
+```
+git config --global --unset https.proxy \
+&& \
+git config --global --unset http.proxy
+```
+
+Mac终端配置http和https访问代理
+
+```
+export all_proxy=socks5://127.0.0.1:1080
+```
+
+取消代理
+
+```
+unset all_proxy
+```
+
+用 https://cip.cc 判断软件是否走了代理通道
+
+```
+curl cip.cc
+```
+
+参考：
+
+* [新宿老仙](https://blog.csdn.net/u010693630/article/details/127410392)
+* [冰糖葫芦很乖](https://www.cnblogs.com/Galesaur-wcy/p/15947012.html)
+* [macOS终端使用代理网络](https://github.com/Qingquan-Li/blog/issues/131)
+
 
 ### let me see see
 
@@ -46,8 +99,16 @@ echo "alias systeminfo='system_profiler SPSoftwareDataType SPHardwareDataType'" 
 
 #### 对查看IP地址命令进行简化，`ip`
 
+内网
+
 ```
 echo "alias ip=ipconfig getifaddr en0" >> ~/.zshrc
+```
+
+外网
+
+```
+curl cip.cc
 ```
 
 参考：https://www.yundongfang.com/Yun124125.html
