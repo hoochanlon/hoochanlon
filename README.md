@@ -1,13 +1,11 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-***GitHub主要加速项： [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)，[ghproxy GitHub软件下载](https://ghproxy.com)。***
-
-***Mac必备包管理器***
+* ***GitHub主要加速项： [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)，[ghproxy GitHub软件下载](https://ghproxy.com)。***
+* ***Homebrew由发电者及校园组织提供支持***
 
 ```
  /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
-
 
 <details><summary><i>日常のシェル/最後のピアノ/誰がその鐘を鳴らすのか </i></summary>
 
