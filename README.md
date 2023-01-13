@@ -9,7 +9,7 @@
 
 <details><summary><i>日常のシェル/最後のピアノ/誰がその鐘を鳴らすのか </i></summary>
 
-### 大概看看与使用非签名的软件
+### bash zsh for Mac
 
 #### 查看系统信息
 
@@ -32,8 +32,6 @@ echo "alias ip=ipconfig getifaddr en0" >> ~/.zshrc
 ```
 
 参考：https://www.yundongfang.com/Yun124125.html
-
-
 
 
 #### 查看磁盘空间
