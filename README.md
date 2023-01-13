@@ -1,6 +1,9 @@
 # Hoo！Gist.
 
-即是开箱即用，同时也是GitHub的个人主页
+即是开箱即用的参考资料，同时也是GitHub的个人主页，此外还是一款小书签。
+
+✨<a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>  ✨<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a> ✨<a href="https://www.ncpssd.org">国家哲学社会科学文献中心</a> 
+✨<a href="https://clibrary.top">Z库拷贝版Clib</a> 
 
 ## All on One，加速的合集。
 
@@ -37,7 +40,11 @@ PR过的两个项目
 
 * [awesome-mac](https://github.com/jaywcjlove/awesome-mac)
 
+
+软件正版化什么的，就不找了，其实校园组织机构也都有的。
+
 </details>
+
 
 ## Shell for Mac，当初只为更简单...
 
