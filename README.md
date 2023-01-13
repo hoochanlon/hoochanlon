@@ -1,8 +1,6 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-## 加速
-
-All on One，加速的合集
+## All on One，加速的合集
 
 <details><summary><i><b>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</b></i></summary>
 
@@ -24,15 +22,13 @@ All on One，加速的合集
 
 </details>
 
-## 软件
-
-网友提供的一些好用软件集合单
+## Free or Pay，网友们自发提供的一些好用软件表单
 
 <details><summary><i><b>Windows & Mac</b></i></summary>
 
 PR过的两个项目
 
-* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome/README-cn.md)
+* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome)
 * [jnv/lists](https://github.com/jnv/lists)
 
 个人感觉不如Awesome-Windows
@@ -41,9 +37,7 @@ PR过的两个项目
 
 </details>
 
-## 脚本
-
-Shell for Mac，当初只为更简单...
+## Shell for Mac，当初只为更简单...
 
 <details><summary><i><b>终端小技巧与vim日常操作</b></i></summary>
 
