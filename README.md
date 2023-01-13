@@ -9,17 +9,11 @@
 
 ### let me see see
 
-不关闭终端，就能保持电脑常亮，不休眠。
-
-```
-caffeinate
-```
-
 1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页。
 2. 终端app：[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
 3. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
 4. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
-5. `sudo -S`之后的`sudo`不再输密码。
+5. `sudo -S`之后的`sudo`不再输密码，终端挂载不休眠`caffeinate`
 
 vim (突发急用时)
 
