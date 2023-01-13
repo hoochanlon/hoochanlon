@@ -102,7 +102,7 @@ sudo /usr/local/bin ln -s  \
 
 ### [GitLab图床搭建](https://gitlab.com/hoochanlon/img-start-2023)
 
-生成 ssh key 并复制密钥内容
+#### 生成 ssh key 并复制密钥内容
 
 ```
 ssh-keygen -t rsa -b 4096 -C \
@@ -111,7 +111,7 @@ ssh-keygen -t rsa -b 4096 -C \
 
 ```
 
-测试链接
+#### 测试链接
 
 ```
 ssh -T git@gitlab.com
