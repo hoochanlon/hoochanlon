@@ -26,7 +26,9 @@ All on One，加速的合集
 
 ## 软件
 
-<details><summary>软件抽屉<i><b></summary>
+网友提供的一些好用软件集合单
+
+<details><summary><i>Windows & Mac</i><b></summary>
 
 PR过的两个项目
 
