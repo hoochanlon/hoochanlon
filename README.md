@@ -1,20 +1,21 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-### 国内网络环境加速设置
+<details><summary><i>国内网络环境加速设置<i></summary>
 
-#### Homebrew
+#### Homebrew(Mac、Linux)
 
 ```
  /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
 
-#### Git文件与软件下载与GitHub hosts以及各类包加速（All on One）
+#### 加速，全速热爱(All on One)
 
 * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
 * [ghproxy GitHub软件下载](https://ghproxy.com)
 * [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
 * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
-
+* [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
+* [glados，访问不可达的404搜索等](https://github.com/glados-network/)
 
 ### 终端代理设置
 
@@ -63,6 +64,7 @@ curl cip.cc
 * [冰糖葫芦很乖](https://www.cnblogs.com/Galesaur-wcy/p/15947012.html)
 * [macOS终端使用代理网络](https://github.com/Qingquan-Li/blog/issues/131)
 
+</details>
 
 ### let me see see
 
