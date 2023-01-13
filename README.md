@@ -26,7 +26,7 @@ All on One，加速的合集
 
 ## 软件
 
-<details><summary>软件抽屉<i><b>
+<details><summary>软件抽屉<i><b></summary>
 
 PR过的两个项目
 
