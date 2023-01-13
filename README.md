@@ -1,6 +1,6 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-## 加速，全速热爱
+## 加速
 
 All on One，加速的合集
 
@@ -16,13 +16,30 @@ All on One，加速的合集
 
 </details>
 
-自己写的开源小书，以及与网友一起提交的项目
+<details><summary><i><b>自己写的开源小书，以及与网友一起提交的项目</b></i></summary>
 
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [w3-goto-world，网页知识收纳库](https://github.com/hoochanlon/w3-goto-world)
 * [the0demiurge/ShadowSocksShare，自行折腾分享搬运](https://github.com/the0demiurge/ShadowSocksShare)
 
-## 脚本，不顾一切的热爱
+</details>
+
+## 软件
+
+<details><summary>软件抽屉<i><b>
+
+PR过的两个项目
+
+* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome/README-cn.md)
+* [jnv/lists](https://github.com/jnv/lists)
+
+个人感觉不如Awesome-Windows
+
+* [awesome-mac](https://github.com/jaywcjlove/awesome-mac)
+
+</details>
+
+## 脚本
 
 Shell for Mac，当初只为更简单...
 
