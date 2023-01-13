@@ -1,6 +1,6 @@
 # 👋 欢迎来到我的 GitHub 个人主页
 
-## All on One，加速的合集
+## All on One，加速的合集。
 
 <details><summary><i><b>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</b></i></summary>
 
@@ -22,7 +22,7 @@
 
 </details>
 
-## Free or Pay，网友们自发提供的一些好用软件表单
+## Free or Pay，网友们自发提供的一些好用软件表单。
 
 <details><summary><i><b>Windows & Mac</b></i></summary>
 
