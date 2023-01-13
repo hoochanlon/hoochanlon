@@ -2,12 +2,19 @@
 
 ## 加速，全速热爱(All on One)
 
+收集列表
+
 * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
 * [ghproxy GitHub软件下载](https://ghproxy.com)
 * [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
 * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
 * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
 * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
+
+自己写的开源小书，以及与网友一起提交的项目
+
+* [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
+* [the0demiurge/ShadowSocksShare，自行折腾分享搬运](https://github.com/the0demiurge/ShadowSocksShare)
 
 ## 脚本，不顾一切的热爱(Shell for Mac)
 
@@ -31,48 +38,6 @@
 * 定位删除、修改固定单词。
 * 剪切
 * 定位关标到某个位置
-```
-</details>
-
-
-<details><summary><i><b>终端代理设置</b></i></summary>
-
-### 即便是全局模式，终端也是不走代理的，需另设
-
-Mac终端配置http和https访问代理
-
-```
-export all_proxy=socks5://127.0.0.1:1080
-```
-
-取消代理
-
-```
-unset all_proxy
-```
-
-用 https://cip.cc 判断软件是否走了代理通道
-
-```
-curl cip.cc
-```
-
-参考：
-
-* [新宿老仙](https://blog.csdn.net/u010693630/article/details/127410392)
-* [冰糖葫芦很乖](https://www.cnblogs.com/Galesaur-wcy/p/15947012.html)
-* [macOS终端使用代理网络](https://github.com/Qingquan-Li/blog/issues/131)
-
-配置好终端代理，可不用配置git代理，这里仅作为附录。
-
-```
-# 配置Git的代理设置
-git config --global http.proxy 'socks5://127.0.0.1:1080' 
-git config --global https.proxy 'socks5://127.0.0.1:1080'
-
-# 取消Git的代理设置
-git config --global --unset https.proxy 
-git config --global --unset http.proxy
 ```
 </details>
 
