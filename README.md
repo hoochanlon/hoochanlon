@@ -8,11 +8,8 @@
  /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
 
-##  誰がその鐘を鳴らすのか
 
-
-
-<details><summary> # 最後のピアノ/誰がその鐘を鳴らすのか </summary>
+<details><summary><i>日常のシェル/最後のピアノ/誰がその鐘を鳴らすのか </i></summary>
 
 ### 大概看看与使用非签名的软件
 
