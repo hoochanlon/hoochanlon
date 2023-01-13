@@ -9,7 +9,7 @@
 * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
 * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
 
-## 终端脚本，脚本终端 (GeekStyle for Me)
+## 脚本，不顾一切的热爱，只为当初更简单...(Shell for Mac)
 
 <details><summary><i><b>终端小技巧与vim日常操作</b></i></summary>
 
