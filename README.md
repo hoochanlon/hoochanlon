@@ -7,6 +7,20 @@
  /bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
 
+1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页，或更换个app，[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
+2. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
+
+vim (突发急用时)
+
+```
+* 模糊搜索、搜索、跳行
+* 复制、粘贴
+* 定位删除、修改固定单词。
+* 剪切
+* 定位关标到某个位置
+```
+
+
 <details><summary><i>日常のシェル/最後のピアノ/誰がその鐘を鳴らすのか </i></summary>
 
 ### bash zsh for Mac
