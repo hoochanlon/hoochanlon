@@ -14,7 +14,7 @@
 
 </details>
 
-<details><summary><i><b>自己写的开源小书，以及与网友一起提交的项目</b></i></summary>
+<details><summary><i><b>自己写的开源小书以及曾与网友一起提交的项目</b></i></summary>
 
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [w3-goto-world，网页知识收纳库](https://github.com/hoochanlon/w3-goto-world)
