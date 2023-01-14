@@ -204,6 +204,7 @@ ssh -T git@gitlab.com
 
 ---
 
-#### Power by Github Profile RAEDME ｜<a href="https://hoochanlon.github.io/hoochanlon">About me</a>
+#### <a href="https://hoochanlon.github.io/hoochanlon">About me</a>
+#### Power by Github Profile RAEDME 
 
 </div>
