@@ -13,7 +13,7 @@
 
 ## All on One，加速的合集。
 
-<details><summary><i><b>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</b></i></summary>
+<details><summary>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</summary>
 
 * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
 * [ghproxy GitHub软件下载](https://ghproxy.com)
@@ -27,7 +27,7 @@
 
 </details>
 
-<details><summary><i><b>自己写的开源小书以及曾与网友一起提交的项目</b></i></summary>
+<details><summary>自己写的开源小书以及曾与网友一起提交的项目</summary>
 
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [w3-goto-world，网页知识收纳库](https://github.com/hoochanlon/w3-goto-world)
@@ -37,7 +37,7 @@
 
 ## Free or Pay，网友们自发提供的一些好用软件表单。
 
-<details><summary><i><b>Windows & Mac</b></i></summary>
+<details><summary>Windows & Mac</summary>
 
 PR过的两个项目
 
@@ -61,7 +61,7 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 
 ## Shell for Mac，当初只为更简单...
 
-<details><summary><i><b>终端小技巧与vim日常操作</b></i></summary>
+<details><summary>终端小技巧与vim日常操作</summary>
 
 #### 技巧
 
@@ -82,7 +82,7 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 ```
 </details>
 
-<details><summary><i><b>个人常用的shell for Mac </b></i></summary>
+<details><summary>个人常用的shell for Mac </summary>
 
 ### bash & zsh
 
