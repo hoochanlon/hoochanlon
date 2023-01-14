@@ -13,6 +13,8 @@
 * [ghproxy GitHub软件下载](https://ghproxy.com)
 * [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
 * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
+* [dnscrypt-proxy，预防DNS污染与解毒](https://github.com/DNSCrypt/dnscrypt-proxy)
+* [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
 * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
 * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
 * [protonvpn，VPN和代理还是有些差别的](https://protonvpn.com)
