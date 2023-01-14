@@ -27,7 +27,7 @@
 
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [w3-goto-world，网页知识收纳库](https://github.com/hoochanlon/w3-goto-world)
-* [the0demiurge/ShadowSocksShare，自行折腾分享搬运](https://github.com/the0demiurge/ShadowSocksShare)
+* [the0demiurge/ShadowSocksShare，自行搬砖折腾](https://github.com/the0demiurge/ShadowSocksShare)
 
 </details>
 
