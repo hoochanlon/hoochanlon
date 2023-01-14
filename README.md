@@ -1,9 +1,11 @@
 # Hoo！Gist.
 
-即是开箱即用的参考资料，同时也是GitHub的个人首页<a href="https://hoochanlon.github.io/hoochanlon">（About Me)</a>，此外还是一款小书签。
+即是开箱即用的参考资料，同时也是GitHub的个人首页，<a href="https://hoochanlon.github.io/hoochanlon">参考个人简介大的网页效果</a>，此外还是一款小书签。
 
-✨<a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>  ✨<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a> ✨<a href="https://www.ncpssd.org">国家哲学社会科学文献中心</a> 
+✨<a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>  ✨<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a> ✨<a href="https://www.jyxxh.cn">教育信息化</a>
 ✨<a href="https://clibrary.top">Z库拷贝版Clib</a> ✨<a href="https://forum.freemdict.com">freemdict词典论坛</a> 
+
+🔖 <a href="https://www.ncpssd.org">国家哲学社会科学文献中心</a> 🔖 <a href="https://data.stats.gov.cn/easyquery.htm?cn=C01">国家统计局</a> 🔖 <a href="https://www.gsxt.gov.cn/index.html">国家企业信用信息公示系统</a> 
 
 ## All on One，加速的合集。
 
