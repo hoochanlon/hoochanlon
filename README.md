@@ -36,12 +36,11 @@ PR过的两个项目
 * [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome)
 * [jnv/lists](https://github.com/jnv/lists)
 
-个人感觉不如Awesome-Windows
+个人感觉不如Awesome-Windows，因为Mac版太多恰烂钱的了
 
 * [awesome-mac](https://github.com/jaywcjlove/awesome-mac)
 
-
-软件正版化什么的，就不找了，其实校园组织机构也都有的。
+校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
 
 </details>
 
