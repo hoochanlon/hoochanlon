@@ -195,7 +195,7 @@ ssh -T git@gitlab.com
 ![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
 -->
 
-## Te'epuru，折腾记录，记录折腾
+## Te'epuru，折腾过的项目记录表。
 
 <table>
 <thead>
