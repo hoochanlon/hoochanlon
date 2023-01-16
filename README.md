@@ -11,7 +11,7 @@
 
 ## Table for me，个人与大伙儿合作过的项目。
 
-<details><summary>自己写的开源小书以及曾与网友一起提交的项目</summary>
+表单
 
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [w3-goto-world，知识网页收纳库](https://github.com/hoochanlon/w3-goto-world)
@@ -56,7 +56,7 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 </details>
 
 
-## Shell for Mac，当初只为更简单...
+## Shell for Mac，当初本想只为更简单。
 
 <details><summary>终端小技巧与vim日常操作</summary>
 
