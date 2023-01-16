@@ -32,6 +32,8 @@
 * [fq-book，原《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)
 * [w3-goto-world，知识网页收纳库](https://github.com/hoochanlon/w3-goto-world)
 * [the0demiurge/ShadowSocksShare，自行搬砖折腾](https://github.com/the0demiurge/ShadowSocksShare)
+* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)
+* [jnv/lists](https://github.com/jnv/lists)
 
 </details>
 
@@ -40,7 +42,7 @@
 <details><summary>Mac & Windows</summary>
 
 * [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)
-* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)、[jnv/lists](https://github.com/jnv/lists)(Pull Request)
+* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)、[jnv/lists](https://github.com/jnv/lists)
 
 
 校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
