@@ -11,15 +11,61 @@
 
 ## Te'epuru，折腾记录，记录折腾
 
-|   |  |  |                                                                                  |   |
-|----------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|---|
-| 知识链库 | [w3-goto-world](https://github.com/hoochanlon/w3-goto-world) |-                                                                    | -                                                                                  |   |
-| 社会     | [《中国市场培训机构报告》](https://github.com/apachecn/TI-Analysis)               | [《租房记录》](https://github.com/apachecn/zufang-note)              | [《流水线工厂陷阱》](https://github.com/apachecn/the-factory-trap)                |   |
-| 简历     | [awesome-resume-for-chinese](https://github.com/dyweb/awesome-resume-for-chinese) | [LxxyxResume](https://github.com/Lxxyx/LxxyxResume)                  | -                                                                                 |   |
-| 网络     | [《这本书能让你连接互联网》](https://github.com/hoochanlon/fq-book)               | [《企业网管工作实录》](https://github.com/hoochanlon/helpdesk-guide) | [the0demiurge/ShadowSocksShare](https://github.com/the0demiurge/ShadowSocksShare) | 
-| 软件     | [Nigate(にがて)Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac)  | - |-                                                                                | 
-| 实用清单 | [jnv/lists](https://github.com/jnv/lists)                                         | [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)        | -                                                                                 | 
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>知识链库</td>
+<td><a href="https://github.com/hoochanlon/w3-goto-world">w3-goto-world</a></td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>社会</td>
+<td><a href="https://github.com/apachecn/TI-Analysis">《中国市场培训机构报告》</a></td>
+<td><a href="https://github.com/apachecn/zufang-note">《租房记录》</a></td>
+<td><a href="https://github.com/apachecn/the-factory-trap">《流水线工厂陷阱》</a></td>
+<td></td>
+</tr>
+<tr>
+<td>简历</td>
+<td><a href="https://github.com/dyweb/awesome-resume-for-chinese">awesome-resume-for-chinese</a></td>
+<td><a href="https://github.com/Lxxyx/LxxyxResume">LxxyxResume</a></td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>网络</td>
+<td><a href="https://github.com/hoochanlon/fq-book">《这本书能让你连接互联网》</a></td>
+<td><a href="https://github.com/hoochanlon/helpdesk-guide">《企业网管工作实录》</a></td>
+<td><a href="https://github.com/the0demiurge/ShadowSocksShare">the0demiurge/ShadowSocksShare</a></td>
+<td></td>
+</tr>
+<tr>
+<td>软件</td>
+<td><a href="https://github.com/hoochanlon/Free-NTFS-for-Mac">Nigate(にがて)Free-NTFS-for-Mac</a></td>
+<td>-</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>实用清单</td>
+<td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
+<td><a href="https://github.com/Awesome-Windows/Awesome">Awesome-Windows</a></td>
+<td>-</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 ## All on One，加速的合集。
