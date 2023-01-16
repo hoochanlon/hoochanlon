@@ -37,15 +37,11 @@
 
 ## Free or Pay，网友们自发提供的一些好用软件表单。
 
-<details><summary>Windows & Mac</summary>
+<details><summary>Mac & Windows</summary>
 
-PR过的两个项目
+* [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)
+* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [jnv/lists](https://github.com/jnv/lists)(PR)
 
-* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome)、[jnv/lists](https://github.com/jnv/lists)
-
-个人感觉不如Awesome-Windows，因为Mac版太多恰烂钱的了
-
-* [awesome-mac](https://github.com/jaywcjlove/awesome-mac)
 
 校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
 
