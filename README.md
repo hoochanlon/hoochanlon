@@ -35,7 +35,7 @@
 
 </details>
 
-## Free or Pay，网友们自发提供的一些好用软件表单。
+## Free or Pay，收集到的以及与自己Pull Request的软件表单。
 
 <details><summary>Mac & Windows</summary>
 
