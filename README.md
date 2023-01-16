@@ -40,7 +40,7 @@
 <details><summary>Mac & Windows</summary>
 
 * [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)
-* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome) [jnv/lists](https://github.com/jnv/lists)(PR)
+* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)、[jnv/lists](https://github.com/jnv/lists)(PR)
 
 
 校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
