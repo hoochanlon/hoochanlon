@@ -14,10 +14,7 @@
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th></th><th></th><th></th><th></th>
 </tr>
 </thead>
 <tbody>
@@ -35,9 +32,9 @@
 </tr>
 <tr>
 <td>简历</td>
+<td><a href=https://github.com/hoochanlon/jsonresume-theme-mix">jsonresume-theme-mix</a></td>
 <td><a href="https://github.com/dyweb/awesome-resume-for-chinese">awesome-resume-for-chinese</a></td>
 <td><a href="https://github.com/Lxxyx/LxxyxResume">LxxyxResume</a></td>
-<td>-</td>
 </tr>
 <tr>
 <td>网络</td>
@@ -47,15 +44,15 @@
 </tr>
 <tr>
 <td>软件</td>
-<td><a href="https://github.com/hoochanlon/Free-NTFS-for-Mac">Nigate(にがて)Free-NTFS-for-Mac</a></td>
+<td><a href="https://github.com/hoochanlon/Free-NTFS-for-Mac">Nigate,Free NTFS for Mac</a></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td>实用清单</td>
-<td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
 <td><a href="https://github.com/Awesome-Windows/Awesome">Awesome-Windows</a></td>
-<td>-</td>
+<td><a href="https://github.com/eryajf/awesome-github-profile-readme-chinese">awesome-github-profile-readme-chinese</td>
+<td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
 </tr>
 </tbody>
 </table>
