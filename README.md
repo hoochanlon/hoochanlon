@@ -9,55 +9,6 @@
 
 🔎 <a href="https://wantquotes.net">据意查句</a>  🔎 <a href="https://res.wokanxing.info/jpgramma/index.html">日语文法</a>  🔎 <a href="https://so-zou.jp/web-app/text/proofreading/#word0">文法检查</a> 🔎 <a href="https://kousei.club/校正・校閲で使う記号・符号［基本的な約物の意/#:~:text=約物一覧［基本的な記号・符号の意味と使い方］%201%201%EF%BC%8Eくぎり符%20文章・語句の区切りを明らかにするもの%E3%80%82%20ex%EF%BC%8E句読点・コンマ・ピリオドなど%202%202%EF%BC%8Eくくり符%20文章・語句の前後をくくるもの%E3%80%82,感嘆符・疑問符など%20記号と符号の違い%20「記号」は広く、言語・文字・各種のしるし・身振りなどを含む%E3%80%82%20「文」は漢字であると同時に、地図では学校を示す記号である%E3%80%82%20「符号」は、文字を除き、図形・音声・光・電波などのしるしについて使うことが多い%E3%80%82%20記号と符号の相違にはあいまいな面もある%E3%80%82%20目印として付けた〇は符号だが、地図上の〇は記号である%E3%80%82%20">约物假名表</a> 🔎 <a href="http://www.kawa.net/works/ajax/romanize/japanese.html">汉字罗马注音</a>　🔎 <a href="https://soukaapp.com/dict/">日语词典</a>
 
-## Te'epuru，折腾记录，记录折腾
-
-<table>
-<thead>
-<tr>
-<th></th><th></th><th></th><th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>知识链库</td>
-<td><a href="https://github.com/hoochanlon/w3-goto-world">w3-goto-world</a></td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>社会</td>
-<td><a href="https://github.com/apachecn/TI-Analysis">《中国市场培训机构报告》</a></td>
-<td><a href="https://github.com/apachecn/zufang-note">《租房记录》</a></td>
-<td><a href="https://github.com/apachecn/the-factory-trap">《流水线工厂陷阱》</a></td>
-</tr>
-<tr>
-<td>简历</td>
-<td><a href=https://github.com/hoochanlon/jsonresume-theme-mix">jsonresume-theme-mix</a></td>
-<td><a href="https://github.com/dyweb/awesome-resume-for-chinese">awesome-resume-for-chinese</a></td>
-<td><a href="https://github.com/Lxxyx/LxxyxResume">LxxyxResume</a></td>
-</tr>
-<tr>
-<td>网络</td>
-<td><a href="https://github.com/hoochanlon/fq-book">《这本书能让你连接互联网》</a></td>
-<td><a href="https://github.com/hoochanlon/helpdesk-guide">《企业网管工作实录》</a></td>
-<td><a href="https://github.com/the0demiurge/ShadowSocksShare">the0demiurge/ShadowSocksShare</a></td>
-</tr>
-<tr>
-<td>软件</td>
-<td><a href="https://github.com/hoochanlon/Free-NTFS-for-Mac">Nigate,Free NTFS for Mac</a></td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>实用清单</td>
-<td><a href="https://github.com/Awesome-Windows/Awesome">Awesome-Windows</a></td>
-<td><a href="https://github.com/eryajf/awesome-github-profile-readme-chinese">awesome-github-profile-readme-chinese</td>
-<td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
-</tr>
-</tbody>
-</table>
-
-
 ## All on One，加速的合集。
 
 <details><summary>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</summary>
@@ -243,6 +194,57 @@ ssh -T git@gitlab.com
 <!--
 ![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
 -->
+
+## Te'epuru，折腾记录，记录折腾
+
+<table>
+<thead>
+<tr>
+<th></th><th></th><th></th><th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>知识链库</td>
+<td><a href="https://github.com/hoochanlon/w3-goto-world">w3-goto-world</a></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>社会</td>
+<td><a href="https://github.com/apachecn/TI-Analysis">《中国市场培训机构报告》</a></td>
+<td><a href="https://github.com/apachecn/zufang-note">《租房记录》</a></td>
+<td><a href="https://github.com/apachecn/the-factory-trap">《流水线工厂陷阱》</a></td>
+</tr>
+<tr>
+<td>简历</td>
+<td><a href=https://github.com/hoochanlon/jsonresume-theme-mix">jsonresume-theme-mix</a></td>
+<td><a href="https://github.com/dyweb/awesome-resume-for-chinese">awesome-resume-for-chinese</a></td>
+<td><a href="https://github.com/Lxxyx/LxxyxResume">LxxyxResume</a></td>
+</tr>
+<tr>
+<td>网络</td>
+<td><a href="https://github.com/hoochanlon/fq-book">《这本书能让你连接互联网》</a></td>
+<td><a href="https://github.com/hoochanlon/helpdesk-guide">《企业网管工作实录》</a></td>
+<td><a href="https://github.com/the0demiurge/ShadowSocksShare">the0demiurge/ShadowSocksShare</a></td>
+</tr>
+<tr>
+<td>软件</td>
+<td><a href="https://github.com/hoochanlon/Free-NTFS-for-Mac">Nigate,Free NTFS for Mac</a></td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>实用清单</td>
+<td><a href="https://github.com/Awesome-Windows/Awesome">Awesome-Windows</a></td>
+<td><a href="https://github.com/eryajf/awesome-github-profile-readme-chinese">awesome-github-profile-readme-chinese</td>
+<td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
 
 <div align="center">
 
