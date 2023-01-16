@@ -195,6 +195,17 @@ ssh -T git@gitlab.com
 ![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
 -->
 
+
+<div align="center">
+
+---
+
+ <i><a href="https://hoochanlon.github.io/hoochanlon">About me</a></i>
+
+</div>
+
+
+<!-- 
 ## Te'epuru，折腾过的项目记录表。
 
 <table>
@@ -241,15 +252,6 @@ ssh -T git@gitlab.com
 <td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
 </tr>
 </tbody>
-</table>
+</table> 
+-->
 
-
-
-
-<div align="center">
-
----
-
- <i><a href="https://hoochanlon.github.io/hoochanlon">About me</a></i>
-
-</div>
