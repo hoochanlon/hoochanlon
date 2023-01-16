@@ -19,6 +19,7 @@
 * [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)
 * [jnv/lists](https://github.com/jnv/lists)
 
+</details>
 
 ## All on One，加速的合集。
 
