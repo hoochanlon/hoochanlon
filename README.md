@@ -41,8 +41,7 @@
 
 PR过的两个项目
 
-* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome)
-* [jnv/lists](https://github.com/jnv/lists)
+* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome)、[jnv/lists](https://github.com/jnv/lists)
 
 个人感觉不如Awesome-Windows，因为Mac版太多恰烂钱的了
 
