@@ -200,9 +200,8 @@ ssh -T git@gitlab.com
 
 ---
 
- <b><i><a href="https://hoochanlon.github.io/hoochanlon">About me</a></i></b>
- 
- <b><i>Love Typora+PicGo </i></b>
+ <b><i><a href="https://hoochanlon.github.io/hoochanlon">About me</a></i></b> <br>
+ <b><i>Love with Typora+PicGo </i></b>
 
 </div>
 
