@@ -1,6 +1,6 @@
 # Hoo！Gist.
 
-个人认为此类首页以实用为主，而不是花里胡哨的秀技，所以我改成了开箱即用的参考资料与多端通用的小书签。
+开箱即用的参考资料与多端通用的小书签，一款实用型的GitHub个人首页。
 
 ✨<a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>  ✨<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a> ✨<a href="https://www.jyxxh.cn">教育信息化</a>
 ✨<a href="https://clibrary.top">Z库拷贝版Clib</a> ✨<a href="https://forum.freemdict.com">freemdict词典论坛</a> 
