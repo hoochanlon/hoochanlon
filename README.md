@@ -50,7 +50,7 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 
 * ls >> test.txt 定向输入到文件，echo 输入可自动换行
 * 配置存档 for Mac，新版为`~/.zshrc`
-* 参考：https://blog.csdn.net/weixin_26737625/article/details/108259518
+* 参考：[Catalina以后的系统添加别名](https://blog.csdn.net/weixin_26737625/article/details/108259518)、[macOS Command - xattr](https://blog.csdn.net/lovechris00/article/details/113060237)
 
 ```
 echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
