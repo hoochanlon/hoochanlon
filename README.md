@@ -1,6 +1,6 @@
 # Hoo！Gist.
 
-开箱即用的参考资料与多端通用的小书签，以实用为主的GitHub个人首页。
+## 资料页书签
 
 ✨<a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>  ✨<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a> ✨<a href="https://www.jyxxh.cn">教育信息化</a>
 ✨<a href="https://clibrary.top">Z库拷贝版Clib</a> ✨<a href="https://forum.freemdict.com">freemdict词典论坛</a> 
@@ -9,31 +9,35 @@
 
 🔎 <a href="https://res.wokanxing.info/jpgramma/index.html">日语文法</a>  🔎 <a href="https://so-zou.jp/web-app/text/proofreading/#word0">文法检查</a> 🔎 <a href="https://kousei.club/校正・校閲で使う記号・符号［基本的な約物の意/#:~:text=約物一覧［基本的な記号・符号の意味と使い方］%201%201%EF%BC%8Eくぎり符%20文章・語句の区切りを明らかにするもの%E3%80%82%20ex%EF%BC%8E句読点・コンマ・ピリオドなど%202%202%EF%BC%8Eくくり符%20文章・語句の前後をくくるもの%E3%80%82,感嘆符・疑問符など%20記号と符号の違い%20「記号」は広く、言語・文字・各種のしるし・身振りなどを含む%E3%80%82%20「文」は漢字であると同時に、地図では学校を示す記号である%E3%80%82%20「符号」は、文字を除き、図形・音声・光・電波などのしるしについて使うことが多い%E3%80%82%20記号と符号の相違にはあいまいな面もある%E3%80%82%20目印として付けた〇は符号だが、地図上の〇は記号である%E3%80%82%20">约物假名表</a> 🔎 <a href="http://www.kawa.net/works/ajax/romanize/japanese.html">汉字罗马注音</a>🔎 <a href="https://soukaapp.com/dict/">日语词典</a> 🔎 <a href="https://www.sljfaq.org/cgi/e2k_ja.cgi">英语互转片假</a>
 
-## All on One，加速的合集。
 
-<details><summary>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</summary>
+## 快捷工具
 
-* [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
-* [ghproxy GitHub软件下载](https://ghproxy.com)
-* [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
-* [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
-* [dnscrypt-proxy，预防DNS污染与解毒](https://github.com/DNSCrypt/dnscrypt-proxy)
-* [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
-* [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
-* [glados，访问不可达的404搜索等](https://github.com/glados-network/)
-* [protonvpn，VPN和代理还是有些差别的](https://protonvpn.com)
+* Term: <a href="https://www.warp.dev">warp</a>、<a href=
+  "https://tabby.sh">tabby</a>
+
+* <details><summary>Mac & Windows</summary>
+  校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
+
+  * [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)
+  * [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)
 
 </details>
 
-## Free or Pay，好用的软件表单。
+* <details><summary>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</summary>
 
-<details><summary>Mac & Windows</summary>
+  * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
+  * [ghproxy GitHub软件下载](https://ghproxy.com)
+  * [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
+  * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
+  * [dnscrypt-proxy，预防DNS污染与解毒](https://github.com/DNSCrypt/dnscrypt-proxy)
+  * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
+  * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
+  * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
+  * [protonvpn，VPN和代理还是有些差别的](https://protonvpn.com)
 
-* [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)
-* [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)
+  </details>
 
 
-校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
 
 <!--
 
@@ -41,28 +45,17 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 
 -->
 
-</details>
 
+## 指令开箱即用
 
-## Shell for Mac，当初本想只为更简单。
+`sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。
 
-<details><summary>终端小技巧与vim日常操作</summary>
-
-#### 技巧
-
-1. 在终端“窗口”选项，选择拼贴为窗口组，类似浏览器的新标签页。
-2. 终端app：[warp](https://www.warp.dev)、[tabby](https://tabby.sh)。
-3. sudo -S`之后的`sudo`不再输密码，终端挂载不休眠`caffeinate`
-4. 将gitHub.com换成github.dev，关闭窗口也不怕文本丢失，vscode提交就行。
-5. 完全是终端界面才用vim，平时将code作为默认编辑实际上够了。
-
-#### vim日常操作
+<details><summary>vim日常操作</summary>
 
 ```
-* 模糊搜索、搜索、跳行
-* 复制、粘贴
+* 复制、粘贴、剪切
 * 定位删除、修改固定单词。
-* 剪切
+* 在特定字符前后批量删除或添加
 * 定位关标到某个位置
 ```
 </details>
