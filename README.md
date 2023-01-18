@@ -27,6 +27,8 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 
 ---
 
+ <div align="center">
+
  <b><i><a href="https://hoochanlon.github.io/hoochanlon" target="_blank">About me</a></i></b> <br>
  <b><i>Love with Typora/vs code/Vim+ Squoosh & PicGo </i></b>
 
