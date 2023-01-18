@@ -189,10 +189,6 @@ sudo /usr/local/bin ln -s  \
 && echo "alias nigate='bash nigate.shortcut'" >> ~/.zshrc
 ```
 
-
-### [GitLab图床搭建](https://gitlab.com/hoochanlon/img-start-2023)
-
-
 #### 生成 ssh key 并复制密钥内容
 
 ```
