@@ -1,6 +1,6 @@
 # Hoo！Gist.
 
-## 书签与表单
+书签及手帐式风格的GitHub个人资料的主页，GitHub直达，并开箱即用。 
 
 📝 <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >个人常用Vim指令与Shell脚本小抄</a>
 
