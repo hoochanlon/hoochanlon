@@ -8,6 +8,11 @@
 
 🔎 <a href="https://res.wokanxing.info/jpgramma/index.html">日语文法</a>  &nbsp;<a href="https://so-zou.jp/web-app/text/proofreading/#word0">文法检查</a>   &nbsp;<a href="https://kousei.club/校正・校閲で使う記号・符号［基本的な約物の意/#:~:text=約物一覧［基本的な記号・符号の意味と使い方］%201%201%EF%BC%8Eくぎり符%20文章・語句の区切りを明らかにするもの%E3%80%82%20ex%EF%BC%8E句読点・コンマ・ピリオドなど%202%202%EF%BC%8Eくくり符%20文章・語句の前後をくくるもの%E3%80%82,感嘆符・疑問符など%20記号と符号の違い%20「記号」は広く、言語・文字・各種のしるし・身振りなどを含む%E3%80%82%20「文」は漢字であると同時に、地図では学校を示す記号である%E3%80%82%20「符号」は、文字を除き、図形・音声・光・電波などのしるしについて使うことが多い%E3%80%82%20記号と符号の相違にはあいまいな面もある%E3%80%82%20目印として付けた〇は符号だが、地図上の〇は記号である%E3%80%82%20">约物假名表</a>  &nbsp;<a href="http://www.kawa.net/works/ajax/romanize/japanese.html">汉字罗马注音</a> &nbsp;<a href="https://soukaapp.com/dict/">日语词典</a>  &nbsp;<a href="https://www.sljfaq.org/cgi/e2k_ja.cgi">英语互转片假</a>
 
+<!-- 
+<a href="#"><img align="right" src="xxx.png" width="200 " height="200" /></a>
+http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
+![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
+-->
 
 |  应用访达表   |                                                              |
 | :-----------: | :----------------------------------------------------------: |
@@ -15,13 +20,6 @@
 |    GitHub     | [DownGit](https://minhaskamal.github.io/DownGit/#/home)、[ineo6/hosts](https://github.com/ineo6/hosts) |
 |    KOUGUBA    | <a href="https://www.warp.dev">warp</a>、  <a href="https://tabby.sh">tabby</a> 、[Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) |
 |   BUIPIENU    | [westworld](mailto:info@westworldss.com)、[samsocks](https://www.samsock.com)、[glados](https://github.com/glados-network/)、[proton](https://protonvpn.com) |
-
-
-<!--
-
-http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
-
--->
 
 
 ## 指令速记即用
@@ -205,10 +203,6 @@ ssh -T git@gitlab.com
 ```
 
 </details>
-
-<!--
-![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
--->
 
 
 <div align="center">
