@@ -31,16 +31,13 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 <details><summary>vim日常操作</summary>
 
 ---
-显示行数，`set nu`，删除当前行，`dd`；删除X-Y行，`24,30d`。
-
-将X-Y行复制，`24，30 copy`；将X-Y行剪切至Z行，`24,30 move 10`。
-
-将所有星号替换为减号，`%s/*/-/`；将所有带减号的行删除，``。
-
-定位特定变量追加字符或删除，``
-
-
+* 显示行数，`set nu`，删除当前行，`dd`；删除X-Y行，`24,30d`。
+* 将X-Y行复制，`24，30 copy`；将X-Y行剪切至Z行，`24,30 move 10`。
+* 将所有星号替换为减号，`%s/*/-/`；定位特定行，替换字符，`10,50s/word1/word2/`。
+* “yy”复制当前行；p贴在下一行；重复上回单次操作键盘“.”。
+* ”u“撤销，”ctrl+r” 前进。
 ---
+
 </details>
 
 <details><summary>个人常用的shell for Mac </summary>
@@ -176,58 +173,6 @@ ssh -T git@gitlab.com
 ---
 
  <b><i><a href="https://hoochanlon.github.io/hoochanlon">About me</a></i></b> <br>
- <b><i>Love with Typora+PicGo </i></b>
+ <b><i>Love with Typora/vs code/Vim+ Squoosh & PicGo </i></b>
 
 </div>
-
-
-<!-- 
-## Te'epuru，折腾过的项目记录表。
-
-<table>
-<thead>
-<tr>
-<th></th><th></th><th></th><th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>知识链库</td>
-<td><a href="https://github.com/hoochanlon/w3-goto-world">w3-goto-world</a></td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>社会</td>
-<td><a href="https://github.com/apachecn/TI-Analysis">《中国市场培训机构报告》</a></td>
-<td><a href="https://github.com/apachecn/zufang-note">《租房记录》</a></td>
-<td><a href="https://github.com/apachecn/the-factory-trap">《流水线工厂陷阱》</a></td>
-</tr>
-<tr>
-<td>简历</td>
-<td><a href=https://github.com/hoochanlon/jsonresume-theme-mix">jsonresume-theme-mix</a></td>
-<td><a href="https://github.com/dyweb/awesome-resume-for-chinese">awesome-resume-for-chinese</a></td>
-<td><a href="https://github.com/Lxxyx/LxxyxResume">LxxyxResume</a></td>
-</tr>
-<tr>
-<td>网络</td>
-<td><a href="https://github.com/hoochanlon/fq-book">《这本书能让你连接互联网》</a></td>
-<td><a href="https://github.com/hoochanlon/helpdesk-guide">《企业网管工作实录》</a></td>
-<td><a href="https://github.com/the0demiurge/ShadowSocksShare">the0demiurge/ShadowSocksShare</a></td>
-</tr>
-<tr>
-<td>软件</td>
-<td><a href="https://github.com/hoochanlon/Free-NTFS-for-Mac">Nigate,Free NTFS for Mac</a></td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>实用清单</td>
-<td><a href="https://github.com/Awesome-Windows/Awesome">Awesome-Windows</a></td>
-<td><a href="https://github.com/eryajf/awesome-github-profile-readme-chinese">awesome-github-profile-readme-chinese</td>
-<td><a href="https://github.com/jnv/lists">jnv/lists</a></td>
-</tr>
-</tbody>
-</table> 
--->
-
