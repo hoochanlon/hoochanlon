@@ -56,7 +56,46 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
 ```
 
-#### 查看系统信息
+#### 终端商店与安装允许任何来源
+
+mas
+
+```
+brew install mas
+mas search bear
+mas install 1091189122
+```
+
+允许任何来源
+
+```
+sudo spctl --master-disable
+```
+
+#### 截图
+
+更改默认前缀
+
+```
+defaults write com.apple.screencapture name "catch"
+```
+
+更改截图文件类型jpg
+
+```
+defaults write com.apple.screencapture type jpg
+```
+
+
+#### 查看系统启动时间及信息
+
+启动时间
+
+```
+uptime
+```
+
+系统信息
 
 ```
 brew install neofetch && neofetch
@@ -86,6 +125,12 @@ curl cip.cc
 
 参考：https://www.yundongfang.com/Yun124125.html
 
+
+####  清除DNS缓存
+
+```
+sudo dscacheutil -flushcache
+```
 
 #### 查看磁盘空间
 
@@ -128,6 +173,7 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 /bin/bash -c "$(curl -fsSL https://cdn.statically.io/gh/hoochanlon/Free-NTFS-for-Mac/main/nigate.sh)"
 ```
 
+提一嘴无关紧要的[终端小游戏](http://www.nndssk.com/xtwt/1479093c5Wg3.html)
 
 #### 指令别名与文件软链接
 
@@ -145,6 +191,7 @@ sudo /usr/local/bin ln -s  \
 
 
 ### [GitLab图床搭建](https://gitlab.com/hoochanlon/img-start-2023)
+
 
 #### 生成 ssh key 并复制密钥内容
 
