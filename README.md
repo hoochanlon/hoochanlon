@@ -2,7 +2,7 @@
 
 ## 书签与表单
 
-✨<a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>   &nbsp;<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a>   &nbsp;<a href="https://clibrary.top">Clib</a>  &nbsp;<a href="https://forum.freemdict.com">词典论坛</a>  &nbsp;<a href="https://www.jyxxh.cn">教育信息化</a>
+✨ <a href="http://www.gxlib.org.cn">广西壮族自治区图书馆</a>   &nbsp;<a href="http://rdbk1.ynlib.cn:6251">中国人民大学复印周刊</a>   &nbsp;<a href="https://clibrary.top">Clib</a>  &nbsp;<a href="https://forum.freemdict.com">词典论坛</a>  &nbsp;<a href="https://www.jyxxh.cn">教育信息化</a>
 
 🔖 <a href="https://www.ncpssd.org">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html">国家企业信用信息公示系统</a> 
 
@@ -24,7 +24,7 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 -->
 
 
-## 指令开箱即用
+## 指令速记即用
 
 `sudo -S`之后的操作可不用输密码；终端挂载不休眠`caffeinate`，以及安装` neofetch` 可查看系统资料。
 
@@ -37,11 +37,7 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 
 将所有星号替换为减号，`%s/*/-/`；将所有带减号的行删除，``。
 
-批量将变量替换
-
-* 定位删除、修改固定单词。
-* 在特定字符前后批量删除或添加
-* 定位关标到某个位置
+定位特定变量追加字符或删除，``
 
 
 ---
@@ -50,6 +46,18 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 <details><summary>个人常用的shell for Mac </summary>
 
 ### bash & zsh
+
+#### 简化解除软件门禁指令
+
+保存别名到存档配置文件，已软件签名为例
+
+* ls >> test.txt 定向输入到文件，echo 输入可自动换行
+* 配置存档 for Mac，新版为`~/.zshrc`
+* 参考：https://blog.csdn.net/weixin_26737625/article/details/108259518
+
+```
+echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
+```
 
 #### 查看系统信息
 
@@ -92,19 +100,6 @@ brew install duf && duf --all
 
 ```
 ls -al
-```
-
-
-#### 简化解除软件门禁指令
-
-保存别名到存档配置文件，已软件签名为例
-
-* ls >> test.txt 定向输入到文件，echo 输入可自动换行
-* 配置存档 for Mac，新版为`~/.zshrc`
-* 参考：https://blog.csdn.net/weixin_26737625/article/details/108259518
-
-```
-echo "alias sign='sudo xattr -d com.apple.quarantine'" >> ~/.zshrc
 ```
 
 ### [Nigate Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac)
