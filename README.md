@@ -12,30 +12,13 @@
 
 ## 快捷工具
 
-* Term: <a href="https://www.warp.dev">warp</a>、<a href=
-  "https://tabby.sh">tabby</a>
+|  应用访达表   |                                                              |
+| :-----------: | :----------------------------------------------------------: |
+| Mac & Windows | [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)、[Awesome-Windows](https://github.com/Awesome-Windows/Awesome) |
+|    GitHub     | [DownGit](https://minhaskamal.github.io/DownGit/#/home)、[ineo6/hosts](https://github.com/ineo6/hosts) |
+|    KOUGUBA    | <a href="https://www.warp.dev">warp</a>、  <a href="https://tabby.sh">tabby</a> 、[Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) |
+|   BUIPIENU    | [westworld](mailto:info@westworldss.com)、[samsocks](https://www.samsock.com)、[glados](https://github.com/glados-network/)、[proton](https://protonvpn.com) |
 
-* <details><summary>Mac & Windows</summary>
-  校园组织、国有及大型企业也都会正版的批量授权。软件正版化一般仅内部使用。
-
-  * [Awesome-Mac](https://github.com/jaywcjlove/awesome-mac)
-  * [Awesome-Windows](https://github.com/Awesome-Windows/Awesome)
-
-</details>
-
-* <details><summary>GitHub/Source Mirror/Hosts/Booster/Proxy/VPN</summary>
-
-  * [DownGit，Github库文件下载](https://minhaskamal.github.io/DownGit/#/home)
-  * [ghproxy GitHub软件下载](https://ghproxy.com)
-  * [Thanks-Mirror，各类包镜像源加速](https://github.com/eryajf/Thanks-Mirror)
-  * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
-  * [dnscrypt-proxy，预防DNS污染与解毒](https://github.com/DNSCrypt/dnscrypt-proxy)
-  * [ineo6/hosts，GitHub相关访问加速](https://github.com/ineo6/hosts)
-  * [Watt Toolkit，Steam等游戏平台访问加速](https://steampp.net)
-  * [glados，访问不可达的404搜索等](https://github.com/glados-network/)
-  * [protonvpn，VPN和代理还是有些差别的](https://protonvpn.com)
-
-  </details>
 
 
 
@@ -52,12 +35,21 @@ http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
 
 <details><summary>vim日常操作</summary>
 
-```
-* 复制、粘贴、剪切
+---
+显示行数，`set nu`，删除当前行，`dd`；删除X-Y行，`24,30d`。
+
+将X-Y行复制，`24，30 copy`；将X-Y行剪切至Z行，`24,30 move 10`。
+
+将所有星号替换为减号，`%s/*/-/`；将所有带减号的行删除，``。
+
+批量将变量替换
+
 * 定位删除、修改固定单词。
 * 在特定字符前后批量删除或添加
 * 定位关标到某个位置
-```
+
+
+---
 </details>
 
 <details><summary>个人常用的shell for Mac </summary>
