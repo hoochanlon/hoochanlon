@@ -2,7 +2,7 @@
 
 书签及手帐式风格的GitHub个人资料的主页，GitHub直达，并开箱即用。 
 
-📝 <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >个人常用Vim指令与Shell脚本小抄</a>
+📝 <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >个人常用Vim指令与Shell脚本小抄</a> <a href="https://www.explainshell.com">Shell在线语法分析</a>
 
 ✨ <a href="http://www.gxlib.org.cn" target="_blank">广西壮族自治区图书馆</a>   &nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>   &nbsp;<a href="https://clibrary.top" target="_blank">Clib</a>  &nbsp;<a href="https://forum.freemdict.com" target="_blank">词典论坛</a>  &nbsp;<a href="https://www.jyxxh.cn" target="_blank">教育信息化</a>
 
