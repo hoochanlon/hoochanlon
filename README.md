@@ -1,6 +1,6 @@
 # Hoo！Gist.
 
-书签及手帐式风格的GitHub个人资料的主页，GitHub直达，并开箱即用。 
+书签、手帐、各类表单与音乐直达，开箱即用的GitHub个人资料主页。 
 
 <a href="https://music.apple.com/cn/album/%E5%8F%AB%E3%81%B6%E3%81%97%E3%81%8B%E3%81%AA%E3%81%84%E9%9D%92%E6%98%A5/1537756917?i=1537756921"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/22-7.png" width="300 " height="300" /></a>
 
