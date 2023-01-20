@@ -2,7 +2,7 @@
 
 书签及手帐式风格的GitHub个人资料的主页，GitHub直达，并开箱即用。 
 
-<a href="#"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/22-7.png" width="300 " height="300" /></a>
+<a href="#"><img align="right" src="./pictures/22-7.png" width="300 " height="300" /></a>
 
 📝 <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >个人常用Vim指令与Shell脚本小抄</a> <a href="https://www.explainshell.com">Shell在线语法分析</a>
 
