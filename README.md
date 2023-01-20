@@ -1,6 +1,6 @@
 # Hoo！Gist.
 
-日语速查、书签及各类表单与Apple Music直达，开箱即用的GitHub个人资料主页。 
+日语速查、Apple Music直达，书签及各类表单，开箱即用式GitHub个人资料主页。 
 
 <a href="https://music.apple.com/cn/album/%E5%8F%AB%E3%81%B6%E3%81%97%E3%81%8B%E3%81%AA%E3%81%84%E9%9D%92%E6%98%A5/1537756917?i=1537756921"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/22-7.png" width="300 " height="300" /></a>
 
