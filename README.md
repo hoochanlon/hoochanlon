@@ -1,4 +1,4 @@
-# Hoo！Gist.
+# <i><s>GitHub-Profile-Readme</s> Gist!</i>
 
 Web书签工具及语法速查、Apple Music直链（「何度目の青空か」のぎざかフォーティーシックス）。 
 
