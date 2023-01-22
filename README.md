@@ -32,9 +32,9 @@
 
 <a href="#"><img align="right" src="./pictures/wx.png" width="200 " height="200" /></a>
 
-http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
-
-https://fastly.jsdelivr.net/gh/
+* http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
+* https://fastly.jsdelivr.net/gh/ cdn加速
+* http://coverbox.henry-hu.com 专辑封面
 
 ![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
 -->
