@@ -8,7 +8,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 ✨&nbsp;<a href="http://www.gxlib.org.cn" target="_blank">广西壮族自治区图书馆</a> &nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>   &nbsp;<a href="https://clibrary.top" target="_blank">Clib</a>&nbsp;<a href="https://udown.vip" target="_blank">Udown</a>
 
-🏷️&nbsp;<a href="https://hellowindows.cn" target="_blank">Hello Windows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">Office Tool Plus</a>&nbsp;<a href="https://www.fuzhugou.com" target="_blank">辅助狗</a>
+🏷️&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://pkeytool.com" target="_blank">Pkey</a>&nbsp;<a href="https://www.fuzhugou.com" target="_blank">辅助狗</a>
 
 🔖&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html" target="_blank">国家企业信用信息公示系统</a> 
 
