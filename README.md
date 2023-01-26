@@ -33,6 +33,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 <a href="#"><img align="right" src="./pictures/wx.png" width="200 " height="200" /></a>
 
 * http://software.jsnu.edu.cn 江苏师范大学正版软件服务平台
+* https://www.zaera.cn/2542.html winrar 国家电网
 * https://fastly.jsdelivr.net/gh/ cdn加速
 * http://coverbox.henry-hu.com 专辑封面
 
