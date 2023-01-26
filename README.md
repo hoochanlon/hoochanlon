@@ -14,7 +14,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 | :-----------: | :----------------------------------------------------------: |
 |Shell|          <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >Shell小抄</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
 |Software|[V2方圆](https://www.v2fy.com/)、[麦可房子](https://www.macfz.com)、[423down](https://www.423down.com)、[digit77](https://www.digit77.com/iosapps/)、[序幕游戏](xumugame.com)|
-|EZUbaidu|[极下解析](https://dupan.ink)、[克隆窝](https://www.kelongwo.com)|
+|EZUbaidu|[极下解析](https://dupan.ink)、[克隆窝](https://www.kelongwo.com)、[Udown](https://udown.vip)|
 |KOUGUBA| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
 |BUIPIENU| [westworld](mailto:info@westworldss.com)、[samsocks](https://www.samsock.com)、[glados](https://github.com/glados-network/)、[proton](https://protonvpn.com) |
 
