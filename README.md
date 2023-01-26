@@ -10,13 +10,12 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🔖 <a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html" target="_blank">国家企业信用信息公示系统</a> 
 
-|Easyuse|       [龙喵导航](https://ailongmiao.com)、[库房369](https://kf369.cn)、[s.b-hu.org](https://s.b-hu.org/lite/)                                    |
+|Start|       [龙喵导航](https://ailongmiao.com)、[库房369](https://kf369.cn)、[s.b-hu.org](https://s.b-hu.org/lite/)                                    |
 | :-----------: | :----------------------------------------------------------: |
-|Toolbox|          <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >Shell小抄</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
+|Shell|          <a href="https://github.com/hoochanlon/tetyou/blob/master/CHEATSHEET.md" target="_blank" >Shell小抄</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
 |Software|[V2方圆](https://www.v2fy.com/)、[麦可房子](https://www.macfz.com)、[423down](https://www.423down.com)、[digit77](https://www.digit77.com/iosapps/)、[序幕游戏](xumugame.com)|
 |KOUGUBA| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
 |BUIPIENU| [westworld](mailto:info@westworldss.com)、[samsocks](https://www.samsock.com)、[glados](https://github.com/glados-network/)、[proton](https://protonvpn.com) |
-
 
 ---
 
