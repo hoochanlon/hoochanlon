@@ -12,7 +12,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🔐&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://pkeytool.com" target="_blank">PkeyTool</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>
 
-🧰&nbsp;<a href="https://tool.lu" target="_blank">Tool.lu</a>&nbsp;<a href="https://www.67tool.com" target="_blank">67tool</a>&nbsp;<a href="https://www.iamwawa.cn" target="_blank">iamwawa</a>&nbsp;<a href="https://udown.vip" target="_blank">Udown</a>
+🧰&nbsp;<a href="https://tool.lu" target="_blank">在线工具箱</a>&nbsp;<a href="https://www.iamwawa.cn" target="_blank">蛙蛙工具</a>&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://www.67tool.com" target="_blank">即刻工具</a>&nbsp;<a href="https://udown.vip" target="_blank">优蛋网盘链接解析</a>
 
 |Start|       [龙喵导航](https://ailongmiao.com)、[库房369](https://kf369.cn)、[s.b-hu.org](https://s.b-hu.org/lite/)                                    |
 | :-----------: | :----------------------------------------------------------: |
