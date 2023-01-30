@@ -10,7 +10,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🔖&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html" target="_blank">国家企业信用信息公示系统</a> 
 
-🔐&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>&nbsp;<a href="https://pkeytool.com" target="_blank">PkeyTool</a>
+🔐&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>&nbsp;<a href="https://github.com/bitcookies/winrar-keygen" target="_blank">WinRAR-Keygen</a>
 
 🧰&nbsp;<a href="https://tool.lu" target="_blank">在线工具箱</a>&nbsp;<a href="https://www.iamwawa.cn" target="_blank">蛙蛙工具</a>&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://www.67tool.com" target="_blank">即刻工具</a>&nbsp;<a href="https://udown.vip" target="_blank">优蛋网盘链接解析</a>
 
@@ -36,7 +36,8 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 <a href="#"><img align="right" src="./pictures/wx.png" width="200 " height="200" /></a>
 
-* https://www.zaera.cn/2542.html winrar 国家电网
+<a href="https://pkeytool.com" target="_blank">PkeyTool</a>
+
 * https://fastly.jsdelivr.net/gh/ cdn加速
 * http://coverbox.henry-hu.com 专辑封面
 
