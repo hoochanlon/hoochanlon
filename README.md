@@ -12,7 +12,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🔐&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>&nbsp;<a href="https://github.com/bitcookies/winrar-keygen" target="_blank">WinRAR-Keygen</a>
 
-🧰&nbsp;<a href="https://tool.lu" target="_blank">在线工具箱</a>&nbsp;<a href="https://www.iamwawa.cn" target="_blank">蛙蛙工具</a>&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://www.67tool.com" target="_blank">即刻工具</a>&nbsp;<a href="https://udown.vip" target="_blank">优蛋网盘链接解析</a>
+🧰&nbsp;<a href="https://tool.lu" target="_blank">在线工具箱</a>&nbsp;<a href="https://www.iamwawa.cn" target="_blank">蛙蛙工具</a>&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://www.67tool.com" target="_blank">即刻工具</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">新手破解吾爱教程贴</a>&nbsp;<a href="https://udown.vip" target="_blank">udown</a>
 
 |Start| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
 | :-----------: | :----------------------------------------------------------: |
