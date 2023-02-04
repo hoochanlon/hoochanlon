@@ -41,5 +41,4 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 * https://fastly.jsdelivr.net/gh/ cdn加速
 * http://coverbox.henry-hu.com 专辑封面
 
-![ ](https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/assets/github-contribution-grid-snake.svg)
 -->
