@@ -20,7 +20,6 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 |Software|[V2方圆](https://www.v2fy.com/)、[麦可房子](https://www.macfz.com)、[423down](https://www.423down.com)、[digit77](https://www.digit77.com/iosapps/)、[序幕游戏](xumugame.com)|[克隆窝](https://www.kelongwo.com)、[文档下载助手](https://imwcr.cn/api/GetDocumentText/)、[稻壳阅读器](http://www.daokeyuedu.com)、[Yoco](https://www.52pojie.cn/thread-1678456-1-1.html)、<a href="https://udown.vip" target="_blank">udown</a>|
 |ELUOSI| [byrut.org](https://byrut.org/)、[Rutracker.org](https://Rutracker.org)、[softoroom.org](https://softoroom.org)、[俄罗斯](http://www.zhuoju.xyz/thread-135154-1-1.html) |
 |KOUGUBA| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
-|BUIPIENU| [westworld](mailto:info@westworldss.com)、[samsocks](https://www.samsock.com)、[aurora](https://arr007.network)、[zgq](https://zgq-inc.github.io)、[proton](https://protonvpn.com) |
 
 ---
 
