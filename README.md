@@ -1,4 +1,4 @@
-<!--# <i><s>GitHub-Profile-Readme</s> Gist!</i>-->
+# <i><s>GitHub-Profile-Readme</s> Gist!</i>
 
 Web书签工具及语法速查、Apple Music直链（「何度目の青空か」のぎざかフォーティーシックス）。 
 
@@ -14,9 +14,9 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 [🧰](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://flingtrainer.com">【3DM&ali213】风林月影</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">【吾爱破解】玩玩破解，写给新人看</a>
 
-language_and_tools
+### Language and Tools
 
-日/中、「大辞泉」、「NHK日本語発音アクセント辞書」、[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict)、[tio/freemdict/jp](https://tio.freemdict.com/jp/)
+日/中 百度 [Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) [tio/freemdict/jp](https://tio.freemdict.com/jp/)
 
 
 |[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
