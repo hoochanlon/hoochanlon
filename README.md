@@ -14,6 +14,11 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 [🧰](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://flingtrainer.com">【3DM&ali213】风林月影</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">【吾爱破解】玩玩破解，写给新人看</a>
 
+language_and_tools
+
+日/中、「大辞泉」、「NHK日本語発音アクセント辞書」、[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict)、[tio/freemdict/jp](https://tio.freemdict.com/jp/)
+
+
 |[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
 | :-----------: | :----------------------------------------------------------: |
 |[Script](https://www.explainshell.com)| <a href="http://bcn.bathome.net/s/tool/index.html?" target="_blank" >CMD查询</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64">EDUCBA</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
