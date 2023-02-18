@@ -14,6 +14,10 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 [🧰](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a>&nbsp;<a href="https://flingtrainer.com">【3DM】风林月影</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">【吾爱破解】玩玩破解，写给新人看</a>
 
+## Language and Tools
+
+日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+
 ## 便利表
 
 |[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
@@ -23,9 +27,6 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 |ELUOSI| [byrut.org](https://byrut.org/)、[Rutracker.org](https://Rutracker.org)、[softoroom.org](https://softoroom.org)、[俄罗斯盗版](http://www.zhuoju.xyz/thread-135154-1-1.html) |
 |KOUGUBA| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
 
-## Language and Tools
-
-日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
 ---
 
