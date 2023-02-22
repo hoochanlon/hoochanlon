@@ -10,7 +10,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🔖&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html" target="_blank">国家企业信用信息公示系统</a> 
 
-🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)
+🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
 
 🔐&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>
 
@@ -21,8 +21,6 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 ## Language and Tools
 
 日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
-
-[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
 
 <a><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/spy.png" width="270 " height="270" /></a>
 
