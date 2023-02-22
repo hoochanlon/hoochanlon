@@ -10,11 +10,11 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🔖&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html" target="_blank">国家企业信用信息公示系统</a> 
 
-🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)
+🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
 
 🔐&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>
 
-☁️&nbsp;[腾讯云轻量配置入口](https://console.cloud.tencent.com/lighthouse/instance) [阿里云漏洞库](https://avd.aliyun.com/high-risk/list?page=1)&nbsp;[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
+☁️&nbsp;[腾讯云轻量配置入口](https://console.cloud.tencent.com/lighthouse/instance) [阿里云漏洞库](https://avd.aliyun.com/high-risk/list?page=1)
 
 <a href="https://flingtrainer.com">【3DM】风林月影</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">【吾爱破解】玩玩破解，写给新人看</a> <a href="https://www.52pojie.cn/thread-1585120-1-1.html">【吾爱破解】恶意软件分析系列</a> 
 
