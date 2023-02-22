@@ -40,8 +40,8 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
  <div align="center">
 
  <b><i><a href="https://hoochanlon.github.io/hoochanlon" target="_blank">About me</a></i></b> <br>
- <b><i>Love with Typora/vs code/Vim + Squoosh & PicGo & Coverbox </i></b><br>
-  <b><i>Apple Music + LyricX </i></b>
+ <b><i>Love with Typora/vs code/Vim + Squoosh & PicGo </i></b><br>
+  <b><i>Apple Music + LyricX & Coverbox </i></b>
 
 </div>
 
