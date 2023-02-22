@@ -16,11 +16,13 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🪨 <a href="https://flingtrainer.com">【3DM】风林月影</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">【吾爱破解】玩玩破解，写给新人看</a> <a href="https://www.52pojie.cn/thread-1585120-1-1.html">【吾爱破解】恶意软件分析系列</a> 
 
-<a><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/spy.png" width="270 " height="270" /></a>
+
  
 ## Language and Tools
 
 日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+
+<a><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/spy.png" width="270 " height="270" /></a>
 
 
 ## Table
