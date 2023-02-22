@@ -22,7 +22,9 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
  
 ## Language and Tools
 
-日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)&nbsp;[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
+日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+
+[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
 
 
 ## Table
