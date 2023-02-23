@@ -27,7 +27,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 ## Table
 
-|[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
+|[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/)、[btnull.org](https://www.btnull.org) |
 | :-----------: | :----------------------------------------------------------: |
 |[Script](https://www.explainshell.com)| <a href="http://bcn.bathome.net/s/tool/index.html?" target="_blank" >CMD查询</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64">EDUCBA</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
 |Software|[V2方圆](https://www.v2fy.com/)、[麦可房子](https://www.macfz.com)、[423down](https://www.423down.com)、[digit77](https://www.digit77.com/iosapps/)、[序幕游戏](xumugame.com)|[克隆窝](https://www.kelongwo.com)、[文档下载助手](https://imwcr.cn/api/GetDocumentText/)、[稻壳阅读器](http://www.daokeyuedu.com)、[Yoco](https://www.52pojie.cn/thread-1678456-1-1.html)、<a href="https://udown.vip" target="_blank">udown</a>|
