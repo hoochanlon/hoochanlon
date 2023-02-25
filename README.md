@@ -8,7 +8,7 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 [✨](https://clibrary.top)&nbsp;<a href="https://tools.pdf24.org" target="_blank">pdf24.org</a>&nbsp;<a href="http://www.gxlib.org.cn" target="_blank">广西壮族自治区图书馆</a>&nbsp;<a href="https://www.zjlib.cn" target="_blank">浙江图书馆</a> &nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>
 
-🔖&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>  &nbsp;<a href="https://www.gsxt.gov.cn/index.html" target="_blank">国家企业信用信息公示系统</a> 
+[🔖](https://www.gsxt.gov.cn/index.html)&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a> &nbsp;<a href="https://www.bing.com/search?q=联合国2022年度市场报告" target="_blank">联合国2022年度市场报告</a> 
 
 🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
 
