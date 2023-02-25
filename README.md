@@ -5,7 +5,7 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Anita)](https://github.com/hoochanlon/Anita)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
 
-## Web书签工具及语法速查、Apple Music直链（「何度目の青空か」のぎざかフォーティーシックス）。 
+## Web资料及语法速查、Apple Music直链（「何度目の青空か」のぎざかフォーティーシックス）。 
 
 <a href="https://music.apple.com/cn/album/%E4%BD%95%E5%BA%A6%E7%9B%AE%E3%81%AE%E9%9D%92%E7%A9%BA%E3%81%8B/1537529213?i=1537529214"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/n46.png" width="270 " height="270" /></a>
 
