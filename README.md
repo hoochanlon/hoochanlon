@@ -1,6 +1,11 @@
-# <i><s>GitHub-Profile-Readme</s> Gist!</i>
+## 部分开源项目
 
-Web书签工具及语法速查、Apple Music直链（「何度目の青空か」のぎざかフォーティーシックス）。 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=ihs-simple)](https://github.com/hoochanlon/ihs-simple)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Free-NTFS-For-Mac)](https://github.com/hoochanlon/Free-NTFS-For-Mac)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Anita)](https://github.com/hoochanlon/Anita)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
+
+## Web书签工具及语法速查、Apple Music直链（「何度目の青空か」のぎざかフォーティーシックス）。 
 
 <a href="https://music.apple.com/cn/album/%E4%BD%95%E5%BA%A6%E7%9B%AE%E3%81%AE%E9%9D%92%E7%A9%BA%E3%81%8B/1537529213?i=1537529214"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/n46.png" width="270 " height="270" /></a>
 
@@ -16,8 +21,6 @@ Web书签工具及语法速查、Apple Music直链（「何度目の青空か」
 
 🧙‍♂️ <a href="https://flingtrainer.com">【3DM】风林月影</a>&nbsp;<a href="https://www.52pojie.cn/thread-1358649-1-1.html" target="_blank">【吾爱破解】玩玩破解，写给新人看</a> <a href="https://www.52pojie.cn/thread-1585120-1-1.html">【吾爱破解】恶意软件分析</a> 
 
-
- 
 ## Language and Tools
 
 日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
