@@ -1,4 +1,4 @@
-## 部分开源项目一览
+## 示例开源项目一览
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=ihs-simple)](https://github.com/hoochanlon/ihs-simple)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Free-NTFS-For-Mac)](https://github.com/hoochanlon/Free-NTFS-For-Mac)
