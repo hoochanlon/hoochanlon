@@ -36,7 +36,7 @@
 |SHUXUE|[graph_editor](https://csacademy.com/app/graph_editor/)、[myscript](http://webdemo.myscript.com)、[geogebra](https://www.geogebra.org/geometry)|
 |WULIXUE|[上海交通大学物理实验中心](https://pec.sjtu.edu.cn/ols/)、[复旦大学物理教学实验中心](http://phylab.fudan.edu.cn/doku.php)|
 |HUAXUE| [复旦大学化学实验教学中心](http://www.ecce.fudan.edu.cn/a2/22/c5772a41506/page.htm) |
-|KOUGUBA| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
+|XIAZAI| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
 
 
 ---
