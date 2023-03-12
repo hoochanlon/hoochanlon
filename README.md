@@ -15,7 +15,7 @@
 
 [🔖](https://www.gsxt.gov.cn/index.html)&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a> &nbsp;<a href="https://www.bing.com/search?q=联合国2022年度市场报告" target="_blank">联合国2022年度市场报告</a> 
 
-🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[华东师范大学 - Linux服务器常见配置命令](https://meta.ecnu.edu.cn/31/16/c35042a405782/page.htm)
+🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[思享工具箱](https://tool.4xseo.com/linuxcmd/)
 
 ❤️&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>&nbsp;[Office For MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)
 
