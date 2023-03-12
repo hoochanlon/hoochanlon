@@ -30,11 +30,12 @@
 
 ## Table
 
-|[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/)、[btnull.org](https://www.btnull.org) |
+|[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
 | :-----------: | :----------------------------------------------------------: |
-|[Script](https://www.explainshell.com)| <a href="http://bcn.bathome.net/s/tool/index.html?" target="_blank" >CMD查询</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64">EDUCBA</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
-|Software|[V2方圆](https://www.v2fy.com/)、[麦可房子](https://www.macfz.com)、[423down](https://www.423down.com)、[digit77](https://www.digit77.com/iosapps/)、[序幕游戏](xumugame.com)|[克隆窝](https://www.kelongwo.com)、[文档下载助手](https://imwcr.cn/api/GetDocumentText/)、[稻壳阅读器](http://www.daokeyuedu.com)、[Yoco](https://www.52pojie.cn/thread-1678456-1-1.html)、<a href="https://udown.vip" target="_blank">udown</a>|
-|ELUOSI| [byrut.org](https://byrut.org/)、[Rutracker.org](https://Rutracker.org)、[softoroom.org](https://softoroom.org)、[俄罗斯盗版](http://www.zhuoju.xyz/thread-135154-1-1.html) |
+|Shell| <a href="http://bcn.bathome.net/s/tool/index.html?" target="_blank" >CMD查询</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64/" target="_blank" >EDUCBA</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
+|SHUXUE|[graph_editor](https://csacademy.com/app/graph_editor/)、[myscript](http://webdemo.myscript.com)、[geogebra](https://www.geogebra.org/geometry)|
+|WULIXUE|[上海交通大学物理实验中心](https://pec.sjtu.edu.cn/ols/)、[复旦大学物理教学实验中心](http://phylab.fudan.edu.cn/doku.php)|
+|HUAXUE| [复旦大学化学实验教学中心](http://www.ecce.fudan.edu.cn/a2/22/c5772a41506/page.htm) |
 |KOUGUBA| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
 
 
