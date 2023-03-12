@@ -23,7 +23,7 @@
 
 ## Language and Tools
 
-日/中/英（等于没有） [百度](www.baidu.com)&nbsp;[必应](www.bing.com) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+日/中/英（等于没有） [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1) &nbsp;[Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) &nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
 <a><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/spy.png" width="270 " height="270" /></a>
 
