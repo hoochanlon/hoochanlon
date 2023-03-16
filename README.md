@@ -23,8 +23,8 @@
 
 ## Language and Tools
 
-日/中 [少子高齢化が加速する中国
-－日本との比較を中心に－](https://www.rieti.go.jp/users/china-tr/jp/ssqs/221027ssqs.html)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+日/中 [低迷する2022年の中国経済
+－注目される住宅市場とコロナ対策の行方－rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
 PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
 
