@@ -23,9 +23,10 @@
 
 ## Language and Tools
 
-日/中 [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1) &nbsp;[grep.app](https://grep.app)&nbsp;[hualigs](https://www.hualigs.cn)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+日/中 [少子高齢化が加速する中国
+－日本との比較を中心に－](https://www.rieti.go.jp/users/china-tr/jp/ssqs/221027ssqs.html)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
-Unix [ansible](http://www.tastones.com/stackoverflow/ansible/) [localnetwork](http://localnetwork.cn/project-3/doc-200/)
+PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
 
 <a><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/spy.png" width="270 " height="270" /></a>
 
