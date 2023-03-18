@@ -46,8 +46,7 @@ PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implemen
  <div align="center">
 
  <b><i><a href="https://hoochanlon.github.io/hoochanlon" target="_blank">About me</a></i></b> <br>
- <b><i>Love with Typora/vs code/Vim + Squoosh & PicGo </i></b><br>
-  <b><i>Apple Music + LyricX & Coverbox </i></b>
+ <b><i><a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a></i></b> <br>
 
 </div>
 
