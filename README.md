@@ -23,7 +23,7 @@
 
 ## Language and Tools
 
-日/中 [rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)&nbsp;[toyokeizai](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+日/中 [rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)&nbsp;[toyokeizai](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[媒体人大](https://news.ruc.edu.cn/archives/category/media_news)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
 PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
 
