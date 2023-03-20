@@ -47,6 +47,7 @@ PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implemen
 
  <b><i><a href="https://hoochanlon.github.io/hoochanlon" target="_blank">About me</a></i></b> <br>
  <b><i><a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a></i></b> <br>
+  <b><i><a href="https://ndltd.ncl.edu.tw" target="_blank">台湾博硕论文加值系统</a></i></b> <br>
 
 </div>
 
