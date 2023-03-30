@@ -36,7 +36,7 @@ PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implemen
 
 |[Start](https://ss.azad.asia)| [龙喵导航](https://ailongmiao.com)、[龙轩导航](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/) |
 | :-----------: | :----------------------------------------------------------: |
-|Shell| <a href="https://ss64.com" target="_blank" >SS64 CMD</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64/" target="_blank" >EDUCBA</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux指令速查](https://wangchujiang.com/linux-command/) |
+|Shell| <a href="https://ss64.com" target="_blank" >SS64-CMD</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64/" target="_blank" >EDUCBA</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux速查](https://wangchujiang.com/linux-command/) |
 |SHUXUE|[graph_editor](https://csacademy.com/app/graph_editor/)、[myscript](http://webdemo.myscript.com)、[geogebra](https://www.geogebra.org/geometry)|
 |WULIXUE|[上海交通大学物理实验中心](https://pec.sjtu.edu.cn/ols/)、[复旦大学物理教学实验中心](http://phylab.fudan.edu.cn/doku.php)|
 |HUAXUE| [复旦大学化学实验教学中心](http://www.ecce.fudan.edu.cn/a2/22/c5772a41506/page.htm) |
