@@ -47,7 +47,6 @@ PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implemen
 
  <div align="center">
 
- <b><i><a href="https://hoochanlon.github.io/hoochanlon" target="_blank">About me</a></i></b> <br>
  <a href="https://ndltd.ncl.edu.tw" target="_blank">
 <img src="https://ndltd.ncl.edu.tw/gs32/nclcdr/image/promote.gif"></a>
 
@@ -55,6 +54,8 @@ PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implemen
 
 
 <!-- 
+
+ <b><i><a href="https://hoochanlon.github.io/hoochanlon" target="_blank">About me</a></i></b> <br>
 
 <a href="#"><img align="right" src="./pictures/wx.png" width="200 " height="200" /></a>
 
