@@ -25,9 +25,9 @@
 
 ## Language and Tools
 
-日/中 [rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)&nbsp;[toyokeizai](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[媒体人大](https://news.ruc.edu.cn/archives/category/media_news)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+日语文库：[rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)&nbsp;[東洋経済](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[埼玉県立図書館](https://www.lib.pref.saitama.jp/reference/hint/cat/link-site.html)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
-PC [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
+电脑工具: [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
 
 <a><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/spy.png" width="270 " height="270" /></a>
 
