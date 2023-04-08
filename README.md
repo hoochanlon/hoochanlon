@@ -17,7 +17,7 @@
 
 ✏️ <a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a>&nbsp;<a href="https://ndltd.ncl.edu.tw" target="_blank">台湾博硕论文加值系统</a>&nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>
 
-🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[思享工具箱](https://tool.4xseo.com/linuxcmd/)
+🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[思享工具箱](https://tool.4xseo.com/linuxcmd/)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
 ❤️&nbsp;<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>&nbsp;[Office For MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)
 
@@ -25,7 +25,7 @@
 
 ## Language and Tools
 
-日语文库：[東洋経済](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[埼玉県立図書館](https://www.lib.pref.saitama.jp/reference/hint/cat/link-site.html)&nbsp;[つながるひろがる](https://tsunagarujp.bunka.go.jp/read-write)&nbsp;[rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
+日语文库：[東洋経済](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[埼玉県立図書館](https://www.lib.pref.saitama.jp/reference/hint/cat/link-site.html)&nbsp;[つながるひろがる](https://tsunagarujp.bunka.go.jp/read-write)&nbsp;[rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)
 
 电脑工具: [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
 
