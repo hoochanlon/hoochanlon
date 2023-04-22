@@ -13,9 +13,9 @@
 
 [✨](https://1login.to)&nbsp;<a href="https://tools.pdf24.org" target="_blank">pdf24.org</a>&nbsp;<a href="http://www.gxlib.org.cn" target="_blank">广西壮族自治区图书馆</a>&nbsp;<a href="https://www.zjlib.cn" target="_blank">浙江图书馆</a> 
 
-[🔖](https://www.gsxt.gov.cn/index.html)&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a> &nbsp;<a href="https://www.bing.com/search?q=联合国2022年度市场报告" target="_blank">联合国2022年度市场报告</a> 
+[🔖](https://www.gsxt.gov.cn/index.html)&nbsp;<a href="https://www.ncpssd.org" target="_blank">国家哲学社会科学文献中心</a>   &nbsp;<a href="https://data.stats.gov.cn/easyquery.htm?cn=C01" target="_blank">国家统计局</a>&nbsp;<a href="https://ndltd.ncl.edu.tw" target="_blank">国立台湾图书馆博硕论文加值系统</a>
 
-✏️ <a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a>&nbsp;<a href="https://ndltd.ncl.edu.tw" target="_blank">台湾博硕论文加值系统</a>&nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>
+✏️ <a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a>&nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>
 
 🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[思享工具箱](https://tool.4xseo.com/linuxcmd/)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
