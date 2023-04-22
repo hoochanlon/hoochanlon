@@ -15,7 +15,7 @@
 
 [🔖](https://www.gsxt.gov.cn/index.html)&nbsp;<a href="https://www.ncpssd.org" target="_blank">中国哲学社会科学文献中心</a>&nbsp;<a href="https://libguides.nus.edu.sg/chineseeresources/theses">新加坡论文库</a>&nbsp;<a href="https://ndltd.ncl.edu.tw" target="_blank">台湾博硕论文系统</a>
 
-✏️ <a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a>&nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a>
+✏️ <a href="http://hdlgdxxbskb.cn" target="_blank">华东理工大学学报( 社会科学版)</a>&nbsp;<a href="http://rdbk1.ynlib.cn:6251" target="_blank">中国人民大学复印周刊</a> [毛选第五册](https://www.marxists.org/chinese/maozedong/index.htm#5)
 
 🧰&nbsp;[metools](http://www.metools.info/other/subnetmask160.html)&nbsp;[奇迹秀](https://www.qijishow.com/down/efficiency.html)&nbsp;<a href="https://c.runoob.com" target="_blank">菜鸟工具</a> &nbsp;[IPCN网段分布](http://ipcn.chacuo.net/view/i_CHINANET)&nbsp;[思享工具箱](https://tool.4xseo.com/linuxcmd/)&nbsp;[tio-freemdict-jp](https://tio.freemdict.com/jp/)
 
