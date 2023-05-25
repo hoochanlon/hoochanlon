@@ -2,7 +2,7 @@
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=ihs-simple)](https://github.com/hoochanlon/ihs-simple)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Free-NTFS-For-Mac)](https://github.com/hoochanlon/Free-NTFS-For-Mac)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=ydsmfrms)](https://github.com/hoochanlon/ydsmfrms)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=resou)](https://github.com/hoochanlon/resou)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
 
 ## Web资料速查，Apple Music（「何度目の青空か」のぎざかフォーティーシックス）。 
