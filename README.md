@@ -1,13 +1,13 @@
-## 感觉这[Readme Card](https://github.com/anuraghazra/github-readme-stats)，做Pin还挺好使，这样下方就可以放PR的部分repo了
+## Pin [Readme Card](https://github.com/anuraghazra/github-readme-stats)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=ihs-simple)](https://github.com/hoochanlon/ihs-simple)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=hamulete)](https://github.com/hoochanlon/hamulete)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Free-NTFS-For-Mac)](https://github.com/hoochanlon/Free-NTFS-For-Mac)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
 
-## Web资料速查，Apple Music（「何度目の青空か」のぎざかフォーティーシックス）。 
+## Web 
 
-<a href="https://music.apple.com/cn/album/%E4%BD%95%E5%BA%A6%E7%9B%AE%E3%81%AE%E9%9D%92%E7%A9%BA%E3%81%8B/1537529213?i=1537529214"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/n46.png" width="270 " height="270" /></a>
+<a href="https://music.apple.com/cn/album/%E4%BD%95%E5%BA%A6%E7%9B%AE%E3%81%AE%E9%9D%92%E7%A9%BA%E3%81%8B/1537529213?i=1537529214"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/n46.png" width="270 " height="270" />Apple Music（「何度目の青空か」のぎざかフォーティーシックス）</a>
 
 [🔎](https://wantquotes.net)&nbsp;<a href="https://res.wokanxing.info/jpgramma/index.html" target="_blank">日语文法</a>  &nbsp;<a href="https://so-zou.jp/web-app/text/proofreading/#word0" target="_blank">文法检查</a>   &nbsp;<a href="https://kousei.club/校正・校閲で使う記号・符号［基本的な約物の意/#:~:text=約物一覧［基本的な記号・符号の意味と使い方］%201%201%EF%BC%8Eくぎり符%20文章・語句の区切りを明らかにするもの%E3%80%82%20ex%EF%BC%8E句読点・コンマ・ピリオドなど%202%202%EF%BC%8Eくくり符%20文章・語句の前後をくくるもの%E3%80%82,感嘆符・疑問符など%20記号と符号の違い%20「記号」は広く、言語・文字・各種のしるし・身振りなどを含む%E3%80%82%20「文」は漢字であると同時に、地図では学校を示す記号である%E3%80%82%20「符号」は、文字を除き、図形・音声・光・電波などのしるしについて使うことが多い%E3%80%82%20記号と符号の相違にはあいまいな面もある%E3%80%82%20目印として付けた〇は符号だが、地図上の〇は記号である%E3%80%82%20" target="_blank">约物表</a>  &nbsp;<a href="http://www.kawa.net/works/ajax/romanize/japanese.html" target="_blank">和字罗马注音</a> &nbsp;<a href="https://soukaapp.com/dict/">日语词典</a>  &nbsp;<a href="https://www.sljfaq.org/cgi/e2k_ja.cgi" target="_blank">英语转片假</a>
 
