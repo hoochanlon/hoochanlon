@@ -5,6 +5,11 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Free-NTFS-For-Mac)](https://github.com/hoochanlon/Free-NTFS-For-Mac)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
 
+## Metrics demo
+
+![Metrics](https://metrics.lecoq.io/hoochanlon?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&achievements=false&achievements.threshold=S&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FShanghai)
+
+
 ## Web 
 
 <a href="https://music.apple.com/cn/album/%E4%BD%95%E5%BA%A6%E7%9B%AE%E3%81%AE%E9%9D%92%E7%A9%BA%E3%81%8B/1537529213?i=1537529214"><img align="right" src="https://fastly.jsdelivr.net/gh/hoochanlon/hoochanlon/pictures/n46.png" width="270 " height="270" />Apple Music（「何度目の青空か」のぎざかフォーティーシックス）</a>
