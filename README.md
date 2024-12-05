@@ -1,7 +1,7 @@
 ## Pin [Readme Card](https://github.com/anuraghazra/github-readme-stats)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=scripts)](https://github.com/hoochanlon/scripts)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=hamulete)](https://github.com/hoochanlon/hamulete)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Network-Calculator)](https://github.com/hoochanlon/Network-Calculator)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=Free-NTFS-For-Mac)](https://github.com/hoochanlon/Free-NTFS-For-Mac)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hoochanlon&repo=fq-book)](https://github.com/hoochanlon/fq-book)
 
