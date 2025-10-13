@@ -1,4 +1,5 @@
-![joker](https://tu.zbhz.org/i/2025/10/13/i9x4cd.jpg)
+<img src="https://tu.zbhz.org/i/2025/10/13/i9x4cd.jpg" style="width: 100vw; height: 100vh; object-fit: cover;" alt="joker">
+
 
 ## Web 
 
