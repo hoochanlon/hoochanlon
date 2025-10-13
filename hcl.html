@@ -12,22 +12,51 @@
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
 	</head>
     <style>
-        body {
+        /* body {
 
             /**
 		配色参考
 		https://www.omegaxyz.com/2018/07/01/javascript-terminal/ 
 		*/
-            background:black;
+            /* background:black;
             color: #00FF02;
             font-size: 18px;
             font-family:courier;
             }    
             blink{
                 display:inline;        
-            }
+            } */ */
             /* #source{display:none;} */
-            </style>
+    body {
+      background: black;
+      color: #00FF02;
+      font-size: 18px;
+      font-family: Courier, monospace;
+      padding: 2rem;
+    }
+
+    a {
+      color: #00FFFF;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #FF00FF;
+    }
+
+    .prompt::before {
+      content: "➜ ";
+      color: #00FF02;
+    }
+
+    .blink {
+      animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    </style>
 	
 	<body>
         <div id="source">
@@ -59,8 +88,7 @@
           > <i class="fa fa-github" aria-hidden="true"></i> 
           个人主页：<a href="http://github.com/hoochanlon">github.com/hoochanlon</a><br>
           > <i class="fa fa-envelope" aria-hidden="true"></i> 
-          联系邮箱：<a href="mailto:hoochanlon@outlook.com">hoochanlon@outlook.com</a><br> 
-          > <i class="fa fa-users" aria-hidden="true"></i> 
+          联系邮箱：<a href="mailto:hoochanlon@outlook.com">hoochanlon@outlook.com</a><br>  
 
           <p>> This is text2ascii.it’s for you.</p>
           <pre>
@@ -69,7 +97,7 @@
               )(  ) __ (/    \/    / )  ( \___ \
              (__) \_)(_/\_/\_/\_)__)(__\_)(____/
           </pre>
-	> <i>谢谢您在百忙之中阅览我的self-introduction，期待有机会能与您相互了解 </i> :)
+	> <i>谢谢你在百忙之中有耐心看完我的自我介绍 :)</i>
         </div>
         <div id="output-wrap">
             <span id="output"></span>
