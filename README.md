@@ -25,7 +25,7 @@
 ---
 
 <p align="center">
-<em><span style="font-size: 1.2em;">Thanks</span></em>
+<em><span style="font-size: 1.3em;">Thanks</span></em>
 </p>
 
 
