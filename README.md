@@ -1,4 +1,6 @@
-<img src="https://tu.zbhz.org/i/2025/10/13/i9x4cd.jpg" style="width: 100vw; height: 100vh; object-fit: cover;" alt="joker">
+<div style="text-align: center;">
+  <img src="https://tu.zbhz.org/i/2025/10/13/i9x4cd.jpg" style="height: auto; width: 100%;" alt="joker">
+</div>
 
 
 ## Web 
