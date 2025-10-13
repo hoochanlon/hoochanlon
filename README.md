@@ -12,7 +12,7 @@
 
 📚️：[東洋経済](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[埼玉県立図書館](https://www.lib.pref.saitama.jp/reference/hint/cat/link-site.html)&nbsp;[つながるひろがる](https://tsunagarujp.bunka.go.jp/read-write)&nbsp;[rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)
 
-✨：[國家圖書館「臺灣博碩士論文知識加值系統」](https://ndltd.ncl.edu.tw)&nbsp;<a href="https://www.zjlib.cn" target="_blank">浙江图书馆</a> [香港大学图书库](http://hub.hku.hk/)
+✨：[國家圖書館「臺灣博碩士論文知識加值系統」](https://ndltd.ncl.edu.tw)&nbsp; [香港大学图书库](http://hub.hku.hk/)
 
 🔖：<a href="https://www.ncpssd.org" target="_blank">中国哲学社会科学文献中心</a>&nbsp;<a href="https://libguides.nus.edu.sg/chineseeresources/theses">新加坡论文库</a>&nbsp;<a href="https://ndltd.ncl.edu.tw" target="_blank">台湾博硕论文系统</a>
 
