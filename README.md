@@ -1,8 +1,9 @@
 ### ***[hoochanlon](https://hoochanlon.github.io/hoochanlon/)***
 
 <div style="text-align: center;">
-  <img src="https://tu.zbhz.org/i/2025/10/13/i9x4cd.jpg" style="height: auto; width: 100%;" alt="joker">
+  <img src="https://github.com/user-attachments/assets/6e2dc0dd-fba7-4728-950d-a5241a9caaba" style="height: auto; width: 100%;" alt="joker">
 </div>
+
 
 ---
 
