@@ -27,19 +27,6 @@
 
 日语文库：[東洋経済](https://toyokeizai.net/articles/-/648098?page=3)&nbsp;[埼玉県立図書館](https://www.lib.pref.saitama.jp/reference/hint/cat/link-site.html)&nbsp;[つながるひろがる](https://tsunagarujp.bunka.go.jp/read-write)&nbsp;[rieti.go.jp](https://www.rieti.go.jp/users/china-tr/jp/ssqs/220202ssqs.html)
 
-电脑工具: [Microsoft Learn](https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)  [ansible](http://www.tastones.com/stackoverflow/ansible/)&nbsp;[grep.app](https://grep.app)&nbsp;[localnetwork](http://localnetwork.cn/project-3/doc-200/)&nbsp;[hualigs](https://www.hualigs.cn)
-
-
-
-## Table
-
-|栏目| 链接 |
-| :-----------: | :----------------------------------------------------------: |
-|Shell| <a href="https://ss64.com" target="_blank" >SS64-CMD</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64/" target="_blank" >EDUCBA</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux速查](https://wangchujiang.com/linux-command/) |
-|SHUXUE|[graph_editor](https://csacademy.com/app/graph_editor/)、[myscript](http://webdemo.myscript.com)、[geogebra](https://www.geogebra.org/geometry)|
-|WULIXUE|[上海交通大学物理实验中心](https://pec.sjtu.edu.cn/ols/)、[复旦大学物理教学实验中心](http://phylab.fudan.edu.cn/doku.php)|
-|HUAXUE| [复旦大学化学实验教学中心](http://www.ecce.fudan.edu.cn/a2/22/c5772a41506/page.htm) |
-|XIAZAI| [Watt Toolkit](https://steampp.net)、[SwitchHosts](https://github.com/oldj/SwitchHosts)、[DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy) 、[DownGit](https://minhaskamal.github.io/DownGit/#/home)|
 
 
 ---
