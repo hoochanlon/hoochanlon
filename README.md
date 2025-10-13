@@ -23,8 +23,9 @@
 💻：<a href="https://hellowindows.cn" target="_blank">HelloWindows</a>&nbsp;<a href="https://otp.landian.vip" target="_blank">OfficeToolPlus</a>&nbsp;<a href="https://massgrave.dev" target="_blank">MicrosoftActivationScripts </a>&nbsp;[Office For MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS)
 
 
-
----
+<p align="center">
+<em><span style="font-size: 1.2em;">Thanks</span></em>
+</p>
 
 
 <!-- 
