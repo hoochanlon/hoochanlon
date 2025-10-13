@@ -1,4 +1,4 @@
-
+![joker](https://tu.zbhz.org/i/2025/10/13/i9x4cd.jpg)
 
 ## Web 
 
