@@ -34,7 +34,7 @@
 
 ## Table
 
-|[摸鱼导航](https://moyu.games/)| [龙喵](https://ailongmiao.com)、[龙轩](http://ilxdh.com)、[s.b-hu.org](https://s.b-hu.org/lite/)、[regex101](https://regex101.com/) |
+|栏目| 链接 |
 | :-----------: | :----------------------------------------------------------: |
 |Shell| <a href="https://ss64.com" target="_blank" >SS64-CMD</a> <a href="https://www.learnfk.com/batch-script/batch-script-aliases.html">无涯教程</a>  <a href="https://www.educba.com/powershell-base64/" target="_blank" >EDUCBA</a> <a href="https://www.explainshell.com">Shell语法分析</a> [linux速查](https://wangchujiang.com/linux-command/) |
 |SHUXUE|[graph_editor](https://csacademy.com/app/graph_editor/)、[myscript](http://webdemo.myscript.com)、[geogebra](https://www.geogebra.org/geometry)|
