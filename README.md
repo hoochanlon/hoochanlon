@@ -1,7 +1,7 @@
 ### ***[hoochanlon](https://hoochanlon.github.io/hoochanlon/)***
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/6e2dc0dd-fba7-4728-950d-a5241a9caaba" style="height: auto; width: 100%;" alt="joker">
+  <img src="http://image.aibochinese.com/i/2025/10/13/xchxbp.png" style="height: auto; width: 100%;" alt="joker">
 </div>
 
 
