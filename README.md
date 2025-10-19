@@ -24,7 +24,8 @@
 {
 "type": "Feature",
 "properties": {
-"name": "宝源矿棚户区安置区"
+"name": "梦圆新城",
+"description": "宝源矿棚户区安置区"
 },
 "geometry": {
 "type": "Point",
