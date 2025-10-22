@@ -1,5 +1,5 @@
 
-<img align="left"  src="https://tu.zbhz.org/i/2025/10/23/3wtv9g.png" />
+<img align="right"  src="https://tu.zbhz.org/i/2025/10/23/3wtv9g.png" />
 
 ```DIFF
 !  /\_/\          /^ ^\
