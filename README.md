@@ -5,19 +5,15 @@
 !  /\_/\          /^ ^\
 - ( o.o )        / 0 0 \
 +  > ^ <         V\ Y /V
-```
-               
-```DIFF
-!        +++++++          !
--     +++        +++      -
--   +++            +++    -
-+  ++                ++   +
-+  ++                ++   +
--  +++              +++   -
--   +++           +++     -
-!        +++++++          !
 
-```
+               
+-   SSSSSSS       OOOOOOO        SSSSSSS    -
++  SS            OO     OO      SS          +
+! SS             OO      OO    SS           !
+-   SSSSSSS     OO       OO      SSSSSSS    -
++          SS   OO       OO             SS  +
+!          SS    OO     OO              SS  !
+-   SSSSSSS       OOOOOOO        SSSSSSS    -
 
 <p align="center">
 <em><span style="font-size: 1.2em;">
