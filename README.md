@@ -1,7 +1,7 @@
 	
 <img align="right" src="https://i.ooxx.ooo/i/ZTQ0Z.png" style="width: auto; height: 200px;">
 
->  [!note]
+> [!IMPORTANT]
 > - 主页：https://hoochanlon.github.io
 > - 邮箱：hoochanlon@outlook.com
 > - 女神异闻录5面具合成公式：https://wiki.biligame.com/persona
