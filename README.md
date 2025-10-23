@@ -1,5 +1,5 @@
 	
-<img align="right" src="https://i.ooxx.ooo/i/ZTQ0Z.png" style="width: auto; height: 200px;">
+<img align="right" src="https://i.ooxx.ooo/i/ZTQ0Z.png" style="width: auto; height: 400px;">
 
 
 
