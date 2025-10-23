@@ -12,7 +12,7 @@
 ```DIFF
 -   SSSSSSS        	  OOOOO         SSSSSSS       团团团团团团团团团
 +  SS       SS   	OO     OO      SS       SS    团      团     团
-! SS               OO       OO    SS              团团团团团团团团团  
+! SS               OO       OO    SS              团团团团团团团团团
 -   SSSSSSS       OO         OO     SSSSSSS       团      团     团
 +          SS  	   OO       OO             SS     团   团 团     团
 !          SS    	OO    OO               SS     团      团     团
