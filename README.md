@@ -14,9 +14,10 @@
 ```
 ---
 
-* 主页：https://hoochanlon.github.io
-* 邮箱：hoochanlon@outlook.com
-* 女神异闻录5面具合成公式：https://wiki.biligame.com/persona
-* 游戏王查卡器：https://www.ourocg.cn/advance
-
+```DIFF
+- 主页：https://hoochanlon.github.io
+- 邮箱：hoochanlon@outlook.com
+- 女神异闻录5面具合成公式：https://wiki.biligame.com/persona
+- 游戏王查卡器：https://www.ourocg.cn/advance
+```
 <!--<img align="right"  src="https://tu.zbhz.org/i/2025/10/23/3wtv9g.png" />-->
