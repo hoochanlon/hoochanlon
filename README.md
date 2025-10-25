@@ -5,7 +5,7 @@
 > - 主页：https://hoochanlon.github.io
 > - 邮箱：hoochanlon@outlook.com
 > - 女神异闻录5面具合成公式：https://wiki.biligame.com/persona
-> - 游戏王查卡器：https://www.ourocg.cn/advance
+> - OCG规则：https://ocg-rule.readthedocs.io/zh-cn/latest
 > - 国立台湾大学卡牌社：https://ntucgm.blogspot.com
 
 ---
