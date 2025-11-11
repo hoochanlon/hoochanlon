@@ -1,14 +1,15 @@
 
 <img src="https://bing.biturl.top/?resolution=1920&format=image&index=random&mkt=zh-CN" alt="Bing 随机壁纸">
 
+---
 
 <p align="center">
   <a href="https://hoochanlon.github.io" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/home.svg" width="24" height="24"> 
+    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/house.svg" width="24" height="24"> 
   </a>
   <br>
   <a href="mailto:hoochanlon@outlook.com">
-    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/envelope.svg" width="24" height="24""> 
+    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/envelope.svg" width="24" height="24"> 
   </a>
 </p>
 
