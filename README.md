@@ -1,15 +1,6 @@
 
 ![ ](https://picsum.photos/1200/600)
 
----
-
-> [!IMPORTANT]
-> 
-> | 📍 **Website** | 📨 **Email** |
-> |----------------|--------------|
-> | [hoochanlon.github.io](https://hoochanlon.github.io) | [hoochanlon@outlook.com](mailto:hoochanlon@outlook.com) |
-
-
 
 <!--
 
