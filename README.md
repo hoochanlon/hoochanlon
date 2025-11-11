@@ -1,41 +1,4 @@
-
-
-
-
-![ ](https://img.qlqqs.com/randompc)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Bing 每日一图](https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN)
 
 
 
