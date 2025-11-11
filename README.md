@@ -1,5 +1,5 @@
 
-<img src="https://bing.img.run/rand.php" alt="随机获取Bing历史壁纸1080P高清" />
+![ ](https://bing.biturl.top/?resolution=1920&format=image&index=random&mkt=zh-CN")
 
 ---
 
