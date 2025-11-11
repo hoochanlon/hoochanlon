@@ -1,5 +1,5 @@
 
-<img src="https://www.loliapi.com/acg/pc" />
+<img src="https://bing.img.run/rand.php" alt="随机获取Bing历史壁纸1080P高清" />
 
 ---
 
