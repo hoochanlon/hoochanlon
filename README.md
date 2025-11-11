@@ -1,5 +1,5 @@
 
-<img src="https://bing.biturl.top/?resolution=1920&format=image&index=random&mkt=zh-CN" alt="Bing 随机壁纸">
+<img src="https://api.bimg.cc/random" />
 
 ---
 
