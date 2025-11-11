@@ -1,5 +1,5 @@
 
-![ ](https://picsum.photos/1200/600)
+<img src="https://bing.img.run/rand.php" alt="随机图片">
 
 
 <!--
