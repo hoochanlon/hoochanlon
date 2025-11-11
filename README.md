@@ -1,5 +1,6 @@
 
-<img src="https://bing.img.run/rand.php" alt="随机图片">
+<img src="https://bing.biturl.top/?resolution=1920&format=image&index=random&mkt=zh-CN" alt="Bing 随机壁纸">
+
 
 
 <!--
