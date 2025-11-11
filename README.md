@@ -1,5 +1,5 @@
 
-<img src="https://api.bimg.cc/random" />
+<img src="https://www.loliapi.com/acg/pc" />
 
 ---
 
