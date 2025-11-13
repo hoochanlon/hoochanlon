@@ -1,5 +1,8 @@
-
+<!--
 ![](https://api.timelessq.com/bing/random)
+-->
+
+![](https://t.mwm.moe/fj)
 
 ---
 
