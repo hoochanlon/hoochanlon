@@ -3,7 +3,8 @@
 ![](https://t.mwm.moe/fj)
 -->
 
-![](https://www.loliapi.com/acg/pc)
+<img src="https://www.loliapi.com/acg/pc" width="1200" height="auto" alt="ACG Random Image">
+
 
 ---
 
