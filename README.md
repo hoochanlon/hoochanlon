@@ -3,7 +3,7 @@
 ![](https://t.mwm.moe/fj)
 -->
 
-![](https://acg.suyanw.cn/landscape)
+![](https://www.loliapi.com/acg/pc)
 
 ---
 
