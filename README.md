@@ -10,12 +10,12 @@
 <a href="https://github.com/hoochanlon/hoochanlon.github.io">
   <img src="https://gh-card.dev/repos/hoochanlon/hoochanlon.github.io.svg" 
        alt="hoochanlon.github.io" 
-       style="width: 420px; height: 140px;">  <!-- 缩小到 50% -->
+       style="width: 420px; height: 143px;">  <!-- 缩小到 50% -->
 </a>
 <a href="https://github.com/hoochanlon/starlight-notes">
   <img src="https://gh-card.dev/repos/hoochanlon/starlight-notes.svg" 
        alt="starlight-notes" 
-       style="width: 420px; height: 140px;">  <!-- 同上 -->
+       style="width: 420px; height: 143px;">  <!-- 同上 -->
 </a>
 
 <p align="center">
