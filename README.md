@@ -7,6 +7,17 @@
 
 ---
 
+<a href="https://github.com/hoochanlon/hoochanlon.github.io">
+  <img src="https://gh-card.dev/repos/hoochanlon/hoochanlon.github.io.svg" 
+       alt="hoochanlon.github.io" 
+       style="width: 500px; height: 144.5px;">  <!-- 缩小到 50% -->
+</a>
+<a href="https://github.com/hoochanlon/starlight-notes">
+  <img src="https://gh-card.dev/repos/hoochanlon/starlight-notes.svg" 
+       alt="starlight-notes" 
+       style="width: 500px; height: 144.5px;">  <!-- 同上 -->
+</a>
+
 <p align="center">
   <a href="https://hoochanlon.github.io" target="_blank">
     <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/house.svg" width="24" height="24"> 
