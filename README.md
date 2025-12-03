@@ -12,7 +12,7 @@
        alt="hoochanlon.github.io" 
        style="width: 420px; height: 110px;">  <!-- 缩小到 50% -->
 </a>
-<a href="https://github.com/hoochanlon/starlight-notes">
+<a href="https://hoochanlon.github.io/starlight-notes">
   <img src="https://gh-card.dev/repos/hoochanlon/starlight-notes.svg" 
        alt="starlight-notes" 
        style="width: 420px; height: 110px;">  <!-- 同上 -->
