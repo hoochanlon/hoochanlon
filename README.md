@@ -9,13 +9,21 @@
 
 <a href="https://github.com/hoochanlon/hoochanlon.github.io">
   <img src="https://gh-card.dev/repos/hoochanlon/hoochanlon.github.io.svg" 
-       alt="hoochanlon.github.io" 
        style="width: 420px; height: 110px;">  <!-- 缩小到 50% -->
 </a>
 <a href="https://hoochanlon.github.io/starlight-notes">
   <img src="https://gh-card.dev/repos/hoochanlon/starlight-notes.svg" 
-       alt="starlight-notes" 
        style="width: 420px; height: 110px;">  <!-- 同上 -->
+</a>
+
+<a href="https://github.com/hoochanlon/picx-images-hosting">
+  <img src="https://gh-card.dev/repos/hoochanlon/picx-images-hosting" 
+       style="width: 420px; height: 110px;"> 
+</a>
+
+<a href="https://github.com/hoochanlon/twitter">
+  <img src="https://gh-card.dev/repos/hoochanlon/twitter" 
+       style="width: 420px; height: 110px;"> 
 </a>
 
 ---
