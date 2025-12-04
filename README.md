@@ -16,13 +16,14 @@
        style="width: 420px; height: 110px;">  <!-- 同上 -->
 </a>
 
+
 <a href="https://github.com/hoochanlon/picx-images-hosting">
-  <img src="https://gh-card.dev/repos/hoochanlon/picx-images-hosting" 
+  <img src="https://gh-card.dev/repos/hoochanlon/picx-images-hosting.svg" 
        style="width: 420px; height: 110px;"> 
 </a>
 
 <a href="https://github.com/hoochanlon/twitter">
-  <img src="https://gh-card.dev/repos/hoochanlon/twitter" 
+  <img src="https://gh-card.dev/repos/hoochanlon/twitter.svg" 
        style="width: 420px; height: 110px;"> 
 </a>
 
