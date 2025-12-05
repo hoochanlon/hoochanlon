@@ -30,7 +30,7 @@
 ---
 
 <p align="center">
-  <a href="https://hoochanlon.github.io" target="_blank">
+  <a href="https://hoochanlon.netlify.app" target="_blank">
     <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/house.svg" width="24" height="24"> 
   </a>
   <br>
