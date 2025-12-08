@@ -11,8 +11,8 @@
   <img src="https://gh-card.dev/repos/hoochanlon/hoochanlon.github.io.svg" 
        style="width: 420px; height: 110px;">  <!-- 缩小到 50% -->
 </a>
-<a href="https://hoochanlon.github.io/starlight-notes">
-  <img src="https://gh-card.dev/repos/hoochanlon/starlight-notes.svg" 
+<a href="https://hoochanlon.github.io/docs">
+  <img src="https://gh-card.dev/repos/hoochanlon/docs.svg" 
        style="width: 420px; height: 110px;">  <!-- 同上 -->
 </a>
 
