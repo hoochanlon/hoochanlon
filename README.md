@@ -13,9 +13,18 @@
 </a>
 <a href="https://hoochanlon.github.io/docs">
   <img src="https://gh-card.dev/repos/hoochanlon/docs.svg" 
-       style="width: 420px; height: 110px;">  <!-- 同上 -->
+       style="width: 420px; height: 110px;">  
 </a>
 
+<a href="https://hoochanlon.github.io/memos">
+  <img src="https://gh-card.dev/repos/hoochanlon/memos.svg" 
+       style="width: 420px; height: 110px;">  
+</a>
+
+<a href="https://hoochanlon.github.io/fonts">
+  <img src="https://gh-card.dev/repos/hoochanlon/fonts.svg" 
+       style="width: 420px; height: 110px;">  
+</a>
 
 <a href="https://github.com/hoochanlon/picx-images-hosting">
   <img src="https://gh-card.dev/repos/hoochanlon/picx-images-hosting.svg" 
