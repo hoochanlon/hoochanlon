@@ -21,7 +21,7 @@
        style="width: 420px; height: 110px;">  
 </a>
 
-<a href="https://hoochanlon.github.io/fonts">
+<a href="https://github.com/hoochanlon/fonts">
   <img src="https://gh-card.dev/repos/hoochanlon/fonts.svg" 
        style="width: 420px; height: 110px;">  
 </a>
