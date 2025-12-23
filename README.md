@@ -3,7 +3,9 @@
 ![](https://t.mwm.moe/fj)
 -->
 
-![ ](https://lipsum.app/random/1600x900)
+<!--![ ](https://lipsum.app/random/1600x900)-->
+
+<img src="https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/special/puke.gif style="width: 1200px; height: auto;">  
 
 ---
 
