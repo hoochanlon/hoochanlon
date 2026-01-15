@@ -5,7 +5,7 @@
 
 <!--![ ](https://lipsum.app/random/1600x900)-->
 
-<img src="https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@refs/heads/master/imgs/anime/yoriichi.jpg" style="width: 1200px; height: auto;">  
+<img src="https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/anime/MahoShojo%20Madoka-1.png" style="width: 1200px; height: auto;">  
 
 ---
 
