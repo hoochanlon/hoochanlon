@@ -5,27 +5,20 @@
 
 <!--![ ](https://lipsum.app/random/1600x900)-->
 
-<img src="https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/anime/MahoShojo%20Madoka-1.png" style="width: 1200px; height: auto;">  
+https://ossinsight.io/analyze/hoochanlon
+
+
 
 ---
 
-<a href="https://github.com/hoochanlon/hoochanlon.github.io">
-  <img src="https://gh-card.dev/repos/hoochanlon/hoochanlon.github.io.svg" 
-       style="width: 420px; height: 110px;">  <!-- 缩小到 50% -->
-</a>
-<a href="https://hoochanlon.github.io/docs">
-  <img src="https://gh-card.dev/repos/hoochanlon/docs.svg" 
-       style="width: 420px; height: 110px;">  
-</a>
-
 <a href="https://github.com/hoochanlon/picx-images-hosting">
   <img src="https://gh-card.dev/repos/hoochanlon/picx-images-hosting.svg" 
-       style="width: 420px; height: 110px;"> 
+       style="width: 390px; height: 110px;"> 
 </a>
 
 <a href="https://github.com/hoochanlon/twitter">
   <img src="https://gh-card.dev/repos/hoochanlon/twitter.svg" 
-       style="width: 420px; height: 110px;"> 
+       style="width: 390px; height: 110px;"> 
 </a>
 
 ---
