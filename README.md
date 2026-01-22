@@ -13,6 +13,9 @@ Resume：
   * <img src="./svg/flags/tw.svg" style="width: 24px; height auto;"> Taichung, Taiwan
 * My Github Status：https://ossinsight.io/analyze/hoochanlon
 
+
+<img src="./pictures/sakura.gif" style="width: auto; height: auto;"> 
+
 ---
 
 <p align="center">
