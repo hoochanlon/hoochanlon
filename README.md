@@ -13,6 +13,8 @@ Resume：
   * <img src="./svg/flags/tw.svg" style="width: 24px; height auto;"> Taichung, Taiwan
 * My Github Status：https://ossinsight.io/analyze/hoochanlon
 
+Desc: I remained unknown throughout my life.
+
 
 <img src="./pictures/sakura.gif" style="width: 1200px; height: auto;"> 
 
