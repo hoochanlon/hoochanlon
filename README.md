@@ -12,7 +12,7 @@ Resume：
   * <img src="./svg/flags/jp.svg" style="width:24px; height auto;"> Tokyo, Japan
   * <img src="./svg/flags/tw.svg" style="width: 24px; height auto;"> Taichung, Taiwan
 
-<img src="./pictures/huli.jpg"  style="width: auto; height: 660px;"> 
+<img src="./pictures/huli.jpg"  style="width: auto; height: 160px;"> 
 
 ---
 
