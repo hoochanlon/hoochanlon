@@ -7,7 +7,7 @@
 
 My Github Status：https://ossinsight.io/analyze/hoochanlon
 
-Internet residency（Cyberspace）: Tokyo, Japan / Taichung, Taiwan
+Internet residency（Cyberspace）: <img src="./svg/flags/jp.svg" style="width: 24px; height auto;"> Tokyo, Japan / <img src="./svg/flags/tw.svg" style="width: 24px; height auto;"> Taichung, Taiwan
 
 ---
 
