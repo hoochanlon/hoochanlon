@@ -13,12 +13,12 @@ https://ossinsight.io/analyze/hoochanlon
 
 <a href="https://github.com/hoochanlon/picx-images-hosting">
   <img src="https://gh-card.dev/repos/hoochanlon/picx-images-hosting.svg" 
-       style="width: 390px; height: 110px;"> 
+       style="width: 395px; height: 110px;"> 
 </a>
 
 <a href="https://github.com/hoochanlon/twitter">
   <img src="https://gh-card.dev/repos/hoochanlon/twitter.svg" 
-       style="width: 390px; height: 110px;"> 
+       style="width: 395px; height: 110px;"> 
 </a>
 
 ---
