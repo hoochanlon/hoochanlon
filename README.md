@@ -7,7 +7,7 @@
 
 https://ossinsight.io/analyze/hoochanlon
 
-Internet residency: Tokyo, Japan / Taichung, Taiwan
+Internet residency（Cyberspace）: Tokyo, Japan / Taichung, Taiwan
 
 ---
 
