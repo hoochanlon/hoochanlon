@@ -14,7 +14,7 @@ Resume：
 * My Github Status：https://ossinsight.io/analyze/hoochanlon
 
 
-<img src="./pictures/sakura.gif" style="width: auto; height: auto;"> 
+<img src="./pictures/sakura.gif" style="width: 630px; height: auto;"> 
 
 ---
 
