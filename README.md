@@ -16,7 +16,7 @@ Resume：
 Desc: I remained unknown throughout my life.
 
 
-<img src="./pictures/sakura.gif" style="width: 1200px; height: 300px;"> 
+<img src="./pictures/sakura.gif" style="width: 1200px; height: 280px;"> 
 
 ---
 
