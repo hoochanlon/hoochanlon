@@ -5,8 +5,9 @@
 
 <!--![ ](https://lipsum.app/random/1600x900)-->
 
-Resume：
+<img src="./pictures/sakura.gif" style="width: 1200px; height: 280px;"> 
 
+Resume：
 
 * Internet residency（Cyberspace）: 
   * <img src="./svg/flags/jp.svg" style="width:24px; height auto;"> Tokyo, Japan
@@ -16,7 +17,7 @@ Resume：
 Desc: In the eyes of Leviathan, humans are not human.I remained unknown throughout my life.
 
 
-<img src="./pictures/sakura.gif" style="width: 1200px; height: 280px;"> 
+
 
 ---
 
