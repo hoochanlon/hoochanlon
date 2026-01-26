@@ -16,8 +16,6 @@ Resume：
 
 Desc: In the eyes of Leviathan, humans are not human.I remained unknown throughout my life.
 
----
-
 <p align="center">
   <a href="https://hoochanlon.netlify.app" target="_blank">
     <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/house.svg" width="24" height="24"> 
