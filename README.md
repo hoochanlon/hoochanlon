@@ -5,6 +5,12 @@
 
 <!--![ ](https://lipsum.app/random/1600x900)-->
 
+<img width="1920" height="1080" alt="『魔法使いの夜" src="https://github.com/user-attachments/assets/cf31dbfc-bd7a-4be2-921a-6e253a226f08" />
+
+
+
+<!--
+
 <img src="./pictures/sakura.gif" style="width: 1200px; height: 280px;"> 
 
 Resume：
@@ -25,7 +31,7 @@ Desc: In the eyes of Leviathan, humans are not human.I remained unknown througho
     <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/envelope.svg" width="24" height="24"> 
   </a>
 </p>
-
+-->
 
 
 
