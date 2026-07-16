@@ -4,8 +4,7 @@
 ![ ](https://lipsum.app/random/1600x900)
 -->
 
-<img width="1400" height="800" alt="doge" src="https://github.com/user-attachments/assets/e440127e-9e3e-402f-b98f-4beaae8c5dc0" />
-
+<img width="1400" height="800" alt="monday-heheh" src="https://github.com/user-attachments/assets/791d0b9c-a1b4-415c-8539-0217a7468990" />
 
 
 
