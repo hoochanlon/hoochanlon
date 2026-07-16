@@ -3,9 +3,8 @@
 ![](https://t.mwm.moe/fj)
 -->
 
-<!--![ ](https://lipsum.app/random/1600x900)-->
+![ ](https://lipsum.app/random/1600x900)
 
-<img width="1920" height="1080" alt="『魔法使いの夜" src="https://github.com/user-attachments/assets/cf31dbfc-bd7a-4be2-921a-6e253a226f08" />
 
 
 
