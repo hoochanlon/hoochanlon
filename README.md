@@ -4,9 +4,7 @@
 ![ ](https://lipsum.app/random/1600x900)
 -->
 
-<img width="1980" height="860" alt="aoko-mahoyo" src="https://github.com/user-attachments/assets/3d034755-5c0f-48f0-9f31-f08c1e64f219" />
-
-
+<img width="1400" height="800" alt="doge" src="https://github.com/user-attachments/assets/e440127e-9e3e-402f-b98f-4beaae8c5dc0" />
 
 
 
