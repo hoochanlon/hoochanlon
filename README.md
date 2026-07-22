@@ -1,12 +1,10 @@
 <!--
-![](https://api.timelessq.com/bing/random)
+
 ![](https://t.mwm.moe/fj)
 ![ ](https://lipsum.app/random/1600x900)
 -->
 
-<img width="1400" height="800" alt="monday-heheh" src="https://github.com/user-attachments/assets/791d0b9c-a1b4-415c-8539-0217a7468990" />
-
-
+![](https://api.timelessq.com/bing/random)
 
 <!--
 
