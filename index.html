@@ -25,8 +25,7 @@
         <div id="crt-content">
             <canvas id="matrix" aria-hidden="true"></canvas>
             <div id="output-wrap">
-                <span id="output"></span>
-                <span class="typing-cursor">■</span>
+                <span id="output"></span><span class="typing-cursor">■</span>
             </div>
         </div>
     </div>
@@ -280,6 +279,7 @@
             function startTyping() {
                 var typingConfig = config.typing || {};
                 var output = document.getElementById('output');
+                var cursor = document.querySelector('.typing-cursor');
                 
                 console.log('startTyping called, typingConfig:', typingConfig);
                 console.log('typingConfig.enabled:', typingConfig.enabled);
@@ -295,20 +295,31 @@
                 
                 console.log('Starting typing animation...');
                 
+                // 将光标移到 output 内部
+                if (cursor && cursor.parentNode) {
+                    cursor.parentNode.removeChild(cursor);
+                }
+                
                 // 阶段一：登录信息
                 currentTyping = new Typing({
                     source: document.getElementById('login-source'),
                     output: output,
+                    cursor: cursor,  // 传递光标元素
                     delay: typingConfig.loginSpeed || 50,
                     done: function() {
                         var pauseDuration = typingConfig.loginPauseDuration || 1000;
                         setTimeout(function() {
+                            // 清空时保持光标
+                            if (cursor && cursor.parentNode) {
+                                cursor.parentNode.removeChild(cursor);
+                            }
                             output.innerHTML = '';
                             
                             // 阶段二：主内容
                             currentTyping = new Typing({
                                 source: document.getElementById('main-source'),
                                 output: output,
+                                cursor: cursor,  // 传递光标元素
                                 delay: typingConfig.mainSpeed || 30,
                                 done: function() {
                                     currentTyping = null;
