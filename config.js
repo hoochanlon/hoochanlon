@@ -154,6 +154,42 @@ const TerminalConfig = {
     backToTopThreshold: 500,
   },
 
+  // ==================== 背景音乐 ====================
+  audio: {
+    // 是否启用背景音乐
+    enabled: true,
+    
+    // 音乐文件路径
+    source: './assets/music/Mona-Lisa-Overdrive.mp3',
+    
+    // 音量（0.0 - 1.0）
+    volume: 0.5,
+    
+    // 是否循环播放
+    loop: true,
+    
+    // 是否自动播放（某些浏览器可能会阻止自动播放）
+    autoplay: true,
+    
+    // 淡入时间（毫秒）
+    fadeInDuration: 2000,
+    
+    // 是否显示音乐控制按钮
+    showControls: false,
+    
+    // ==================== 启动提示配置 ====================
+    // 在页面加载后显示一个选择框，让用户决定是否播放音乐
+    // 提供仪式感和交互性，3秒倒计时后自动选择
+    prompt: {
+      enabled: true,                         // 是否显示启动提示（false 则直接播放音乐）
+      message: '惊险高速，是否进行重装上阵？',  // 提示消息（支持换行 \n）
+      yesText: '是',                         // 确认按钮文本（自定义为"启动"、"CONFIRM"等）
+      noText: '否',                          // 取消按钮文本（自定义为"静默"、"ABORT"等）
+      autoSelectDelay: 5000,                 // 自动选择延迟（毫秒，3000=3秒，5000=5秒）
+      defaultChoice: 'yes',                  // 默认选择 ('yes' 播放音乐 | 'no' 保持静音)
+    },
+  },
+
   // ==================== 调试与性能 ====================
   debug: {
     // 是否启用调试模式（显示性能信息）
