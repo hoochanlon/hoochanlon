@@ -21,6 +21,7 @@
       val: []
     };
     this._stop = true;
+    this.cursor = opts.cursor || null;  // 添加光标引用
 
     if (!(typeof this.opts.done == 'function')) this.opts.done = function() {};
   }
@@ -60,8 +61,21 @@
     },
 
     print: function (dom, val, callback) {
+      var that = this;
       setTimeout(function(){
+        // 如果有光标，先移除
+        if (that.cursor && that.cursor.parentNode) {
+          that.cursor.parentNode.removeChild(that.cursor);
+        }
+        
+        // 添加文本
         dom.appendChild(document.createTextNode(val));
+        
+        // 重新添加光标到末尾
+        if (that.cursor) {
+          dom.appendChild(that.cursor);
+        }
+        
         callback();
       }, this.delay);
     },
@@ -83,16 +97,33 @@
           that.play(ele);
         });
       } else {
-        var dom = document.createElement(curr.dom.nodeName);
-        var attrs = that.toArray(curr.dom.attributes);
-        for (var i = 0; i < attrs.length; i++) {
-          var attr = attrs[i];
-          dom.setAttribute(attr.name, attr.value);
-        }
-        ele.dom.appendChild(dom);
-        curr.parent = ele;
-        curr.dom = dom;
-        this.play(curr.val.length ? curr : curr.parent);
+        // HTML 元素也添加延迟，让图标等元素先出现
+        var that = this;
+        setTimeout(function() {
+          // 如果有光标，先移除
+          if (that.cursor && that.cursor.parentNode) {
+            that.cursor.parentNode.removeChild(that.cursor);
+          }
+          
+          var dom = document.createElement(curr.dom.nodeName);
+          var attrs = that.toArray(curr.dom.attributes);
+          for (var i = 0; i < attrs.length; i++) {
+            var attr = attrs[i];
+            dom.setAttribute(attr.name, attr.value);
+          }
+          ele.dom.appendChild(dom);
+          curr.parent = ele;
+          curr.dom = dom;
+          
+          // 重新添加光标到末尾
+          if (that.cursor) {
+            // 找到最顶层的 output 容器
+            var outputContainer = that.output;
+            outputContainer.appendChild(that.cursor);
+          }
+          
+          that.play(curr.val.length ? curr : curr.parent);
+        }, this.delay);
       }
     },
 

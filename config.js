@@ -35,10 +35,10 @@ const TerminalConfig = {
     enabled: true,
     
     // 登录阶段打字速度（毫秒/字符，越小越快）
-    loginSpeed: 50,
+    loginSpeed: 80,
     
     // 主内容打字速度（毫秒/字符）
-    mainSpeed: 30,
+    mainSpeed: 80,
     
     // 登录阶段完成后的停顿时间（毫秒）
     loginPauseDuration: 1000,

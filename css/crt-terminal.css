@@ -150,6 +150,14 @@ body {
     z-index: 1;
 }
 
+#output {
+    display: inline;
+}
+
+.typing-cursor {
+    display: inline;
+}
+
 /* 屏幕边缘渐变 - 增强立体感 */
 #crt-overlay {
     position: absolute;
