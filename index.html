@@ -39,6 +39,12 @@
          */
         (function() {
             var config = window.TerminalConfig || {};
+            
+            // 调试：检查配置是否加载
+            console.log('TerminalConfig loaded:', config);
+            console.log('Typing enabled:', config.typing?.enabled);
+            console.log('Matrix enabled:', config.matrix?.enabled);
+            
             var matrixEffect;
             var currentTyping = null;
             var isPaused = false;
@@ -48,14 +54,19 @@
             function applyMetadata() {
                 var meta = config.meta || {};
                 document.title = meta.title || 'Terminal';
-                document.querySelector('meta[name="description"]').content = meta.description || '';
-                document.querySelector('meta[name="keywords"]').content = meta.keywords || '';
+                var descMeta = document.querySelector('meta[name="description"]');
+                var keywordsMeta = document.querySelector('meta[name="keywords"]');
+                if (descMeta) descMeta.content = meta.description || '';
+                if (keywordsMeta) keywordsMeta.content = meta.keywords || '';
             }
             
             // 应用主题样式
             function applyTheme() {
                 var theme = config.theme || {};
+                var scrollbar = theme.scrollbar || {};
                 var style = document.getElementById('dynamic-theme');
+                
+                // 基础主题样式
                 var css = `
                     body {
                         background-color: ${theme.backgroundColor || '#0a0a0a'};
@@ -71,6 +82,46 @@
                         color: ${theme.primaryColor || '#00ff00'};
                     }
                 `;
+                
+                // 滚动条样式
+                if (scrollbar.visible === false) {
+                    // 隐藏滚动条但保持滚动功能
+                    css += `
+                    #crt-content::-webkit-scrollbar {
+                        display: none;
+                    }
+                    #crt-content {
+                        -ms-overflow-style: none;  /* IE 和 Edge */
+                        scrollbar-width: none;  /* Firefox */
+                    }
+                    `;
+                } else {
+                    // 自定义滚动条样式
+                    css += `
+                    #crt-content::-webkit-scrollbar {
+                        width: ${scrollbar.width || '10px'};
+                    }
+                    #crt-content::-webkit-scrollbar-track {
+                        background: ${scrollbar.trackColor || 'rgba(0, 0, 0, 0.5)'};
+                        border-radius: 5px;
+                        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
+                    }
+                    #crt-content::-webkit-scrollbar-thumb {
+                        background: ${scrollbar.thumbColor || 'rgba(0, 255, 2, 0.4)'};
+                        border-radius: 5px;
+                        box-shadow: 
+                            inset 0 0 5px rgba(0, 255, 2, 0.6),
+                            0 0 5px rgba(0, 255, 2, 0.3);
+                    }
+                    #crt-content::-webkit-scrollbar-thumb:hover {
+                        background: ${scrollbar.thumbHoverColor || 'rgba(0, 255, 2, 0.6)'};
+                        box-shadow: 
+                            inset 0 0 5px rgba(0, 255, 2, 0.8),
+                            0 0 8px rgba(0, 255, 2, 0.5);
+                    }
+                    `;
+                }
+                
                 style.textContent = css;
             }
             
@@ -172,12 +223,15 @@
             // 加载内容
             function loadContent() {
                 var contentConfig = config.content || {};
-                var typingConfig = config.typing || {};
                 
                 // 如果启用了无障碍模式，禁用打字效果
                 if (config.accessibility?.reduceMotion) {
-                    typingConfig.enabled = false;
+                    console.log('Accessibility: reduceMotion enabled, disabling typing');
+                    if (!config.typing) config.typing = {};
+                    config.typing.enabled = false;
                 }
+                
+                console.log('Loading content from:', contentConfig.source || 'content.md');
                 
                 fetch(contentConfig.source || 'content.md')
                     .then(response => response.text())
@@ -227,13 +281,19 @@
                 var typingConfig = config.typing || {};
                 var output = document.getElementById('output');
                 
-                // 如果禁用打字效果，直接显示全部内容
-                if (!typingConfig.enabled) {
+                console.log('startTyping called, typingConfig:', typingConfig);
+                console.log('typingConfig.enabled:', typingConfig.enabled);
+                
+                // 如果明确禁用打字效果，直接显示全部内容
+                if (typingConfig.enabled === false) {
+                    console.log('Typing disabled, showing all content immediately');
                     var loginSource = document.getElementById('login-source');
                     var mainSource = document.getElementById('main-source');
                     output.innerHTML = loginSource.innerHTML + '<br><br>' + mainSource.innerHTML;
                     return;
                 }
+                
+                console.log('Starting typing animation...');
                 
                 // 阶段一：登录信息
                 currentTyping = new Typing({
