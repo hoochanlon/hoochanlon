@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>About Myself — Chanlon Hoo</title>
+    <meta name="keywords" content="简介">
+    <meta name="description" content="模拟终端的简介面板">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="./typing/typing.js"></script>
+    <link rel="stylesheet" href="./typing/typing.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/crt-terminal.css">
+</head>
+<body>
+    <!-- CRT 屏幕容器 -->
+    <div id="crt-screen">
+        <div id="crt-overlay"></div>
+        <div id="crt-content">
+            <div id="output-wrap">
+                <span id="output"></span>
+                <span class="typing-cursor">■</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 加载 Markdown 文件
+        fetch('content.md')
+            .then(response => response.text())
+            .then(markdown => {
+                // 分割登录和主内容
+                const parts = markdown.split('---');
+                const loginSection = parts[0].replace('# 登录信息\n', '').trim();
+                const mainSection = parts[1].replace('# 主要内容\n', '').trim();
+                
+                // 创建隐藏的源内容容器
+                const loginSource = document.createElement('div');
+                loginSource.id = 'login-source';
+                loginSource.style.display = 'none';
+                loginSource.innerHTML = loginSection.replace(/\n/g, '<br>');
+                document.body.appendChild(loginSource);
+                
+                const mainSource = document.createElement('div');
+                mainSource.id = 'main-source';
+                mainSource.style.display = 'none';
+                // 渲染 Markdown 为 HTML
+                mainSource.innerHTML = marked.parse(mainSection);
+                document.body.appendChild(mainSource);
+                
+                // 阶段一：显示登录过程
+                const loginTyping = new Typing({
+                    source: document.getElementById('login-source'),
+                    output: document.getElementById('output'),
+                    delay: 50,
+                    done: function() {
+                        setTimeout(function() {
+                            document.getElementById('output').innerHTML = '';
+                            
+                            // 阶段二：显示主内容
+                            const mainTyping = new Typing({
+                                source: document.getElementById('main-source'),
+                                output: document.getElementById('output'),
+                                delay: 30
+                            });
+                            mainTyping.start();
+                        }, 1000);
+                    }
+                });
+                
+                loginTyping.start();
+            })
+            .catch(error => console.error('Error loading markdown:', error));
+    </script>
+</body>
+</html>

@@ -6,31 +6,6 @@
 
 ![](https://api.timelessq.com/bing/random)
 
-<!--
-
-<img src="./pictures/sakura.gif" style="width: 1200px; height: 280px;"> 
-
-Resume：
-
-* Internet residency（Cyberspace）: 
-  * <img src="./svg/flags/jp.svg" style="width:24px; height auto;"> Tokyo, Japan
-  * <img src="./svg/flags/tw.svg" style="width: 24px; height auto;"> Taichung, Taiwan
-* My Github Status：https://ossinsight.io/analyze/hoochanlon
-
-Desc: In the eyes of Leviathan, humans are not human.I remained unknown throughout my life.
-
-<p align="center">
-  <a href="https://hoochanlon.netlify.app" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/house.svg" width="24" height="24"> 
-  </a>
-  <br>
-  <a href="mailto:hoochanlon@outlook.com">
-    <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/svgs/solid/envelope.svg" width="24" height="24"> 
-  </a>
-</p>
--->
-
-
 
 
 
