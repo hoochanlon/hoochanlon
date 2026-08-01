@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* 全局禁用所有元素的文本选中 */
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge */
 }
+
 
 body {
     background: url('../assets/imgs/monitor.jpg') no-repeat center center fixed;

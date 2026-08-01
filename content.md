@@ -11,17 +11,6 @@ Guest Logined,Access Is Granted. Welcome To My Site
 
 > 我是 Chanlon Hoo，一个在技术与现实之间不断拉扯的失败理想主义者，曾发布了当时开创性的作品和项目，如今看来已过时了。仍然记录，因为记录是我唯一能控制的输出。仍然表达，因为表达是我对抗沉默的方式。
 
-## 老旧的作品:
-- [《流水线工厂陷阱》](https://github.com/apachecn/the-factory-trap)
-- [《培训机构分析报告》](https://github.com/apachecn/TI-Analysis)
-- [《这本书能让你连接互联网》](https://hoochanlon.github.io/fq-book/#/)
-
-## 过时的项目:
-- [hamulete：在线链接知识库。](https://github.com/hoochanlon/hamulete)
-- [Nigate：Mac上支持NTFS的小工具](https://github.com/hoochanlon/Free-NTFS-for-Mac)
-- [我流脚本：脚本语言：多种、不限；功能按需编写](https://github.com/hoochanlon/scripts)
-- [python编写的网络计算器](https://github.com/hoochanlon/Network-Calculator)
-- [jsonresume简历主题：jsonresume-theme-mix](https://github.com/hoochanlon/jsonresume-theme-mix)
 
 ## 联系方式
 - <i class="fa fa-globe" aria-hidden="true"></i> 个人博客：[hoochanlon.github.io](http://hoochanlon.github.io)
@@ -36,4 +25,4 @@ Guest Logined,Access Is Granted. Welcome To My Site
      (__) \_)(_/\_/\_/\_)__)(__\_)(____/
 ```
 
-> *谢谢你在百忙之中有耐心看完我的自我介绍 :)*
+> *谢谢你在百忙之中耐心看完 :)*

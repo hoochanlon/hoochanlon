@@ -2,15 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>About Myself — Chanlon Hoo</title>
-    <meta name="keywords" content="简介">
-    <meta name="description" content="模拟终端的简介面板">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 元信息将由 config.js 动态设置 -->
+    <title>Loading...</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <script src="./config.js"></script>
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="./typing/typing.js"></script>
     <link rel="stylesheet" href="./typing/typing.css">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="./css/crt-terminal.css">
+    <style id="dynamic-theme">
+        /* 主题样式将由配置动态注入 */
+    </style>
 </head>
 <body>
     <!-- CRT 屏幕容器 -->
@@ -27,96 +33,242 @@
     
     <script src="matrix.js"></script>
     <script>
-        // 预加载背景图片
-        const bgImage = new Image();
-        bgImage.src = './assets/imgs/monitor.jpg';
-        
-        bgImage.onload = function() {
-            // 图片加载完成，显示 CRT 屏幕
-            document.getElementById('crt-screen').style.transition = 'opacity 300ms';
-            document.getElementById('crt-screen').style.opacity = '1';
+        /**
+         * 终端应用主控制器
+         * 根据 TerminalConfig 统一管理所有功能模块
+         */
+        (function() {
+            var config = window.TerminalConfig || {};
+            var matrixEffect;
+            var currentTyping = null;
+            var isPaused = false;
+            var lastScrollHeight = 0;
             
-            // 初始化字幕雨和内容加载
-            initContent();
-        };
-        
-        bgImage.onerror = function() {
-            // 图片加载失败也显示内容
-            document.getElementById('crt-screen').style.opacity = '1';
-            initContent();
-        };
-        
-        function initContent() {
-            // 字幕雨效果控制
-            let matrixCanvas = document.getElementById('matrix');
-            let showingMatrix = false;
-            
-            function startMatrix() {
-                showingMatrix = true;
-                matrixCanvas.style.opacity = '0.3';
+            // 应用元信息
+            function applyMetadata() {
+                var meta = config.meta || {};
+                document.title = meta.title || 'Terminal';
+                document.querySelector('meta[name="description"]').content = meta.description || '';
+                document.querySelector('meta[name="keywords"]').content = meta.keywords || '';
             }
             
-            function stopMatrix() {
-                showingMatrix = false;
-                matrixCanvas.style.opacity = '0';
+            // 应用主题样式
+            function applyTheme() {
+                var theme = config.theme || {};
+                var style = document.getElementById('dynamic-theme');
+                var css = `
+                    body {
+                        background-color: ${theme.backgroundColor || '#0a0a0a'};
+                        color: ${theme.textColor || '#00ff00'};
+                        font-family: ${theme.font?.family || 'Courier New, monospace'};
+                        font-size: ${theme.font?.size || '16px'};
+                        line-height: ${theme.font?.lineHeight || '1.6'};
+                    }
+                    #output a {
+                        color: ${theme.linkColor || '#00ff88'};
+                    }
+                    .typing-cursor {
+                        color: ${theme.primaryColor || '#00ff00'};
+                    }
+                `;
+                style.textContent = css;
             }
             
-            // 加载 Markdown 文件
-            fetch('content.md')
-                .then(response => response.text())
-                .then(markdown => {
-                    // 显示字幕雨效果
-                    startMatrix();
-                    
-                    // 分割登录和主内容
-                    const parts = markdown.split('---');
-                    const loginSection = parts[0].replace('# 登录信息\n', '').trim();
-                    const mainSection = parts[1].replace('# 主要内容\n', '').trim();
-                    
-                    // 创建隐藏的源内容容器
-                    const loginSource = document.createElement('div');
-                    loginSource.id = 'login-source';
-                    loginSource.style.display = 'none';
-                    loginSource.innerHTML = loginSection.replace(/\n/g, '<br>');
-                    document.body.appendChild(loginSource);
-                    
-                    const mainSource = document.createElement('div');
-                    mainSource.id = 'main-source';
-                    mainSource.style.display = 'none';
-                    // 渲染 Markdown 为 HTML
-                    mainSource.innerHTML = marked.parse(mainSection);
-                    document.body.appendChild(mainSource);
-                    
-                    // 4秒后开始打字效果
-                    setTimeout(function() {
-                        // 停止字幕雨
-                        stopMatrix();
-                        
-                        // 阶段一：显示登录过程
-                        const loginTyping = new Typing({
-                            source: document.getElementById('login-source'),
-                            output: document.getElementById('output'),
-                            delay: 50,
-                            done: function() {
-                                setTimeout(function() {
-                                    document.getElementById('output').innerHTML = '';
-                                    
-                                    // 阶段二：显示主内容
-                                    const mainTyping = new Typing({
-                                        source: document.getElementById('main-source'),
-                                        output: document.getElementById('output'),
-                                        delay: 30
-                                    });
-                                    mainTyping.start();
-                                }, 1000);
-                            }
+            // 应用光标样式
+            function applyCursorStyle() {
+                var cursor = config.typing?.cursor || {};
+                var cursorElem = document.querySelector('.typing-cursor');
+                if (cursorElem) {
+                    cursorElem.textContent = cursor.char || '■';
+                    if (cursor.blinkSpeed) {
+                        cursorElem.style.animation = `blink ${cursor.blinkSpeed}ms infinite`;
+                    }
+                }
+            }
+            
+            // 自动滚动功能
+            function setupAutoScroll() {
+                if (!config.autoScroll?.enabled) return;
+                
+                var output = document.getElementById('output');
+                var threshold = config.autoScroll.threshold || 100;
+                var behavior = config.autoScroll.behavior || 'smooth';
+                
+                var observer = new MutationObserver(function() {
+                    var currentHeight = output.scrollHeight;
+                    if (currentHeight - lastScrollHeight > threshold) {
+                        window.scrollTo({
+                            top: document.body.scrollHeight,
+                            behavior: behavior
                         });
+                        lastScrollHeight = currentHeight;
+                    }
+                });
+                
+                observer.observe(output, { childList: true, subtree: true });
+            }
+            
+            // 交互功能：暂停/恢复/跳过
+            function setupInteraction() {
+                var interaction = config.interaction || {};
+                
+                document.addEventListener('keydown', function(e) {
+                    if (!currentTyping) return;
+                    
+                    // 空格键暂停/恢复
+                    if (e.code === 'Space' && interaction.allowPause) {
+                        e.preventDefault();
+                        if (isPaused) {
+                            currentTyping.resume();
+                            isPaused = false;
+                        } else {
+                            currentTyping.pause();
+                            isPaused = true;
+                        }
+                    }
+                    
+                    // ESC 键跳过
+                    if (e.code === 'Escape' && interaction.allowSkip) {
+                        // 实现跳过逻辑（直接显示所有内容）
+                        if (currentTyping) {
+                            currentTyping.pause();
+                        }
+                    }
+                });
+                
+                // 返回顶部按钮
+                if (interaction.showBackToTop) {
+                    var threshold = interaction.backToTopThreshold || 500;
+                    window.addEventListener('scroll', function() {
+                        // 可以在这里添加返回顶部按钮的显示逻辑
+                    });
+                }
+            }
+            
+            // 初始化
+            function init() {
+                applyMetadata();
+                applyTheme();
+                applyCursorStyle();
+                setupAutoScroll();
+                setupInteraction();
+                
+                // 初始化 Matrix 效果
+                matrixEffect = MatrixEffect;
+                matrixEffect.init(config.matrix || {});
+                
+                // 预加载背景图片
+                var bgImage = new Image();
+                bgImage.src = './assets/imgs/monitor.jpg';
+                
+                bgImage.onload = bgImage.onerror = function() {
+                    var screen = document.getElementById('crt-screen');
+                    screen.style.transition = 'opacity 300ms';
+                    screen.style.opacity = '1';
+                    loadContent();
+                };
+            }
+            
+            // 加载内容
+            function loadContent() {
+                var contentConfig = config.content || {};
+                var typingConfig = config.typing || {};
+                
+                // 如果启用了无障碍模式，禁用打字效果
+                if (config.accessibility?.reduceMotion) {
+                    typingConfig.enabled = false;
+                }
+                
+                fetch(contentConfig.source || 'content.md')
+                    .then(response => response.text())
+                    .then(markdown => {
+                        // 启动 Matrix 效果（如果配置了）
+                        if (matrixEffect.isEnabled()) {
+                            matrixEffect.start();
+                        }
                         
-                        loginTyping.start();
-                    }, 4000);
-                })
-                .catch(error => console.error('Error loading markdown:', error));
-        }
+                        // 分割内容
+                        var separator = contentConfig.separator || '---';
+                        var parts = markdown.split(separator);
+                        var loginHeader = contentConfig.loginHeader || '# 登录信息';
+                        var mainHeader = contentConfig.mainHeader || '# 主要内容';
+                        
+                        var loginSection = parts[0].replace(loginHeader + '\n', '').trim();
+                        var mainSection = parts[1].replace(mainHeader + '\n', '').trim();
+                        
+                        // 创建隐藏的源内容容器
+                        var loginSource = document.createElement('div');
+                        loginSource.id = 'login-source';
+                        loginSource.style.display = 'none';
+                        loginSource.innerHTML = loginSection.replace(/\n/g, '<br>');
+                        document.body.appendChild(loginSource);
+                        
+                        var mainSource = document.createElement('div');
+                        mainSource.id = 'main-source';
+                        mainSource.style.display = 'none';
+                        mainSource.innerHTML = marked.parse(mainSection);
+                        document.body.appendChild(mainSource);
+                        
+                        // 延迟后开始打字效果
+                        setTimeout(function() {
+                            matrixEffect.stop();
+                            startTyping();
+                        }, 4000);
+                    })
+                    .catch(error => {
+                        if (config.debug?.consoleLog) {
+                            console.error('Error loading content:', error);
+                        }
+                    });
+            }
+            
+            // 开始打字效果
+            function startTyping() {
+                var typingConfig = config.typing || {};
+                var output = document.getElementById('output');
+                
+                // 如果禁用打字效果，直接显示全部内容
+                if (!typingConfig.enabled) {
+                    var loginSource = document.getElementById('login-source');
+                    var mainSource = document.getElementById('main-source');
+                    output.innerHTML = loginSource.innerHTML + '<br><br>' + mainSource.innerHTML;
+                    return;
+                }
+                
+                // 阶段一：登录信息
+                currentTyping = new Typing({
+                    source: document.getElementById('login-source'),
+                    output: output,
+                    delay: typingConfig.loginSpeed || 50,
+                    done: function() {
+                        var pauseDuration = typingConfig.loginPauseDuration || 1000;
+                        setTimeout(function() {
+                            output.innerHTML = '';
+                            
+                            // 阶段二：主内容
+                            currentTyping = new Typing({
+                                source: document.getElementById('main-source'),
+                                output: output,
+                                delay: typingConfig.mainSpeed || 30,
+                                done: function() {
+                                    currentTyping = null;
+                                }
+                            });
+                            currentTyping.start();
+                        }, pauseDuration);
+                    }
+                });
+                
+                currentTyping.start();
+            }
+            
+            // 页面加载完成后初始化
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
     </script>
 </body>
 </html>
