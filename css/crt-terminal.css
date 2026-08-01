@@ -21,11 +21,12 @@ body {
 #crt-screen {
     position: fixed;
     /* 基于 2560x1440 图片居中，计算屏幕绝对位置 */
-    top: calc(50vh - 465px + 109px);   /* 视口中心 - 图片半高 + 屏幕top偏移 */
-    left: calc(50vw - 1085px + 714px); /* 视口中心 - 图片半宽 + 屏幕left偏移 */
-    width: 714px;   /* 你调整好的宽度 */
-    height: 526px;  /* 你调整好的高度 */
+    top: calc(50vh - 465px + 122px);   /* 视口中心 - 图片半高 + 屏幕top偏移 */
+    left: calc(50vw - 1085px + 740px); /* 视口中心 - 图片半宽 + 屏幕left偏移 */
+    width: 687px;   /* 你调整好的宽度 */
+    height: 490px;  /* 你调整好的高度 */
     
+    /* background: #0a0a; */
     background: #0a0a0a;
     overflow: hidden;
     border-radius: 3px;
