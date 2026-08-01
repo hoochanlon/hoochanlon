@@ -1,0 +1,82 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS 缩略图
+._*
+
+# macOS 文件夹属性
+.Spotlight-V100
+.Trashes
+
+# 编辑器和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Cursor 相关
+.cursor/
+.cursor-local-assistant-v2/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+*-old.*
+*-backup.*
+
+# 测试和调试文件
+test-*.html
+debug-*.html
+*-test.html
+*-debug.html
+
+# 构建输出
+dist/
+build/
+*.min.js
+*.min.css
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 私密文件
+secrets/
+private/
+*.pem
+*.key
+
+# 音频文件（如果太大）
+# assets/music/*.mp3
+# assets/music/*.wav
+
+# 图片缓存
+*.cache
+
+# 文档草稿
+*-draft.md
+*-todo.md
+scratch/
+
+# OS 或编辑器生成的文件
+Thumbs.db
+Desktop.ini
