@@ -410,6 +410,7 @@
         
         console.log('Starting login typing...');
         
+        // 移除光标（稍后 Typing 会在打字时重新添加）
         if (cursor && cursor.parentNode) {
             cursor.parentNode.removeChild(cursor);
         }
@@ -417,9 +418,8 @@
         if (typingConfig.enabled === false) {
             var loginSource = document.getElementById('login-source');
             output.innerHTML = loginSource.innerHTML;
-            // 跳过打字，直接显示 Matrix 后显示内容
             setTimeout(function() {
-                output.innerHTML = '';  // 清空登录信息
+                output.innerHTML = '';
                 showMatrixThenContent();
             }, 1000);
             return;
@@ -434,9 +434,12 @@
                 console.log('Login typing done');
                 var pauseDuration = typingConfig.loginPauseDuration || 1000;
                 setTimeout(function() {
-                    // 清空登录信息
+                    // 清空内容时保存光标
+                    var currentCursor = document.querySelector('.typing-cursor');
+                    if (currentCursor && currentCursor.parentNode) {
+                        currentCursor.parentNode.removeChild(currentCursor);
+                    }
                     output.innerHTML = '';
-                    // 然后启动 Matrix
                     showMatrixThenContent();
                 }, pauseDuration);
             }
@@ -465,11 +468,19 @@
     function startMainContent() {
         var typingConfig = config.typing || {};
         var output = document.getElementById('output');
-        var cursor = document.querySelector('.typing-cursor');
         
-        if (cursor && cursor.parentNode) {
+        // 重新获取或创建光标
+        var cursor = document.querySelector('.typing-cursor');
+        if (!cursor) {
+            // 如果光标不存在，创建一个新的
+            cursor = document.createElement('span');
+            cursor.className = 'typing-cursor';
+            cursor.textContent = config.typing?.cursor?.char || '■';
+        } else if (cursor.parentNode) {
+            // 如果光标存在且在 DOM 中，移除它
             cursor.parentNode.removeChild(cursor);
         }
+        
         output.innerHTML = '';
         
         if (typingConfig.enabled === false) {
