@@ -131,7 +131,7 @@ const TerminalConfig = {
     
     // 滚动条配置
     scrollbar: {
-      visible: true,         // 是否显示滚动条
+      visible: false,         // 是否显示滚动条
       width: '10px',         // 滚动条宽度
       trackColor: 'rgba(0, 0, 0, 0.5)',           // 轨道颜色
       thumbColor: 'rgba(0, 255, 2, 0.4)',         // 滑块颜色
