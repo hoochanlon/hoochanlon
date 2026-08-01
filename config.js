@@ -53,7 +53,7 @@ const TerminalConfig = {
   // ==================== Matrix 字幕雨 ====================
   matrix: {
     // 是否启用 Matrix 效果
-    enabled: false,
+    enabled: true,
     
     // 字符集（可自定义）
     charset: '01',
@@ -128,18 +128,27 @@ const TerminalConfig = {
       size: '16px',
       lineHeight: '1.6',
     },
+    
+    // 滚动条配置
+    scrollbar: {
+      visible: true,         // 是否显示滚动条
+      width: '10px',         // 滚动条宽度
+      trackColor: 'rgba(0, 0, 0, 0.5)',           // 轨道颜色
+      thumbColor: 'rgba(0, 255, 2, 0.4)',         // 滑块颜色
+      thumbHoverColor: 'rgba(0, 255, 2, 0.6)',    // 滑块悬停颜色
+    },
   },
 
   // ==================== 交互行为 ====================
   interaction: {
     // 是否允许用户暂停动画（按空格键）
-    allowPause: true,
+    allowPause: false,
     
     // 是否允许用户跳过动画（按 ESC 键）
-    allowSkip: true,
+    allowSkip: false,
     
     // 是否在动画完成后显示返回顶部按钮
-    showBackToTop: true,
+    showBackToTop: false,
     
     // 返回顶部按钮出现的滚动距离（像素）
     backToTopThreshold: 500,
@@ -174,4 +183,9 @@ const TerminalConfig = {
 // 导出配置（支持 ES6 模块和传统脚本）
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = TerminalConfig;
+}
+
+// 浏览器环境下暴露到全局
+if (typeof window !== 'undefined') {
+  window.TerminalConfig = TerminalConfig;
 }
