@@ -2,9 +2,11 @@
 
 ![](https://t.mwm.moe/fj)
 ![ ](https://lipsum.app/random/1600x900)
+![](https://api.timelessq.com/bing/random)
+
 -->
 
-![](https://api.timelessq.com/bing/random)
+<img width="1408" height="792" src="https://github.com/user-attachments/assets/a9f18e9c-1c4f-4596-a283-ec0f79943e69" />
 
 <div align="center">
 <a href="https://hoochanlon.github.io/hoochanlon">https://hoochanlon.github.io/hoochanlon</a>
