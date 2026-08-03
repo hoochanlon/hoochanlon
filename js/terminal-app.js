@@ -497,6 +497,13 @@
             done: function() {
                 console.log('Main content typing done');
                 currentTyping = null;
+                
+                // 优先级：自动跳转 > 自动循环
+                if (AutoRedirect.isEnabled()) {
+                    AutoRedirect.start();
+                } else {
+                    AutoLoop.start();
+                }
             }
         });
         
@@ -516,6 +523,23 @@
         // 初始化 Matrix 效果
         matrixEffect = MatrixEffect;
         matrixEffect.init(config.matrix || {});
+        
+        // 初始化自动循环控制器
+        var autoLoopConfig = config.typing?.autoLoop || {};
+        AutoLoop.init(autoLoopConfig, function() {
+            // 重启回调：清空内容并重新开始
+            var output = document.getElementById('output');
+            var currentCursor = document.querySelector('.typing-cursor');
+            if (currentCursor && currentCursor.parentNode) {
+                currentCursor.parentNode.removeChild(currentCursor);
+            }
+            output.innerHTML = '';
+            startLoginTyping();
+        });
+        
+        // 初始化自动跳转控制器
+        var autoRedirectConfig = config.typing?.autoRedirect || {};
+        AutoRedirect.init(autoRedirectConfig);
         
         // 预加载背景图片
         var bgImage = new Image();
