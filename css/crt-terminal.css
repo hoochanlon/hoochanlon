@@ -12,15 +12,26 @@
 }
 
 
-body {
-    background: url('../assets/imgs/monitor.jpg') no-repeat center center fixed;
-    background-size: auto;
-    overflow: auto;
-    height: 100vh;
+/* 背景壁纸层 - 固定在视口，不参与文档流 */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+    background: url('../assets/imgs/monitor.jpg') no-repeat center center;
+    background-size: auto;
+    z-index: -1;
+    pointer-events: none;
+}
+
+body {
+    /* 移除背景，改为透明 */
+    background: transparent;
+    overflow: auto;
+    min-height: 100vh;
+    width: 100vw;
 }
 
 /* CRT 屏幕容器 - 增强立体质感 - 使用固定像素值 */
