@@ -48,6 +48,22 @@ const TerminalConfig = {
       char: '■',        // 光标字符
       blinkSpeed: 500,  // 闪烁速度（毫秒）
     },
+    
+    // 自动循环播放
+    autoLoop: {
+      enabled: true,           // 是否启用自动循环（与 autoRedirect 互斥，二选一）
+      delayAfterComplete: 5000, // 内容播放完成后等待多久重新开始（毫秒）
+    },
+    
+    // 自动跳转
+    autoRedirect: {
+      enabled: false,                           // 是否启用自动跳转（与 autoLoop 互斥，二选一）
+      url: 'https://github.com/hoochanlon',    // 跳转目标 URL
+      delay: 10000,                             // 内容播放完成后等待多久跳转（毫秒）
+      openInNewTab: false,                      // 是否在新标签页打开（true=新标签，false=当前页跳转）
+      showCountdown: true,                      // 是否显示倒计时提示
+      countdownText: '将在 {seconds} 秒后跳转...', // 倒计时文本（{seconds} 会被替换为秒数）
+    },
   },
 
   // ==================== Matrix 字幕雨 ====================
