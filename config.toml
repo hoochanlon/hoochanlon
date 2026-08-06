@@ -2,7 +2,7 @@ baseURL = "https://hoochanlon.github.io/hoochanlon/"
 defaultContentLanguage = "zh-cn"
 theme = "lynx-dev"
 
-title = "Chanlon Hoo"
+title = "Hoochanlon"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
@@ -13,15 +13,16 @@ disableKinds = ["taxonomy", "term"]
     languageName = "简体中文"
 
 [params.author]
-  name = "Chanlon Hoo"
-  headline = "开发者 & 极客"
+  name = "Hoochanlon"
+  headline = "带砖底层劳工/内容生产者"
   image = "img/author.jpg"  # 使用头像
 
   links = [
-    { crt = { href = "/hcl/index.html", text = "🖥️ CRT Terminal", target = "_self" } },
-    { link = { href = "/styles/", text = "📋 链接样式展示", target = "_self" } },
-    { github = "https://github.com/hoochanlon"},
-    { email = "mailto:hoochanlon@outlok.com"},
+#   { link = { href = "/styles/", text = "链接样式展示", target = "_self" } },
+    { github = { href = "https://github.com/hoochanlon", text = "github", target = "_self" }},
+    { email = { href = "mailto:hoochanlon@outlok.com", text = "email", target = "_self" }},
+    { crt = { href = "/hcl/index.html", text = "CRT Style", target = "_self" } },
+    { google = { href = "https://google.com", text = "google", target = "_self" }},
   ]
 
 [markup.highlight]

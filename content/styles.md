@@ -2,11 +2,10 @@
 title: 链接样式展示
 ---
 
-这里展示了 Lynx 主题所有内置的链接样式。你也可以创建自己的自定义样式。
 <br><br>
 
 </section>
-<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0">
+<section class="link-grid">
 {{< link email >}}
 {{< link link >}}
 {{< link github >}}
@@ -23,7 +22,6 @@ title: 链接样式展示
 {{< link whatsapp >}}
 {{< link reddit >}}
 {{< link medium >}}
-{{< link dev >}}
 {{< link codepen >}}
 {{< link dribbble >}}
 {{< link spotify >}}

@@ -3,13 +3,13 @@
   "short_name": "无声的多数",
   "icons": [
     {
-      "src": "/favicon/android-chrome-512x512.png",
+      "src": "android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon/favicon-48x48.png",
+      "src": "favicon-48x48.png",
       "sizes": "48x48",
       "type": "image/png",
       "purpose": "any"
