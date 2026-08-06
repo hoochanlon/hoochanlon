@@ -1,5 +1,6 @@
 #!/bin/bash
 # Hugo 本地开发服务器启动脚本
+# ./dev-server.sh
 
 PORT=1315
 
