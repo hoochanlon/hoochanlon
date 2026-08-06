@@ -6,18 +6,16 @@
         {{ . | emojify | markdownify }}
       {{- else }}
         &copy;
-        {{ now.Format "2006" }}
+        2018 - {{ now.Format "2006" }}
         {{ .Site.Params.author.name | markdownify | emojify }}
       {{- end }}
     </p>
-    {{/* Theme attribution */}}
     {{ if .Site.Params.attribution | default true }}
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
-        }}
-        {{ $lynx := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-lynx" target="_blank" rel="noopener noreferrer">Lynx</a>` }}
-        {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Lynx" $lynx) | safeHTML }}
+      <p class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+        Powered by
+        <a class="hover:text-primary-500 hover:underline hover:decoration-primary-400" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>
+        &amp;
+        <a class="hover:text-primary-500 hover:underline hover:decoration-primary-400" href="https://git.io/hugo-lynx" target="_blank" rel="noopener noreferrer">Lynx</a>
       </p>
     {{ end }}
   </div>
