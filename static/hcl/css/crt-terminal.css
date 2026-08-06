@@ -1,0 +1,452 @@
+/* CRT Terminal Style - Classic retro terminal effect */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge */
+
+}
+
+
+/* 背景壁纸层 - 固定在视口，不参与文档流 */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/imgs/monitor.jpg') no-repeat center center;
+    background-size: auto;
+    z-index: -1;
+    pointer-events: none;
+}
+
+body {
+    /* 移除背景，改为透明 */
+    background: transparent;
+    overflow: auto;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+/* 移动端背景适配 */
+@media (max-width: 768px) {
+    /* 移动端隐藏显示器壁纸，改用纯色背景 */
+    body::before {
+        display: none;
+    }
+    
+    body {
+        background: #000000;
+    }
+}
+
+/* CRT 屏幕容器 - 增强立体质感 - 使用固定像素值 */
+#crt-screen {
+    position: fixed;
+    /* 基于 2560x1440 图片居中，计算屏幕绝对位置 */
+    top: calc(50vh - 465px + 122px);   /* 视口中心 - 图片半高 + 屏幕top偏移 */
+    left: calc(50vw - 1085px + 740px); /* 视口中心 - 图片半宽 + 屏幕left偏移 */
+    width: 687px;   /* 你调整好的宽度 */
+    height: 490px;  /* 你调整好的高度 */
+    
+    /* background: #0a0a; */
+    background: #0a0a0a;
+    overflow: hidden;
+    border-radius: 3px;
+    transform: perspective(1000px) rotateX(0.5deg);
+    transform-style: preserve-3d;
+    
+    /* 增强玻璃质感的多层阴影 */
+    box-shadow: 
+        inset 0 0 120px rgba(0, 0, 0, 0.95),
+        inset 0 0 60px rgba(0, 40, 0, 0.4),
+        inset 0 2px 4px rgba(0, 255, 2, 0.1),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.8),
+        0 0 30px rgba(0, 255, 2, 0.15);
+    
+    /* 屏幕边框内发光 */
+    border: 1px solid rgba(0, 255, 2, 0.1);
+}
+
+/* 移动端响应式适配 */
+@media (max-width: 768px) {
+    #crt-screen {
+        /* 移动端完全全屏显示 */
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: none;
+        
+        width: 100vw;
+        height: 100vh;
+        
+        margin: 0;
+        border-radius: 0;
+        
+        /* 移除模拟边框，保持原有内部效果 */
+        box-shadow: 
+            inset 0 0 120px rgba(0, 0, 0, 0.95),
+            inset 0 0 60px rgba(0, 40, 0, 0.4),
+            inset 0 2px 4px rgba(0, 255, 2, 0.1),
+            inset 0 -2px 4px rgba(0, 0, 0, 0.8),
+            0 0 30px rgba(0, 255, 2, 0.15);
+        
+        /* 移除 border */
+        border: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #crt-screen {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
+
+/* CRT 玻璃曲面反光效果 */
+#crt-screen::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* 扫描线效果 */
+    background: 
+        repeating-linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.15) 1px,
+            transparent 1px,
+            transparent 2px
+        ),
+        /* 玻璃曲面高光 */
+        radial-gradient(
+            ellipse at 30% 20%,
+            rgba(255, 255, 255, 0.08) 0%,
+            transparent 40%
+        ),
+        /* 边缘反光 */
+        linear-gradient(
+            90deg,
+            rgba(0, 255, 2, 0.03) 0%,
+            transparent 10%,
+            transparent 90%,
+            rgba(0, 255, 2, 0.03) 100%
+        );
+    
+    pointer-events: none;
+    z-index: 2;
+    
+    /* 增加玻璃曲面感 */
+    border-radius: 3px;
+}
+
+/* 屏幕闪烁效果 - 增强 */
+#crt-screen::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+    z-index: 2;
+    mix-blend-mode: overlay;
+}
+
+/* CRT 内容区 */
+#crt-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+    color: #00FF33;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    /* 增强文字发光效果 - 调亮 */
+    text-shadow: 
+        0 0 2px #00FF33,
+        0 0 4px #00FF33,
+        0 0 8px #00FF33,
+        0 0 12px rgba(0, 255, 51, 0.8),
+        0 0 20px rgba(0, 255, 51, 0.4);
+    
+    animation: textFlicker 0.01s infinite;
+    transform: perspective(500px) rotateY(0deg);
+    
+    /* 屏幕内容增加亮度和对比度 */
+    filter: contrast(1.2) brightness(1.15);
+}
+
+/* 移动端字体和间距优化 */
+@media (max-width: 768px) {
+    #crt-content {
+        padding: 15px;
+        font-size: 13px;
+    }
+    
+    #crt-content p {
+        margin-bottom: 8px;
+    }
+    
+    #crt-content h2 {
+        margin-top: 12px;
+        margin-bottom: 8px;
+        font-size: 1.3em;
+    }
+    
+    #crt-content ul,
+    #crt-content ol {
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #crt-content {
+        padding: 12px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    #crt-content h2 {
+        font-size: 1.2em;
+    }
+}
+
+/* 字幕雨仅覆盖 CRT 内容区，不参与页面级定位 */
+#matrix {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-out;
+    z-index: 0;
+}
+
+#output-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+#output {
+    display: inline;
+}
+
+.typing-cursor {
+    display: inline;
+}
+
+/* 屏幕边缘渐变 - 增强立体感 */
+#crt-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* 减弱边缘暗化，让屏幕更亮 */
+    background: 
+        radial-gradient(
+            ellipse at center,
+            transparent 50%,
+            rgba(0, 0, 0, 0.2) 75%,
+            rgba(0, 0, 0, 0.5) 100%
+        ),
+        /* 顶部和底部边缘轻微暗化 */
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.15) 0%,
+            transparent 15%,
+            transparent 85%,
+            rgba(0, 0, 0, 0.15) 100%
+        );
+    
+    pointer-events: none;
+    z-index: 3;
+    border-radius: 3px;
+}
+
+/* 增强闪烁动画 */
+@keyframes flicker {
+    0% { opacity: 0.27861; }
+    5% { opacity: 0.34769; }
+    10% { opacity: 0.23604; }
+    15% { opacity: 0.90626; }
+    20% { opacity: 0.18128; }
+    25% { opacity: 0.83891; }
+    30% { opacity: 0.65583; }
+    35% { opacity: 0.67807; }
+    40% { opacity: 0.26559; }
+    45% { opacity: 0.84693; }
+    50% { opacity: 0.96019; }
+    55% { opacity: 0.08594; }
+    60% { opacity: 0.20313; }
+    65% { opacity: 0.71988; }
+    70% { opacity: 0.53455; }
+    75% { opacity: 0.37288; }
+    80% { opacity: 0.71428; }
+    85% { opacity: 0.70419; }
+    90% { opacity: 0.7003; }
+    95% { opacity: 0.36108; }
+    100% { opacity: 0.24387; }
+}
+
+@keyframes textFlicker {
+    0% { opacity: 0.98; }
+    2% { opacity: 0.96; }
+    4% { opacity: 0.98; }
+    19% { opacity: 0.97; }
+    21% { opacity: 0.96; }
+    23% { opacity: 0.98; }
+    80% { opacity: 0.99; }
+    83% { opacity: 0.98; }
+    87% { opacity: 0.99; }
+}
+
+/* Content Styling */
+blink {
+    display: inline;        
+} 
+
+#source,
+#login-source,
+#main-source {
+    display: none;
+}
+
+/* 修复列表缩进问题 */
+#crt-content ul,
+#crt-content ol {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+#crt-content ul li,
+#crt-content ol li {
+    margin-bottom: 5px;
+}
+
+#crt-content p {
+    margin-bottom: 10px;
+}
+
+#crt-content h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00DDFF;
+    text-decoration: none;
+    border-bottom: 1px dashed #00DDFF;
+    
+    /* 链接发光效果 - 调亮 */
+    text-shadow: 
+        0 0 2px #00DDFF,
+        0 0 5px #00DDFF,
+        0 0 10px rgba(0, 221, 255, 0.6);
+}
+
+a:hover {
+    color: #33EEFF;
+    border-bottom: 1px solid #33EEFF;
+    
+    /* 悬停时增强发光 */
+    text-shadow: 
+        0 0 3px #33EEFF,
+        0 0 8px #33EEFF,
+        0 0 15px rgba(51, 238, 255, 0.8);
+}
+
+/* 移动端链接优化 - 增大点击区域 */
+@media (max-width: 768px) {
+    a {
+        padding: 2px 0;
+        display: inline-block;
+    }
+}
+
+/* 滚动条样式 - 增强质感 */
+#crt-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+#crt-content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+#crt-content::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 2, 0.4);
+    border-radius: 5px;
+    box-shadow: 
+        inset 0 0 5px rgba(0, 255, 2, 0.6),
+        0 0 5px rgba(0, 255, 2, 0.3);
+}
+
+#crt-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 255, 2, 0.6);
+    box-shadow: 
+        inset 0 0 5px rgba(0, 255, 2, 0.8),
+        0 0 8px rgba(0, 255, 2, 0.5);
+}
+
+/* 移动端滚动条优化 */
+@media (max-width: 768px) {
+    #crt-content::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    /* 移动端触摸滚动优化 */
+    #crt-content {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* 移动端禁止文本选择可能导致的交互问题 */
+    body {
+        touch-action: pan-y;
+    }
+    
+    /* 移动端减少动画性能消耗 */
+    #crt-screen::after {
+        animation: flicker 0.3s infinite;
+    }
+    
+    #crt-content {
+        animation: textFlicker 0.05s infinite;
+    }
+}
+
+/* 横屏小屏幕优化 */
+@media (max-height: 500px) and (orientation: landscape) {
+    #crt-screen {
+        height: 75vh;
+        min-height: 280px;
+        max-height: 80vh;
+        width: 70vw;
+    }
+    
+    #crt-content {
+        padding: 10px;
+        font-size: 11px;
+    }
+}
+

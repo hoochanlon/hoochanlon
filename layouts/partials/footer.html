@@ -1,0 +1,57 @@
+<footer class="py-10">
+  <div class="text-center">
+    {{/* Copyright */}}
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      {{- with .Site.Copyright }}
+        {{ . | emojify | markdownify }}
+      {{- else }}
+        &copy;
+        {{ now.Format "2006" }}
+        {{ .Site.Params.author.name | markdownify | emojify }}
+      {{- end }}
+    </p>
+    {{/* Theme attribution */}}
+    {{ if .Site.Params.attribution | default true }}
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+        }}
+        {{ $lynx := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-lynx" target="_blank" rel="noopener noreferrer">Lynx</a>` }}
+        {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Lynx" $lynx) | safeHTML }}
+      </p>
+    {{ end }}
+  </div>
+  <button id="theme-toggle" type="button" aria-label="切换到深色模式" title="切换深色模式">
+    <img
+      class="theme-toggle-icon"
+      src="{{ "icon/moon.svg" | relURL }}"
+      data-light-icon="{{ "icon/moon.svg" | relURL }}"
+      data-dark-icon="{{ "icon/sun.svg" | relURL }}"
+      alt=""
+      aria-hidden="true"
+    />
+  </button>
+  <script>
+    (() => {
+      const key = "color-theme";
+      const root = document.documentElement;
+      const button = document.getElementById("theme-toggle");
+      const icon = button.querySelector(".theme-toggle-icon");
+      const systemTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      const selectedTheme = () => localStorage.getItem(key) || systemTheme();
+      const render = (theme) => {
+        root.classList.toggle("dark", theme === "dark");
+        icon.src = theme === "dark" ? icon.dataset.darkIcon : icon.dataset.lightIcon;
+        button.setAttribute("aria-label", theme === "dark" ? "切换到浅色模式" : "切换到深色模式");
+        button.title = button.getAttribute("aria-label");
+      };
+
+      render(selectedTheme());
+      button.addEventListener("click", () => {
+        const nextTheme = root.classList.contains("dark") ? "light" : "dark";
+        localStorage.setItem(key, nextTheme);
+        render(nextTheme);
+      });
+    })();
+  </script>
+</footer>
