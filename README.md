@@ -6,12 +6,15 @@
 
 -->
 
-> <ruby>命<rt>いのち</rt></ruby>は<ruby>美<rt>うつく</rt></ruby>しい <ruby>初<rt>はじ</rt></ruby>めて<ruby>気<rt>き</rt></ruby>づいた<ruby>日<rt>ひ</rt></ruby>から<br>
-> すべてのその<ruby>悲<rt>かな</rt></ruby>しみ <ruby>消<rt>き</rt></ruby>えて<ruby>行<rt>い</rt></ruby>くんだ<br>
-> <ruby>永遠<rt>えいえん</rt></ruby>ではないもの <ruby>花<rt>はな</rt></ruby>の<ruby>儚<rt>はかな</rt></ruby>さに<ruby>似<rt>に</rt></ruby>て<br>
-> その<ruby>一瞬<rt>いっしゅん</rt></ruby> <ruby>一瞬<rt>いっしゅん</rt></ruby>が <ruby>生<rt>い</rt></ruby>きてる<ruby>意味<rt>いみ</rt></ruby><br>
->
-> — 秋元康 「命は美しい」
+<div align="center">
+  <blockquote>
+    <ruby>命<rt>いのち</rt></ruby>は<ruby>美<rt>うつく</rt></ruby>しい <ruby>初<rt>はじ</rt></ruby>めて<ruby>気<rt>き</rt></ruby>づいた<ruby>日<rt>ひ</rt></ruby>から<br>
+    すべてのその<ruby>悲<rt>かな</rt></ruby>しみ <ruby>消<rt>き</rt></ruby>えて<ruby>行<rt>い</rt></ruby>くんだ<br>
+    <ruby>永遠<rt>えいえん</rt></ruby>ではないもの <ruby>花<rt>はな</rt></ruby>の<ruby>儚<rt>はかな</rt></ruby>さに<ruby>似<rt>に</rt></ruby>て<br>
+    その<ruby>一瞬<rt>いっしゅん</rt></ruby> <ruby>一瞬<rt>いっしゅん</rt></ruby>が <ruby>生<rt>い</rt></ruby>きてる<ruby>意味<rt>いみ</rt></ruby><br><br>
+    — 秋元康 「命は美しい」
+  </blockquote>
+</div>
 
 <div align="center">
 <a href="https://hoochanlon.github.io/hoochanlon">https://hoochanlon.github.io/hoochanlon</a>
