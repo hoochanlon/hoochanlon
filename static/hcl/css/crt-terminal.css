@@ -34,6 +34,18 @@ body {
     width: 100vw;
 }
 
+/* 移动端背景适配 */
+@media (max-width: 768px) {
+    /* 移动端隐藏显示器壁纸，改用纯色背景 */
+    body::before {
+        display: none;
+    }
+    
+    body {
+        background: #000000;
+    }
+}
+
 /* CRT 屏幕容器 - 增强立体质感 - 使用固定像素值 */
 #crt-screen {
     position: fixed;
@@ -60,6 +72,42 @@ body {
     
     /* 屏幕边框内发光 */
     border: 1px solid rgba(0, 255, 2, 0.1);
+}
+
+/* 移动端响应式适配 */
+@media (max-width: 768px) {
+    #crt-screen {
+        /* 移动端完全全屏显示 */
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: none;
+        
+        width: 100vw;
+        height: 100vh;
+        
+        margin: 0;
+        border-radius: 0;
+        
+        /* 移除模拟边框，保持原有内部效果 */
+        box-shadow: 
+            inset 0 0 120px rgba(0, 0, 0, 0.95),
+            inset 0 0 60px rgba(0, 40, 0, 0.4),
+            inset 0 2px 4px rgba(0, 255, 2, 0.1),
+            inset 0 -2px 4px rgba(0, 0, 0, 0.8),
+            0 0 30px rgba(0, 255, 2, 0.15);
+        
+        /* 移除 border */
+        border: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #crt-screen {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
 }
 
 /* CRT 玻璃曲面反光效果 */
@@ -142,6 +190,42 @@ body {
     
     /* 屏幕内容增加亮度和对比度 */
     filter: contrast(1.2) brightness(1.15);
+}
+
+/* 移动端字体和间距优化 */
+@media (max-width: 768px) {
+    #crt-content {
+        padding: 15px;
+        font-size: 13px;
+    }
+    
+    #crt-content p {
+        margin-bottom: 8px;
+    }
+    
+    #crt-content h2 {
+        margin-top: 12px;
+        margin-bottom: 8px;
+        font-size: 1.3em;
+    }
+    
+    #crt-content ul,
+    #crt-content ol {
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #crt-content {
+        padding: 12px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    #crt-content h2 {
+        font-size: 1.2em;
+    }
 }
 
 /* 字幕雨仅覆盖 CRT 内容区，不参与页面级定位 */
@@ -291,6 +375,14 @@ a:hover {
         0 0 15px rgba(51, 238, 255, 0.8);
 }
 
+/* 移动端链接优化 - 增大点击区域 */
+@media (max-width: 768px) {
+    a {
+        padding: 2px 0;
+        display: inline-block;
+    }
+}
+
 /* 滚动条样式 - 增强质感 */
 #crt-content::-webkit-scrollbar {
     width: 10px;
@@ -315,5 +407,46 @@ a:hover {
     box-shadow: 
         inset 0 0 5px rgba(0, 255, 2, 0.8),
         0 0 8px rgba(0, 255, 2, 0.5);
+}
+
+/* 移动端滚动条优化 */
+@media (max-width: 768px) {
+    #crt-content::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    /* 移动端触摸滚动优化 */
+    #crt-content {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* 移动端禁止文本选择可能导致的交互问题 */
+    body {
+        touch-action: pan-y;
+    }
+    
+    /* 移动端减少动画性能消耗 */
+    #crt-screen::after {
+        animation: flicker 0.3s infinite;
+    }
+    
+    #crt-content {
+        animation: textFlicker 0.05s infinite;
+    }
+}
+
+/* 横屏小屏幕优化 */
+@media (max-height: 500px) and (orientation: landscape) {
+    #crt-screen {
+        height: 75vh;
+        min-height: 280px;
+        max-height: 80vh;
+        width: 70vw;
+    }
+    
+    #crt-content {
+        padding: 10px;
+        font-size: 11px;
+    }
 }
 

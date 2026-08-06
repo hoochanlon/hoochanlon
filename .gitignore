@@ -23,6 +23,11 @@
 .cursor/
 .cursor-local-assistant-v2/
 
+# Hugo
+public/
+.hugo_build.lock
+resources/_gen/
+
 # Node.js
 node_modules/
 npm-debug.log*

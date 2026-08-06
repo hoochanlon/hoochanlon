@@ -1,0 +1,50 @@
+link:
+  amazon: Amazon
+  apple: Apple
+  bandcamp: Bandcamp
+  bluesky: Bluesky
+  codepen: CodePen
+  dev: DEV
+  discord: Discord
+  dribbble: Dribbble
+  email: Email
+  facebook: Facebook
+  flickr: Flickr
+  foursquare: Foursquare
+  github: GitHub
+  gitlab: GitLab
+  google: Google
+  instagram: Instagram
+  keybase: Keybase
+  kickstarter: Kickstarter
+  lastfm: Last.fm
+  link: "Site internet"
+  linkedin: LinkedIn
+  mastodon: Mastodon
+  medium: Medium
+  microsoft: Microsoft
+  orcid: ORCiD
+  patreon: Patreon
+  pinterest: Pinterest
+  reddit: Reddit
+  researchgate: ResearchGate
+  slack: Slack
+  snapchat: Snapchat
+  soundcloud: Soundcloud
+  spotify: Spotify
+  steam: Steam
+  telegram: Telegram
+  threads: Threads
+  tiktok: TikTok
+  tumblr: Tumblr
+  twitch: Twitch
+  twitter: Twitter
+  whatsapp: WhatsApp
+  x: 𝕏
+  youtube: YouTube
+
+# nav:
+#   home: Home
+
+footer:
+  powered_by: "Propulsé par {{ .Hugo }} &amp; {{ .Lynx }}"

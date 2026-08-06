@@ -1,0 +1,102 @@
+/* 自定义样式 - 独立色卡设计 */
+
+/* 默认 link 类型按钮 - 紫色 */
+.link-link {
+  background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%) !important;
+}
+
+.link-link:hover {
+  background: linear-gradient(135deg, #6d28d9 0%, #7c3aed 100%) !important;
+}
+
+/* CRT Terminal 专属色卡 - 绿色（终端风格） */
+.link-crt {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
+}
+
+.link-crt:hover {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%) !important;
+}
+
+/* Email 按钮 - 蓝色 */
+.link-email {
+  background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 100%) !important;
+}
+
+.link-email:hover {
+  background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%) !important;
+}
+
+/* 主题切换按钮 */
+#theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 50;
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 180ms ease;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.12);
+}
+
+#theme-toggle:focus-visible {
+  outline: 2px solid #7c3aed;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.theme-toggle-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+}
+
+.dark .theme-toggle-icon {
+  filter: invert(1);
+}
+
+/* 深色模式覆盖主题的浅色页面背景和文字 */
+.dark body {
+  background-color: #18181b;
+}
+
+.dark body,
+.dark .text-neutral-800,
+.dark .prose {
+  color: #f4f4f5;
+}
+
+.dark .text-neutral-500,
+.dark .text-neutral-400,
+.dark .prose p,
+.dark .prose li {
+  color: #d4d4d8;
+}
+
+.dark .prose strong,
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4 {
+  color: #fafafa;
+}
+
+.dark .prose a {
+  color: #93c5fd;
+}
+
+.dark .prose a:hover {
+  color: #bfdbfe;
+}
