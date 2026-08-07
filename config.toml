@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "term"]
 #   { link = { href = "/styles/", text = "链接样式展示", target = "_self" } },
     { github = { href = "https://github.com/hoochanlon", text = "github", target = "_self" }},
     { email = { href = "mailto:hoochanlon@outlok.com", text = "email", target = "_self" }},
-    { crt = { href = "/hcl/index.html", text = "Geek Style", target = "_self" } },
+    { crt = { href = "hcl/index.html", text = "Geek Style", target = "_self" } },
     { x = { href = "https://www.bilibili.com/video/BV1GJ411x7h7", text = "twitter", target = "_self" } },
     { pinterest = { href = "https://www.pinterest.com", text = "pinterest", target = "_self" } },
     { google = { href = "https://google.com", text = "google", target = "_self" }},
