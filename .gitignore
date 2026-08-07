@@ -70,9 +70,17 @@ private/
 *.pem
 *.key
 
-# 音频文件（如果太大）
-# assets/music/*.mp3
-# assets/music/*.wav
+# 音频文件
+*.mp3
+*.wav
+assets/music/
+static/hcl/assets/music/
+
+# Font Awesome 字体文件（大体积二进制）
+static/hcl/font-awesome/fonts/
+
+# 图片备份
+pictures/
 
 # 图片缓存
 *.cache
