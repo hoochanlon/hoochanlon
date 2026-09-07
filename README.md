@@ -6,6 +6,19 @@
 
 -->
 
+
+<div align="center">
+  <img alt="avatar" src="./src/images/avatar.jpg"/>
+</div>
+
+👋 **Hi**! 
+
+我是123456，一个底层带砖民工。
+
+- 什么都不会
+
+
+
 <div align="center">
   <blockquote>
     <ruby>命<rt>いのち</rt></ruby>は<ruby>美<rt>うつく</rt></ruby>しい <ruby>初<rt>はじ</rt></ruby>めて<ruby>気<rt>き</rt></ruby>づいた<ruby>日<rt>ひ</rt></ruby>から<br>
