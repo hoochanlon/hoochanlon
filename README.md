@@ -8,11 +8,12 @@
 
 <div align="center">
   <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
+  <p>一个被社达主义抛弃的底层带砖失业民工...</p>
 </div>
 
-**👋 Hi!**
 
-我是啥也不会的一个被社达主义抛弃的底层带砖失业民工...
+
+
 
 
 
