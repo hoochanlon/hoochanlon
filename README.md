@@ -8,7 +8,7 @@
 
 
 <div align="center">
-  <img alt="avatar" src="./src/images/avatar.jpg"/>
+  <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
 </div>
 
 👋 **Hi**! 
