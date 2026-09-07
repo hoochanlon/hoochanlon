@@ -10,18 +10,11 @@
   <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
 </div>
 
+**👋 Hi!**
 
-<div align="center">
-<h1>👋 Hi! </h1>
-
-我是啥也不会的一个底层带砖失业民工。
-</div>
+我是啥也不会的一个被社达主义抛弃的底层带砖失业民工...
 
 
-
-<div align="center">
-  <img alt="avatar" src="./static/stars/n46-1.png" height="240";weight:"auto"/>
-</div>
 
 
 
