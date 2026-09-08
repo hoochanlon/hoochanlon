@@ -54,3 +54,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  purge-cdn:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr CDN for holiday SVG
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/hoochanlon/hoochanlon@master/holiday/holiday-calendar.svg" \
+            | grep -q '"status": "finished"' \
+            && echo "✅ jsDelivr CDN 已刷新" \
+            || echo "⚠️  purge 未完成"
