@@ -25,6 +25,9 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Install dependencies
+        run: pip install fonttools brotli
+
       - name: Generate holiday SVG
         run: python3 holiday/generate-holiday-svg.py
 

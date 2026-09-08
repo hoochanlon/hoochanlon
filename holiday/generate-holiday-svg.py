@@ -6,8 +6,10 @@
 输出: static/img/holiday-calendar.svg
 """
 
+import base64
 import datetime
 import calendar
+import io
 import json
 import os
 import re
@@ -18,6 +20,7 @@ import urllib.error
 
 # ========== 远程数据源 ==========
 HOLIDAY_CN_URL = "https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/{year}.json"
+ORIGINAL_FONT_URL = "https://cdn.jsdelivr.net/gh/max32002/JasonHandWritingFonts@20240409/webfont/JasonHandwriting1-Regular.woff2"
 
 
 # ========== 本地缓存目录（远程拉取成功后自动保存，作为下次 fallback）==========
@@ -258,6 +261,63 @@ def render_month(target_year, target_month, x_offset, today, holiday_map):
     return "\n".join(parts), len(weeks)
 
 
+def collect_text_chars(parts):
+    """从已经渲染好的 SVG 片段中收集所有 <text> 文本字符"""
+    return "".join(re.findall(r"<text[^>]*>([^<]+)</text>", "\n".join(parts)))
+
+
+def subset_font_for_text(text):
+    """下载原始手写字体，子集化为本次用到的少量字符，返回 woff2 字节；失败返回 None"""
+    try:
+        from fontTools import subset
+    except ImportError:
+        print("  ⚠️  fontTools 未安装，无法内嵌字体（将回退到外部字体 URL）")
+        return None
+    try:
+        req = urllib.request.Request(
+            ORIGINAL_FONT_URL, headers={"User-Agent": "holiday-svg-generator"}
+        )
+        font_bytes = b""
+        last_error = None
+        for use_ssl_ctx in (True, False):
+            try:
+                ctx = ssl.create_default_context() if use_ssl_ctx else ssl._create_unverified_context()
+                with urllib.request.urlopen(req, timeout=30, context=ctx) as resp:
+                    font_bytes = resp.read()
+                break
+            except Exception as e:
+                last_error = e
+        if not font_bytes:
+            raise last_error
+        font = subset.load_font(io.BytesIO(font_bytes), subset.Options())
+        opt = subset.Options()
+        font_subset = subset.Subsetter(options=opt)
+        font_subset.populate(text=text)
+        font_subset.subset(font)
+        font.flavor = "woff2"
+        buf = io.BytesIO()
+        font.save(buf)
+        print(f"  ✅ 字体子集化完成: {len(set(text))} 字符 → {len(buf.getvalue()) / 1024:.1f} KB (woff2)")
+        return buf.getvalue()
+    except Exception as e:
+        print(f"  ⚠️  字体子集化失败: {e}（将回退到外部字体 URL）")
+        return None
+
+
+def build_font_css(font_family):
+    """构造内嵌字体的 @font-face CSS。
+    README 里 SVG 通过 <img> 渲染，浏览器不会加载外部字体 URL，必须 base64 内嵌才能生效。
+    子集化失败时回退到外部字体 URL。"""
+    embedded = f'''
+  @font-face {{
+    font-family: "{font_family}";
+    src: local("{font_family}"),
+         url("https://cdn.jsdelivr.net/gh/max32002/JasonHandWritingFonts@20240409/webfont/JasonHandwriting1-Regular.woff2") format("woff2");
+    font-display: swap;
+  }}'''
+    return embedded
+
+
 def main():
     today = datetime.date.today()
     next_month = today.month % 12 + 1
@@ -281,52 +341,19 @@ def main():
     footer_area = 24 + upcoming_lines * 20 + 56  # 图例 + 假期行 + 数据来源底部留白
     svg_h = month_height + footer_area
 
-    # ========== 加载字体分包 CSS ==========
-    FONT_CSS_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "fonts", "JasonHandwriting1-Regular")
-    JSDelivr_BASE = "https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon@master/assets/fonts/JasonHandwriting1-Regular"
-    font_css_content = ""
-    result_css_path = os.path.join(FONT_CSS_DIR, "result.css")
-    if os.path.isfile(result_css_path):
-        raw_css = open(result_css_path).read()
-        # 把 url("./xxx.woff2") 替换为 jsDelivr 绝对 URL
-        font_css_content = re.sub(
-            r'url\("\./([^"]+\.woff2)"\)',
-            lambda m: f'url("{JSDelivr_BASE}/{m.group(1)}")',
-            raw_css,
-        )
-        # cn-font-split 生成的 font-family 是 JasonHandwriting1，统一改成 JasonHandwriting1-Regular
-        font_css_content = font_css_content.replace('font-family:"JasonHandwriting1";', 'font-family:"JasonHandwriting1-Regular";')
-        print(f"  ✅ 加载分包字体 CSS: {font_css_content.count('@font-face')} 条规则")
-    else:
-        # fallback 到单个大字体文件
-        font_css_content = f'''
-  @font-face {{
-    font-family: "JasonHandwriting1-Regular";
-    src: url("https://cdn.jsdelivr.net/gh/max32002/JasonHandWritingFonts@20240409/webfont/JasonHandwriting1-Regular.woff2") format("woff2");
-    font-display: swap;
-  }}'''
-        print(f"  ⚠️  未找到 result.css，使用完整字体")
-
-    svg_parts = [
-        f'<?xml version="1.0" encoding="UTF-8"?>',
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 {svg_h}" role="img" aria-label="中国节假日日历">',
-        f'<style><![CDATA[',
-        font_css_content,
-        f'  text {{ font-family: "JasonHandwriting1-Regular", "PingFang SC", "Microsoft YaHei", sans-serif; }}',
-        f']]></style>',
-        f'<rect width="100%" height="100%" fill="{COLORS["bg"]}" />',
-    ]
+    # ========== 渲染日历正文（先不写字体样式头，渲染完后收集用到的字符再内嵌字体）==========
+    body_parts = []
 
     left_svg, rows_left = render_month(today.year, today.month, left_x, today, holiday_map)
     right_svg, rows_right = render_month(next_year, next_month, right_x, today, holiday_map)
 
-    svg_parts.append(left_svg)
-    svg_parts.append(right_svg)
+    body_parts.append(left_svg)
+    body_parts.append(right_svg)
 
     footer_y = month_height + 12
     legend_x = PADDING
 
-    svg_parts.append(f'<text x="{legend_x}" y="{footer_y}" font-size="11" fill="{COLORS["muted"]}">图例:</text>')
+    body_parts.append(f'<text x="{legend_x}" y="{footer_y}" font-size="11" fill="{COLORS["muted"]}">图例:</text>')
 
     legend_items = [
         ("放假", COLORS["holiday_bg"], COLORS["holiday_fg"]),
@@ -335,10 +362,10 @@ def main():
     ]
     lx = legend_x + 44
     for label, bg, fg in legend_items:
-        svg_parts.append(
+        body_parts.append(
             f'<rect x="{lx}" y="{footer_y - 12}" width="14" height="14" rx="3" fill="{bg}" />'
         )
-        svg_parts.append(
+        body_parts.append(
             f'<text x="{lx + 18}" y="{footer_y}" font-size="11" fill="{COLORS["text"]}">{label}</text>'
         )
         lx += 14 + len(label) * 13 + 18
@@ -351,16 +378,40 @@ def main():
             text = f"🎉 今天是 {name} 假期第一天！共 {total_days} 天"
         else:
             text = f"📅 {name} ({start.month}/{start.day}–{end.month}/{end.day}) · 还有 {days} 天 · 共 {total_days} 天"
-        svg_parts.append(
+        body_parts.append(
             f'<text x="{legend_x}" y="{cy}" font-size="13" fill="{COLORS["holiday_fg"]}" font-weight="600">{text}</text>'
         )
 
     # 数据来源（动态 y 坐标）
     source_y = count_y + upcoming_lines * 20 + 24
-    svg_parts.append(
+    body_parts.append(
         f'<text x="796" y="{source_y}" font-size="10" fill="{COLORS["muted"]}" text-anchor="end">数据来源: 国务院办公厅 {today.year}</text>'
     )
-    svg_parts.append("</svg>")
+    body_parts.append("</svg>")
+
+    # ========== 构建内嵌字体 ==========
+    # README 里 SVG 是用 <img> 渲染的，浏览器不会加载 SVG 内部 url(...) 引用的外部字体，
+    # 所以必须把子集化字体 base64 内嵌成 data URI 才能让手写字体生效。
+    font_family = "JasonHandwriting1-Regular"
+    font_css = build_font_css(font_family)
+    subset_data = subset_font_for_text(collect_text_chars(body_parts))
+    if subset_data:
+        b64 = base64.b64encode(subset_data).decode("ascii")
+        font_css = (
+            f'  @font-face {{ font-family: "{font_family}"; '
+            f'src: local("{font_family}"), url(data:font/woff2;base64,{b64}) format("woff2"); '
+            f"font-display: swap; }}"
+        )
+
+    svg_parts = [
+        f'<?xml version="1.0" encoding="UTF-8"?>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 {svg_h}" role="img" aria-label="中国节假日日历">',
+        "<style><![CDATA[",
+        font_css,
+        f'  text {{ font-family: "{font_family}", "PingFang SC", "Microsoft YaHei", sans-serif; }}',
+        "]]></style>",
+        f'<rect width="100%" height="100%" fill="{COLORS["bg"]}" />',
+    ] + body_parts
 
     svg_content = "\n".join(svg_parts)
 
