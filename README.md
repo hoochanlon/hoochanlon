@@ -11,12 +11,11 @@
 
 <div align="center">
   <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
-  <p>
-<ruby>
-一个被社会达尔文主义抛弃的底层带砖失业民工，靠着画饼充饥维系着最基本的生存。
-<rt>An underclass unemployed vocational graduate discarded by Social Darwinism, surviving on empty promises.</rt>
-</ruby>
-  </p>
+    
+<p>
+一个被社达抛弃的底层带砖失业民工，靠着画饼充饥维系着最基本的生存。<br>
+<small>An underclass unemployed vocational graduate discarded by Social Darwinism, surviving on empty promises.</small>
+</p>
 </div>
 
 
