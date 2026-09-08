@@ -143,7 +143,7 @@ def month_calendar(year: int, month: int):
 CELL_W = 48
 CELL_H = 44
 DAY_LABEL_H = 22
-MONTH_TITLE_H = 36
+MONTH_TITLE_H = 48
 GAP = 24
 PADDING = 20
 
@@ -175,7 +175,7 @@ def render_month(target_year, target_month, x_offset, today, holiday_map):
     week_labels = ["一", "二", "三", "四", "五", "六", "日"]
     for i, label in enumerate(week_labels):
         cx = x_offset + PADDING + i * CELL_W + CELL_W / 2
-        cy = MONTH_TITLE_H + DAY_LABEL_H / 2 + 4
+        cy = MONTH_TITLE_H + DAY_LABEL_H / 2 + 12
         color = COLORS["holiday_fg"] if i >= 5 else COLORS["muted"]
         parts.append(
             f'<text x="{cx}" y="{cy}" font-size="13" fill="{color}" text-anchor="middle" font-weight="500">{label}</text>'

@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 506" role="img" aria-label="中国节假日日历">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 518" role="img" aria-label="中国节假日日历">
 <rect width="100%" height="100%" fill="#ffffff" />
-<text x="40" y="36" font-size="20" font-weight="600" fill="#24292f">2026年 九月</text>
-<text x="64.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">一</text>
-<text x="112.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">二</text>
-<text x="160.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">三</text>
-<text x="208.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">四</text>
-<text x="256.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">五</text>
-<text x="304.0" y="51.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">六</text>
-<text x="352.0" y="51.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">日</text>
-<text x="64.0" y="105.0" font-size="14" fill="#d0d7de" text-anchor="middle">31</text>
-<text x="112.0" y="105.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">1</text>
-<text x="160.0" y="105.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">2</text>
-<text x="208.0" y="105.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">3</text>
-<text x="256.0" y="105.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">4</text>
-<text x="304.0" y="105.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">5</text>
-<text x="352.0" y="105.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">6</text>
-<text x="64.0" y="149.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">7</text>
-<rect x="90" y="124" width="44" height="40" rx="6" ry="6" fill="#1f883d" />
-<text x="112.0" y="149.0" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">8</text>
-<text x="160.0" y="149.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">9</text>
-<text x="208.0" y="149.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">10</text>
-<text x="256.0" y="149.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">11</text>
-<text x="304.0" y="149.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">12</text>
-<text x="352.0" y="149.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">13</text>
-<text x="64.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">14</text>
-<text x="112.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">15</text>
-<text x="160.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">16</text>
-<text x="208.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">17</text>
-<text x="256.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">18</text>
-<text x="304.0" y="193.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">19</text>
-<rect x="330" y="168" width="44" height="40" rx="6" ry="6" fill="#ddf4ff" />
-<text x="352.0" y="193.0" font-size="15" font-weight="600" fill="#0969da" text-anchor="middle">20</text>
-<text x="352.0" y="204" font-size="9" fill="#0969da" text-anchor="middle" font-weight="500">班</text>
-<text x="64.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">21</text>
-<text x="112.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">22</text>
-<text x="160.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">23</text>
-<text x="208.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">24</text>
-<rect x="234" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="256.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">25</text>
-<text x="256.0" y="223" font-size="9" fill="#cf222e" text-anchor="middle" font-weight="600">中秋节</text>
-<rect x="282" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="304.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">26</text>
-<rect x="330" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="352.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">27</text>
-<text x="64.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">28</text>
-<text x="112.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">29</text>
-<text x="160.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">30</text>
-<text x="208.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">1</text>
-<text x="256.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">2</text>
-<text x="304.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">3</text>
-<text x="352.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">4</text>
-<text x="440" y="36" font-size="20" font-weight="600" fill="#24292f">2026年 十月</text>
-<text x="464.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">一</text>
-<text x="512.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">二</text>
-<text x="560.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">三</text>
-<text x="608.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">四</text>
-<text x="656.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">五</text>
-<text x="704.0" y="51.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">六</text>
-<text x="752.0" y="51.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">日</text>
-<text x="464.0" y="105.0" font-size="14" fill="#d0d7de" text-anchor="middle">28</text>
-<text x="512.0" y="105.0" font-size="14" fill="#d0d7de" text-anchor="middle">29</text>
-<text x="560.0" y="105.0" font-size="14" fill="#d0d7de" text-anchor="middle">30</text>
-<rect x="586" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="608.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">1</text>
-<text x="608.0" y="91" font-size="9" fill="#cf222e" text-anchor="middle" font-weight="600">国庆节</text>
-<rect x="634" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="656.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">2</text>
-<rect x="682" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="704.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">3</text>
-<rect x="730" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="752.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">4</text>
-<rect x="442" y="124" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="464.0" y="149.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">5</text>
-<rect x="490" y="124" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="512.0" y="149.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">6</text>
-<rect x="538" y="124" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="560.0" y="149.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">7</text>
-<text x="608.0" y="149.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">8</text>
-<text x="656.0" y="149.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">9</text>
-<rect x="682" y="124" width="44" height="40" rx="6" ry="6" fill="#ddf4ff" />
-<text x="704.0" y="149.0" font-size="15" font-weight="600" fill="#0969da" text-anchor="middle">10</text>
-<text x="704.0" y="160" font-size="9" fill="#0969da" text-anchor="middle" font-weight="500">班</text>
-<text x="752.0" y="149.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">11</text>
-<text x="464.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">12</text>
-<text x="512.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">13</text>
-<text x="560.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">14</text>
-<text x="608.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">15</text>
-<text x="656.0" y="193.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">16</text>
-<text x="704.0" y="193.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">17</text>
-<text x="752.0" y="193.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">18</text>
-<text x="464.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">19</text>
-<text x="512.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">20</text>
-<text x="560.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">21</text>
-<text x="608.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">22</text>
-<text x="656.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">23</text>
-<text x="704.0" y="237.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">24</text>
-<text x="752.0" y="237.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">25</text>
-<text x="464.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">26</text>
-<text x="512.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">27</text>
-<text x="560.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">28</text>
-<text x="608.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">29</text>
-<text x="656.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">30</text>
-<text x="704.0" y="281.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">31</text>
-<text x="752.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">1</text>
-<text x="20" y="398" font-size="11" fill="#57606a">图例:</text>
-<rect x="64" y="386" width="14" height="14" rx="3" fill="#ffe5e5" />
-<text x="82" y="398" font-size="11" fill="#24292f">放假</text>
-<rect x="122" y="386" width="14" height="14" rx="3" fill="#ddf4ff" />
-<text x="140" y="398" font-size="11" fill="#24292f">调休上班</text>
-<rect x="206" y="386" width="14" height="14" rx="3" fill="#1f883d" />
-<text x="224" y="398" font-size="11" fill="#24292f">今天</text>
-<text x="20" y="422" font-size="13" fill="#cf222e" font-weight="600">📅 中秋节 (9/25–9/27) · 还有 17 天 · 共 3 天</text>
-<text x="20" y="442" font-size="13" fill="#cf222e" font-weight="600">📅 国庆节 (10/1–10/7) · 还有 23 天 · 共 7 天</text>
-<text x="796" y="486" font-size="10" fill="#57606a" text-anchor="end">数据来源: 国务院办公厅 2026</text>
+<text x="40" y="48" font-size="20" font-weight="600" fill="#24292f">2026年 九月</text>
+<text x="64.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">一</text>
+<text x="112.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">二</text>
+<text x="160.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">三</text>
+<text x="208.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">四</text>
+<text x="256.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">五</text>
+<text x="304.0" y="71.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">六</text>
+<text x="352.0" y="71.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">日</text>
+<text x="64.0" y="117.0" font-size="14" fill="#d0d7de" text-anchor="middle">31</text>
+<text x="112.0" y="117.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">1</text>
+<text x="160.0" y="117.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">2</text>
+<text x="208.0" y="117.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">3</text>
+<text x="256.0" y="117.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">4</text>
+<text x="304.0" y="117.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">5</text>
+<text x="352.0" y="117.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">6</text>
+<text x="64.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">7</text>
+<rect x="90" y="136" width="44" height="40" rx="6" ry="6" fill="#1f883d" />
+<text x="112.0" y="161.0" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">8</text>
+<text x="160.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">9</text>
+<text x="208.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">10</text>
+<text x="256.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">11</text>
+<text x="304.0" y="161.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">12</text>
+<text x="352.0" y="161.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">13</text>
+<text x="64.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">14</text>
+<text x="112.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">15</text>
+<text x="160.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">16</text>
+<text x="208.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">17</text>
+<text x="256.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">18</text>
+<text x="304.0" y="205.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">19</text>
+<rect x="330" y="180" width="44" height="40" rx="6" ry="6" fill="#ddf4ff" />
+<text x="352.0" y="205.0" font-size="15" font-weight="600" fill="#0969da" text-anchor="middle">20</text>
+<text x="352.0" y="216" font-size="9" fill="#0969da" text-anchor="middle" font-weight="500">班</text>
+<text x="64.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">21</text>
+<text x="112.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">22</text>
+<text x="160.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">23</text>
+<text x="208.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">24</text>
+<rect x="234" y="224" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="256.0" y="249.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">25</text>
+<text x="256.0" y="235" font-size="9" fill="#cf222e" text-anchor="middle" font-weight="600">中秋节</text>
+<rect x="282" y="224" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="304.0" y="249.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">26</text>
+<rect x="330" y="224" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="352.0" y="249.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">27</text>
+<text x="64.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">28</text>
+<text x="112.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">29</text>
+<text x="160.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">30</text>
+<text x="208.0" y="293.0" font-size="14" fill="#d0d7de" text-anchor="middle">1</text>
+<text x="256.0" y="293.0" font-size="14" fill="#d0d7de" text-anchor="middle">2</text>
+<text x="304.0" y="293.0" font-size="14" fill="#d0d7de" text-anchor="middle">3</text>
+<text x="352.0" y="293.0" font-size="14" fill="#d0d7de" text-anchor="middle">4</text>
+<text x="440" y="48" font-size="20" font-weight="600" fill="#24292f">2026年 十月</text>
+<text x="464.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">一</text>
+<text x="512.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">二</text>
+<text x="560.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">三</text>
+<text x="608.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">四</text>
+<text x="656.0" y="71.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">五</text>
+<text x="704.0" y="71.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">六</text>
+<text x="752.0" y="71.0" font-size="13" fill="#cf222e" text-anchor="middle" font-weight="500">日</text>
+<text x="464.0" y="117.0" font-size="14" fill="#d0d7de" text-anchor="middle">28</text>
+<text x="512.0" y="117.0" font-size="14" fill="#d0d7de" text-anchor="middle">29</text>
+<text x="560.0" y="117.0" font-size="14" fill="#d0d7de" text-anchor="middle">30</text>
+<rect x="586" y="92" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="608.0" y="117.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">1</text>
+<text x="608.0" y="103" font-size="9" fill="#cf222e" text-anchor="middle" font-weight="600">国庆节</text>
+<rect x="634" y="92" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="656.0" y="117.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">2</text>
+<rect x="682" y="92" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="704.0" y="117.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">3</text>
+<rect x="730" y="92" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="752.0" y="117.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">4</text>
+<rect x="442" y="136" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="464.0" y="161.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">5</text>
+<rect x="490" y="136" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="512.0" y="161.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">6</text>
+<rect x="538" y="136" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="560.0" y="161.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">7</text>
+<text x="608.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">8</text>
+<text x="656.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">9</text>
+<rect x="682" y="136" width="44" height="40" rx="6" ry="6" fill="#ddf4ff" />
+<text x="704.0" y="161.0" font-size="15" font-weight="600" fill="#0969da" text-anchor="middle">10</text>
+<text x="704.0" y="172" font-size="9" fill="#0969da" text-anchor="middle" font-weight="500">班</text>
+<text x="752.0" y="161.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">11</text>
+<text x="464.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">12</text>
+<text x="512.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">13</text>
+<text x="560.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">14</text>
+<text x="608.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">15</text>
+<text x="656.0" y="205.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">16</text>
+<text x="704.0" y="205.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">17</text>
+<text x="752.0" y="205.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">18</text>
+<text x="464.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">19</text>
+<text x="512.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">20</text>
+<text x="560.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">21</text>
+<text x="608.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">22</text>
+<text x="656.0" y="249.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">23</text>
+<text x="704.0" y="249.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">24</text>
+<text x="752.0" y="249.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">25</text>
+<text x="464.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">26</text>
+<text x="512.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">27</text>
+<text x="560.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">28</text>
+<text x="608.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">29</text>
+<text x="656.0" y="293.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">30</text>
+<text x="704.0" y="293.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">31</text>
+<text x="752.0" y="293.0" font-size="14" fill="#d0d7de" text-anchor="middle">1</text>
+<text x="20" y="410" font-size="11" fill="#57606a">图例:</text>
+<rect x="64" y="398" width="14" height="14" rx="3" fill="#ffe5e5" />
+<text x="82" y="410" font-size="11" fill="#24292f">放假</text>
+<rect x="122" y="398" width="14" height="14" rx="3" fill="#ddf4ff" />
+<text x="140" y="410" font-size="11" fill="#24292f">调休上班</text>
+<rect x="206" y="398" width="14" height="14" rx="3" fill="#1f883d" />
+<text x="224" y="410" font-size="11" fill="#24292f">今天</text>
+<text x="20" y="434" font-size="13" fill="#cf222e" font-weight="600">📅 中秋节 (9/25–9/27) · 还有 17 天 · 共 3 天</text>
+<text x="20" y="454" font-size="13" fill="#cf222e" font-weight="600">📅 国庆节 (10/1–10/7) · 还有 23 天 · 共 7 天</text>
+<text x="796" y="498" font-size="10" fill="#57606a" text-anchor="end">数据来源: 国务院办公厅 2026</text>
 </svg>
