@@ -1,6 +1,8 @@
 name: Delete old workflow runs
 on:
-  # 允许手动触发工作流
+  schedule:
+    # 每月 1 号 北京时间 09:00 执行（UTC 01:00 + 8h）
+    - cron: "0 1 1 * *"
   workflow_dispatch:
 
 jobs:
@@ -25,5 +27,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}  # 使用GitHub Token进行身份验证
           repository: 'hoochanlon/hoochanlon'  # 替换为你的GitHub用户名和仓库
-          retain_days: 0  # 保留最近 1 天的工作流记录（基于中国时区）
+          retain_days: 0  # 全删，仅保底 3 条
           keep_minimum_runs: 3  # 至少保留 X 条工作流记录
