@@ -1,0 +1,61 @@
+name: Update Holiday Calendar
+
+on:
+  schedule:
+    # 每天 UTC 22:01 = 北京时间 次日 06:01
+    - cron: "1 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: holiday-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate holiday SVG
+        run: python3 holiday/generate-holiday-svg.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --stat
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "📭 无变化，跳过提交"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "📝 检测到变化，准备提交"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add holiday-calendar.svg
+          git commit -m "chore: update holiday calendar $(date +%Y-%m-%d)"
+          git push origin master
+
+      - name: Summary
+        run: |
+          echo "### 📅 节假日日历更新" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
+            echo "✅ SVG 已更新并推送到 master" >> "$GITHUB_STEP_SUMMARY"
+            echo "🚀 将触发 Hugo 构建部署" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "✅ 日历已是最新，无需更新" >> "$GITHUB_STEP_SUMMARY"
+          fi
