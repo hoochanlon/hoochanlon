@@ -39,7 +39,7 @@
 <text x="208.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">24</text>
 <rect x="234" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="256.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">25</text>
-<text x="274" y="224" font-size="9" fill="#cf222e" text-anchor="end" font-weight="600">中秋节</text>
+<text x="256.0" y="223" font-size="9" fill="#cf222e" text-anchor="middle" font-weight="600">中秋节</text>
 <rect x="282" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="304.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">26</text>
 <rect x="330" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
@@ -64,7 +64,7 @@
 <text x="560.0" y="105.0" font-size="14" fill="#d0d7de" text-anchor="middle">30</text>
 <rect x="586" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="608.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">1</text>
-<text x="626" y="92" font-size="9" fill="#cf222e" text-anchor="end" font-weight="600">国庆节</text>
+<text x="608.0" y="91" font-size="9" fill="#cf222e" text-anchor="middle" font-weight="600">国庆节</text>
 <rect x="634" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="656.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">2</text>
 <rect x="682" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />

@@ -228,11 +228,11 @@ def render_month(target_year, target_month, x_offset, today, holiday_map):
                 f'<text x="{cx + CELL_W / 2}" y="{cy + CELL_H / 2 + 5}" font-size="15" font-weight="{fw}" fill="{fg}" text-anchor="middle">{d.day}</text>'
             )
 
-            # 假期第一天格子内部右上角标节日名
+            # 假期第一天格子内部顶部居中标节日名
             if info_type == "holiday" and holiday_name and holiday_name not in holiday_group_start:
                 holiday_group_start[holiday_name] = True
                 parts.append(
-                    f'<text x="{cell_x + cw - 4}" y="{cell_y + 12}" font-size="9" fill="{fg}" text-anchor="end" font-weight="600">{holiday_name}</text>'
+                    f'<text x="{cx + CELL_W / 2}" y="{cell_y + 11}" font-size="9" fill="{fg}" text-anchor="middle" font-weight="600">{holiday_name}</text>'
                 )
 
             if info_type == "makeup":
