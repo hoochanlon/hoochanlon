@@ -6,25 +6,18 @@
 
 -->
 
+
+![](https://profile-calendar.vercel.app/image?&textColor=%230F172A)
+
 <div align="center">
   <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
   <p>
-  <ruby>
- 一个被社达主义抛弃的底层搬砖失业民工
-<rt>An underclass unemployed migrant laborer with a vocational college degree, discarded by Social Darwinism...</rt>
+<ruby>
+一个被社会达尔文主义抛弃的底层带砖失业民工，靠着画饼充饥维系着最基本的生存。
+<rt>An underclass unemployed vocational graduate discarded by Social Darwinism, surviving on empty promises.</rt>
 </ruby>
   </p>
-  <img src="https://count.getloli.com/@:hoochanlon?theme=normal-1" />
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
