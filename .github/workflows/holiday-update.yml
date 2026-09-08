@@ -49,6 +49,14 @@ jobs:
           git commit -m "chore: update holiday calendar $(date +%Y-%m-%d)"
           git push origin master
 
+      - name: Purge jsDelivr CDN
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/hoochanlon/hoochanlon@master/holiday/holiday-calendar.svg" \
+            | grep -q '"status": "finished"' \
+            && echo "✅ jsDelivr CDN 已刷新" \
+            || echo "⚠️  purge 未完成，可能需要手动刷新"
+
       - name: Summary
         run: |
           echo "### 📅 节假日日历更新" >> "$GITHUB_STEP_SUMMARY"
