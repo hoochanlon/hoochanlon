@@ -10,17 +10,19 @@
 ![](https://profile-calendar.vercel.app/image?&textColor=%230F172A)
 
 <div align="center">
-  <img alt="节假日日历" src="./holiday/holiday-calendar.svg" width="816"/>
-</div>
-
-<div align="center">
   <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
-    
+
 <p>
 一个被社达抛弃的底层带砖失业民工，靠着画饼充饥维系着最基本的生存。<br>
 <small>An underclass unemployed vocational graduate discarded by Social Darwinism, surviving on empty promises.</small>
 </p>
 </div>
+
+<div align="center">
+  <img alt="节假日日历" src="./holiday/holiday-calendar.svg" width="816"/>
+</div>
+
+
 
 
 
