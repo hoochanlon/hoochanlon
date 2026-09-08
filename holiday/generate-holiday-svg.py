@@ -10,6 +10,7 @@ import datetime
 import calendar
 import json
 import os
+import re
 import ssl
 import sys
 import urllib.request
@@ -18,22 +19,34 @@ import urllib.error
 # ========== 远程数据源 ==========
 HOLIDAY_CN_URL = "https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/{year}.json"
 
-# ========== Fallback 硬编码数据（国务院办公厅 2026 年安排）==========
-# 格式: (date_str, name, is_off_day)
-FALLBACK_DAYS_2026 = [
-    ("2026-01-01", "元旦", True), ("2026-01-02", "元旦", True), ("2026-01-03", "元旦", True), ("2026-01-04", "元旦", False),
-    ("2026-02-14", "春节", False), ("2026-02-15", "春节", True), ("2026-02-16", "春节", True), ("2026-02-17", "春节", True),
-    ("2026-02-18", "春节", True), ("2026-02-19", "春节", True), ("2026-02-20", "春节", True), ("2026-02-21", "春节", True),
-    ("2026-02-22", "春节", True), ("2026-02-23", "春节", True), ("2026-02-28", "春节", False),
-    ("2026-04-04", "清明节", True), ("2026-04-05", "清明节", True), ("2026-04-06", "清明节", True),
-    ("2026-05-01", "劳动节", True), ("2026-05-02", "劳动节", True), ("2026-05-03", "劳动节", True),
-    ("2026-05-04", "劳动节", True), ("2026-05-05", "劳动节", True), ("2026-05-09", "劳动节", False),
-    ("2026-06-19", "端午节", True), ("2026-06-20", "端午节", True), ("2026-06-21", "端午节", True),
-    ("2026-09-20", "国庆节", False), ("2026-09-25", "中秋节", True), ("2026-09-26", "中秋节", True), ("2026-09-27", "中秋节", True),
-    ("2026-10-01", "国庆节", True), ("2026-10-02", "国庆节", True), ("2026-10-03", "国庆节", True),
-    ("2026-10-04", "国庆节", True), ("2026-10-05", "国庆节", True), ("2026-10-06", "国庆节", True),
-    ("2026-10-07", "国庆节", True), ("2026-10-10", "国庆节", False),
-]
+
+# ========== 本地缓存目录（远程拉取成功后自动保存，作为下次 fallback）==========
+CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
+
+
+def save_year_cache(year: int, data: dict):
+    """把远程拉到的 {date_str: (name, is_off)} 保存为本地 JSON 缓存"""
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    cache_path = os.path.join(CACHE_DIR, f"{year}.json")
+    serializable = {d: list(v) for d, v in data.items()}
+    with open(cache_path, "w") as f:
+        json.dump(serializable, f, ensure_ascii=False, indent=2)
+    print(f"  💾 缓存 {year} 年数据 → {cache_path}")
+
+
+def load_year_cache(year: int):
+    """从本地缓存加载某年份数据，返回 {date_str: (name, is_off)} 或 None"""
+    cache_path = os.path.join(CACHE_DIR, f"{year}.json")
+    if not os.path.isfile(cache_path):
+        return None
+    try:
+        raw = json.load(open(cache_path))
+        result = {d: tuple(v) for d, v in raw.items()}
+        print(f"  📂 {year} 年数据: {len(result)} 条 (source: 本地缓存)")
+        return result
+    except Exception as e:
+        print(f"  ⚠️  {year} 年缓存损坏: {e}")
+        return None
 
 
 def fetch_year_holidays(year: int):
@@ -52,6 +65,7 @@ def fetch_year_holidays(year: int):
             for d in data.get("days", []):
                 result[d["date"]] = (d["name"], d["isOffDay"])
             print(f"  ✅ {year} 年数据: {len(result)} 条 (source: holiday-cn)")
+            save_year_cache(year, result)
             return result
         except Exception as e:
             last_error = e
@@ -74,14 +88,15 @@ def build_holiday_map(today: datetime.date):
                 d = datetime.date.fromisoformat(date_str)
                 holiday_map[d] = (name, is_off)
         else:
-            # Fallback: 只用 2026 年硬编码
-            if year == 2026:
-                source_used = "fallback"
-                for date_str, name, is_off in FALLBACK_DAYS_2026:
+            # 远程失败 → 尝试本地缓存
+            cached = load_year_cache(year)
+            if cached:
+                source_used = source_used if source_used != "holiday-cn" else "hybrid"
+                for date_str, (name, is_off) in cached.items():
                     d = datetime.date.fromisoformat(date_str)
                     holiday_map[d] = (name, is_off)
             else:
-                print(f"  ⚠️  {year} 年无 fallback 数据，跳过")
+                print(f"  ⚠️  {year} 年无远程数据也无本地缓存，跳过")
 
     return holiday_map, source_used
 
@@ -266,9 +281,39 @@ def main():
     footer_area = 24 + upcoming_lines * 20 + 56  # 图例 + 假期行 + 数据来源底部留白
     svg_h = month_height + footer_area
 
+    # ========== 加载字体分包 CSS ==========
+    FONT_CSS_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "fonts", "JasonHandwriting1-Regular")
+    JSDelivr_BASE = "https://cdn.jsdelivr.net/gh/hoochanlon/hoochanlon@master/assets/fonts/JasonHandwriting1-Regular"
+    font_css_content = ""
+    result_css_path = os.path.join(FONT_CSS_DIR, "result.css")
+    if os.path.isfile(result_css_path):
+        raw_css = open(result_css_path).read()
+        # 把 url("./xxx.woff2") 替换为 jsDelivr 绝对 URL
+        font_css_content = re.sub(
+            r'url\("\./([^"]+\.woff2)"\)',
+            lambda m: f'url("{JSDelivr_BASE}/{m.group(1)}")',
+            raw_css,
+        )
+        # cn-font-split 生成的 font-family 是 JasonHandwriting1，统一改成 JasonHandwriting1-Regular
+        font_css_content = font_css_content.replace('font-family:"JasonHandwriting1";', 'font-family:"JasonHandwriting1-Regular";')
+        print(f"  ✅ 加载分包字体 CSS: {font_css_content.count('@font-face')} 条规则")
+    else:
+        # fallback 到单个大字体文件
+        font_css_content = f'''
+  @font-face {{
+    font-family: "JasonHandwriting1-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/max32002/JasonHandWritingFonts@20240409/webfont/JasonHandwriting1-Regular.woff2") format("woff2");
+    font-display: swap;
+  }}'''
+        print(f"  ⚠️  未找到 result.css，使用完整字体")
+
     svg_parts = [
         f'<?xml version="1.0" encoding="UTF-8"?>',
         f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 {svg_h}" role="img" aria-label="中国节假日日历">',
+        f'<style><![CDATA[',
+        font_css_content,
+        f'  text {{ font-family: "JasonHandwriting1-Regular", "PingFang SC", "Microsoft YaHei", sans-serif; }}',
+        f']]></style>',
         f'<rect width="100%" height="100%" fill="{COLORS["bg"]}" />',
     ]
 
