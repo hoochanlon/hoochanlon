@@ -263,7 +263,7 @@ def main():
     right_x = PADDING + 7 * CELL_W + GAP + PADDING * 2
 
     month_height = MONTH_TITLE_H + DAY_LABEL_H + 6 * CELL_H + PADDING * 2 + 24
-    footer_area = 24 + upcoming_lines * 20 + 32  # 图例 + 假期行 + 数据来源间距
+    footer_area = 24 + upcoming_lines * 20 + 44  # 图例 + 假期行 + 数据来源底部留白
     svg_h = month_height + footer_area
 
     svg_parts = [
