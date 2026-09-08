@@ -100,25 +100,38 @@ def get_holiday_info(d: datetime.date, holiday_map: dict):
     return "workday", None
 
 
-def next_upcoming_holiday(today: datetime.date, holiday_map: dict):
-    """返回下一个未结束的假期 (start, end, name, 距离放假还有几天)"""
-    # 先聚合假期：同名连续日期
-    holiday_groups = {}  # name -> list of dates
+def collect_upcoming_holidays(today: datetime.date, holiday_map: dict, months_ahead: int = 2):
+    """收集当前月 + N 个月内的所有假期
+    返回 [(name, start, end, days_until_start, total_days), ...]"""
+    # 计算月份范围
+    months = []
+    y, m = today.year, today.month
+    for _ in range(months_ahead):
+        months.append((y, m))
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
+
+    # 聚合假期同名连续日期
+    holiday_groups = {}
     for d, (name, is_off) in holiday_map.items():
-        if is_off and d >= today - datetime.timedelta(days=30):  # 近30天内
+        if not is_off:
+            continue
+        # 只取目标月份内的
+        if (d.year, d.month) in months:
             holiday_groups.setdefault(name, []).append(d)
 
-    # 找下一个假期
+    result = []
     for name in sorted(holiday_groups.keys(), key=lambda n: min(holiday_groups[n])):
         dates = sorted(holiday_groups[name])
-        if dates[-1] >= today:  # 假期未结束
-            start = dates[0]
-            end = dates[-1]
+        start, end = dates[0], dates[-1]
+        if end >= today:  # 假期未结束
             days = (start - today).days
             if days < 0:
                 days = 0
-            return start, end, name, days
-    return None
+            result.append((name, start, end, days, (end - start).days + 1))
+    return result
 
 
 def month_calendar(year: int, month: int):
@@ -199,8 +212,6 @@ def render_month(target_year, target_month, x_offset, today, holiday_map):
             elif info_type == "holiday":
                 bg = COLORS["holiday_bg"]
                 fg = COLORS["holiday_fg"]
-                if holiday_name and holiday_name not in holiday_group_start:
-                    holiday_group_start[holiday_name] = (cell_x, cell_y + ch + 4)
             elif info_type == "makeup":
                 bg = COLORS["makeup_bg"]
                 fg = COLORS["makeup_fg"]
@@ -217,15 +228,17 @@ def render_month(target_year, target_month, x_offset, today, holiday_map):
                 f'<text x="{cx + CELL_W / 2}" y="{cy + CELL_H / 2 + 5}" font-size="15" font-weight="{fw}" fill="{fg}" text-anchor="middle">{d.day}</text>'
             )
 
+            # 假期第一天格子内部右上角标节日名
+            if info_type == "holiday" and holiday_name and holiday_name not in holiday_group_start:
+                holiday_group_start[holiday_name] = True
+                parts.append(
+                    f'<text x="{cell_x + cw - 4}" y="{cell_y + 12}" font-size="9" fill="{fg}" text-anchor="end" font-weight="600">{holiday_name}</text>'
+                )
+
             if info_type == "makeup":
                 parts.append(
                     f'<text x="{cx + CELL_W / 2}" y="{cy + CELL_H - 6}" font-size="9" fill="{COLORS["makeup_fg"]}" text-anchor="middle" font-weight="500">班</text>'
                 )
-
-    for hname, (hx, hy) in holiday_group_start.items():
-        parts.append(
-            f'<text x="{hx + CELL_W / 2}" y="{hy + 14}" font-size="11" fill="{COLORS["holiday_fg"]}" font-weight="600" text-anchor="middle">{hname}</text>'
-        )
 
     return "\n".join(parts), len(weeks)
 
@@ -241,13 +254,21 @@ def main():
     holiday_map, source_used = build_holiday_map(today)
     print(f"📊 数据源: {source_used}, 共 {len(holiday_map)} 条")
 
+    # 先收集假期，算行数
+    upcoming = collect_upcoming_holidays(today, holiday_map)
+    upcoming_lines = len(upcoming)
+
     # 渲染
     left_x = PADDING
     right_x = PADDING + 7 * CELL_W + GAP + PADDING * 2
 
+    month_height = MONTH_TITLE_H + DAY_LABEL_H + 6 * CELL_H + PADDING * 2 + 24
+    footer_area = 24 + upcoming_lines * 20 + 32  # 图例 + 假期行 + 数据来源间距
+    svg_h = month_height + footer_area
+
     svg_parts = [
         f'<?xml version="1.0" encoding="UTF-8"?>',
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 440" role="img" aria-label="中国节假日日历">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 {svg_h}" role="img" aria-label="中国节假日日历">',
         f'<rect width="100%" height="100%" fill="{COLORS["bg"]}" />',
     ]
 
@@ -256,9 +277,6 @@ def main():
 
     svg_parts.append(left_svg)
     svg_parts.append(right_svg)
-
-    month_height = MONTH_TITLE_H + DAY_LABEL_H + max(rows_left, rows_right) * CELL_H + PADDING * 2 + 24
-    svg_h = month_height + 90
 
     footer_y = month_height + 12
     legend_x = PADDING
@@ -280,22 +298,22 @@ def main():
         )
         lx += 14 + len(label) * 13 + 18
 
-    nuh = next_upcoming_holiday(today, holiday_map)
-    if nuh:
-        start, end, name, days = nuh
-        count_y = footer_y + 28
-        total_days = (end - start).days + 1
+    # 两个月内所有假期提示
+    count_y = footer_y + 24
+    for i, (name, start, end, days, total_days) in enumerate(upcoming):
+        cy = count_y + i * 20
         if days == 0:
-            countdown_text = f"今天是 {name} 假期第一天！放假 {total_days} 天 🎉"
+            text = f"🎉 今天是 {name} 假期第一天！共 {total_days} 天"
         else:
-            countdown_text = f"📅 {name} ({start.month}/{start.day}–{end.month}/{end.day}) · 还有 {days} 天 · 共 {total_days} 天"
-
+            text = f"📅 {name} ({start.month}/{start.day}–{end.month}/{end.day}) · 还有 {days} 天 · 共 {total_days} 天"
         svg_parts.append(
-            f'<text x="{legend_x}" y="{count_y}" font-size="14" fill="{COLORS["holiday_fg"]}" font-weight="600">{countdown_text}</text>'
+            f'<text x="{legend_x}" y="{cy}" font-size="13" fill="{COLORS["holiday_fg"]}" font-weight="600">{text}</text>'
         )
 
+    # 数据来源（动态 y 坐标）
+    source_y = count_y + upcoming_lines * 20 + 24
     svg_parts.append(
-        f'<text x="816" y="428" font-size="10" fill="{COLORS["muted"]}" text-anchor="end">数据来源: 国务院办公厅 {today.year}</text>'
+        f'<text x="796" y="{source_y}" font-size="10" fill="{COLORS["muted"]}" text-anchor="end">数据来源: 国务院办公厅 {today.year}</text>'
     )
     svg_parts.append("</svg>")
 
@@ -307,9 +325,8 @@ def main():
         f.write(svg_content)
 
     print(f"✅ 已生成: {out_path}")
-    if nuh:
-        start, end, name, days = nuh
-        print(f"   下一个假期: {name} ({start.month}/{start.day}-{end.month}/{end.day}) 还有 {days} 天")
+    for name, start, end, days, total in upcoming:
+        print(f"   📅 {name} ({start.month}/{start.day}-{end.month}/{end.day}) 还有 {days} 天 · 共 {total} 天")
 
     # 供 GitHub Actions 判断是否有变化
     if "--check" in sys.argv:

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 440" role="img" aria-label="中国节假日日历">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 816 482" role="img" aria-label="中国节假日日历">
 <rect width="100%" height="100%" fill="#ffffff" />
 <text x="40" y="36" font-size="20" font-weight="600" fill="#24292f">2026年 九月</text>
 <text x="64.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">一</text>
@@ -39,6 +39,7 @@
 <text x="208.0" y="237.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">24</text>
 <rect x="234" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="256.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">25</text>
+<text x="274" y="224" font-size="9" fill="#cf222e" text-anchor="end" font-weight="600">中秋节</text>
 <rect x="282" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="304.0" y="237.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">26</text>
 <rect x="330" y="212" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
@@ -50,7 +51,6 @@
 <text x="256.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">2</text>
 <text x="304.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">3</text>
 <text x="352.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">4</text>
-<text x="258.0" y="270" font-size="11" fill="#cf222e" font-weight="600" text-anchor="middle">中秋节</text>
 <text x="440" y="36" font-size="20" font-weight="600" fill="#24292f">2026年 十月</text>
 <text x="464.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">一</text>
 <text x="512.0" y="51.0" font-size="13" fill="#57606a" text-anchor="middle" font-weight="500">二</text>
@@ -64,6 +64,7 @@
 <text x="560.0" y="105.0" font-size="14" fill="#d0d7de" text-anchor="middle">30</text>
 <rect x="586" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="608.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">1</text>
+<text x="626" y="92" font-size="9" fill="#cf222e" text-anchor="end" font-weight="600">国庆节</text>
 <rect x="634" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="656.0" y="105.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">2</text>
 <rect x="682" y="80" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
@@ -103,14 +104,14 @@
 <text x="656.0" y="281.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">30</text>
 <text x="704.0" y="281.0" font-size="15" font-weight="400" fill="#57606a" text-anchor="middle">31</text>
 <text x="752.0" y="281.0" font-size="14" fill="#d0d7de" text-anchor="middle">1</text>
-<text x="610.0" y="138" font-size="11" fill="#cf222e" font-weight="600" text-anchor="middle">国庆节</text>
-<text x="20" y="354" font-size="11" fill="#57606a">图例:</text>
-<rect x="64" y="342" width="14" height="14" rx="3" fill="#ffe5e5" />
-<text x="82" y="354" font-size="11" fill="#24292f">放假</text>
-<rect x="122" y="342" width="14" height="14" rx="3" fill="#ddf4ff" />
-<text x="140" y="354" font-size="11" fill="#24292f">调休上班</text>
-<rect x="206" y="342" width="14" height="14" rx="3" fill="#1f883d" />
-<text x="224" y="354" font-size="11" fill="#24292f">今天</text>
-<text x="20" y="382" font-size="14" fill="#cf222e" font-weight="600">📅 中秋节 (9/25–9/27) · 还有 17 天 · 共 3 天</text>
-<text x="816" y="428" font-size="10" fill="#57606a" text-anchor="end">数据来源: 国务院办公厅 2026</text>
+<text x="20" y="398" font-size="11" fill="#57606a">图例:</text>
+<rect x="64" y="386" width="14" height="14" rx="3" fill="#ffe5e5" />
+<text x="82" y="398" font-size="11" fill="#24292f">放假</text>
+<rect x="122" y="386" width="14" height="14" rx="3" fill="#ddf4ff" />
+<text x="140" y="398" font-size="11" fill="#24292f">调休上班</text>
+<rect x="206" y="386" width="14" height="14" rx="3" fill="#1f883d" />
+<text x="224" y="398" font-size="11" fill="#24292f">今天</text>
+<text x="20" y="422" font-size="13" fill="#cf222e" font-weight="600">📅 中秋节 (9/25–9/27) · 还有 17 天 · 共 3 天</text>
+<text x="20" y="442" font-size="13" fill="#cf222e" font-weight="600">📅 国庆节 (10/1–10/7) · 还有 23 天 · 共 7 天</text>
+<text x="796" y="486" font-size="10" fill="#57606a" text-anchor="end">数据来源: 国务院办公厅 2026</text>
 </svg>
