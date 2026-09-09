@@ -2,8 +2,8 @@ name: Update Holiday Calendar
 
 on:
   schedule:
-    # 每天 UTC 22:01 = 北京时间 次日 06:01
-    - cron: "1 22 * * *"
+    # 每天 UTC 16:01 = 北京时间 次日 00:01
+    - cron: "1 16 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
