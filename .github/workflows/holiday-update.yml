@@ -33,12 +33,6 @@ jobs:
       - name: Generate holiday SVG
         run: python3 holiday/generate-holiday-svg.py
 
-      - name: Update README ?v= cache-buster
-        run: |
-          TS=$(date +%Y%m%d)
-          sed -i "s|holiday-calendar.svg?v=[0-9]*|holiday-calendar.svg?v=${TS}|" README.md
-          echo "🔄 README ?v= 更新为 ${TS}"
-
       - name: Check for changes
         id: changes
         run: |
@@ -56,17 +50,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add holiday/holiday-calendar.svg holiday/cache/ README.md
+          git add holiday/holiday-calendar.svg holiday/cache/
           git commit -m "chore: update holiday calendar $(date +%Y-%m-%d)"
           git push origin master
-
-      - name: Purge jsDelivr CDN
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          curl -s "https://purge.jsdelivr.net/gh/hoochanlon/hoochanlon@master/holiday/holiday-calendar.svg" \
-            | grep -q '"status": "finished"' \
-            && echo "✅ jsDelivr CDN 已刷新" \
-            || echo "⚠️  purge 未完成，可能需要手动刷新"
 
       - name: Summary
         run: |
