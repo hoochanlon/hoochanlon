@@ -20,7 +20,7 @@
 
 
 <div align="center">
-  <img alt="节假日日历" src="https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/holiday/holiday-calendar.svg" width="816"/>
+  <img alt="节假日日历" src="https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/holiday/holiday-calendar.svg?v=20260910" width="816"/>
 </div>
 
 

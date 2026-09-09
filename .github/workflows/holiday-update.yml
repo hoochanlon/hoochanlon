@@ -33,6 +33,12 @@ jobs:
       - name: Generate holiday SVG
         run: python3 holiday/generate-holiday-svg.py
 
+      - name: Update README ?v= cache-buster
+        run: |
+          TS=$(date +%Y%m%d)
+          sed -i "s|holiday-calendar.svg?v=[0-9]*|holiday-calendar.svg?v=${TS}|" README.md
+          echo "🔄 README ?v= 更新为 ${TS}"
+
       - name: Check for changes
         id: changes
         run: |
@@ -50,7 +56,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add holiday/holiday-calendar.svg holiday/cache/
+          git add holiday/holiday-calendar.svg holiday/cache/ README.md
           git commit -m "chore: update holiday calendar $(date +%Y-%m-%d)"
           git push origin master
 
