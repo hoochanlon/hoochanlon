@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,7 +15,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  refresh-holiday:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install fonttools brotli
+
+      - name: Refresh holiday SVG
+        run: python3 holiday/generate-holiday-svg.py
+
+      - name: Commit and push if changed
+        if: github.actor != 'github-actions[bot]'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "📭 日历已是最新，无需提交"
+          else
+            git add holiday/holiday-calendar.svg holiday/cache/
+            git commit -m "chore: refresh holiday calendar $(date +%Y-%m-%d)"
+            git push origin master
+            echo "📤 日历已刷新并推送"
+          fi
+
   build:
+    needs: refresh-holiday
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.164.0
