@@ -27,10 +27,10 @@
 <text x="352.0" y="117.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">4</text>
 <rect x="42" y="136" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
 <text x="64.0" y="161.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">5</text>
-<rect x="90" y="136" width="44" height="40" rx="6" ry="6" fill="#1f883d" />
-<text x="112.0" y="161.0" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">6</text>
-<rect x="138" y="136" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
-<text x="160.0" y="161.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">7</text>
+<rect x="90" y="136" width="44" height="40" rx="6" ry="6" fill="#ffe5e5" />
+<text x="112.0" y="161.0" font-size="15" font-weight="600" fill="#cf222e" text-anchor="middle">6</text>
+<rect x="138" y="136" width="44" height="40" rx="6" ry="6" fill="#1f883d" />
+<text x="160.0" y="161.0" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">7</text>
 <text x="208.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">8</text>
 <text x="256.0" y="161.0" font-size="15" font-weight="400" fill="#24292f" text-anchor="middle">9</text>
 <rect x="282" y="136" width="44" height="40" rx="6" ry="6" fill="#ddf4ff" />
