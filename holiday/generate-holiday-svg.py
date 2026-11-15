@@ -77,14 +77,17 @@ def fetch_year_holidays(year: int):
 
 
 def build_holiday_map(today: datetime.date):
-    """合并当前年 + 下一年数据，返回 {date: (name, is_off_day)}"""
+    """合并前年(仅 1 月需要) + 当前年 + 下一年，返回 {date: (name, is_off_day)}
+    1 月要带上前年，避免 跨年假期（12/31–1/2）被裁掉真实起点。"""
     current_year = today.year
-    next_year = current_year + 1
+    years = [current_year, current_year + 1]
+    if today.month == 1:
+        years = [current_year - 1, current_year, current_year + 1]
 
     holiday_map = {}
     source_used = "holiday-cn"
 
-    for year in (current_year, next_year):
+    for year in years:
         remote = fetch_year_holidays(year)
         if remote:
             for date_str, (name, is_off) in remote.items():
@@ -118,38 +121,92 @@ def get_holiday_info(d: datetime.date, holiday_map: dict):
     return "workday", None
 
 
-def collect_upcoming_holidays(today: datetime.date, holiday_map: dict, months_ahead: int = 2):
-    """收集当前月 + N 个月内的所有假期
-    返回 [(name, start, end, days_until_start, total_days), ...]"""
-    # 计算月份范围
-    months = []
+_CN_DIGITS = "零一二三四五六七八九十"
+
+
+def cn_day_word(n: int) -> str:
+    """1 → 一, 10 → 十, 11 → 十一。法定假期通常不超过 10 天。"""
+    if n <= 10:
+        return _CN_DIGITS[n]
+    if n < 20:
+        return "十" + (_CN_DIGITS[n - 10] if n > 10 else "")
+    tens, ones = divmod(n, 10)
+    return _CN_DIGITS[tens] + "十" + (_CN_DIGITS[ones] if ones else "")
+
+
+def off_day_spans(holiday_map: dict):
+    """从全量放假日切出「同名 + 日期连续」的假期段。调休上班日不入段。
+
+    输入: { date: (name, is_off) }
+    演变: 放假日按日期排序 → 同名且相差 1 天则并入当前段 → 否则新开一段
+    输出: [(name, [date, ...]), ...]  段内连续、按起点排序
+    """
+    off_days = sorted((d, name) for d, (name, is_off) in holiday_map.items() if is_off)
+    spans = []
+    one_day = datetime.timedelta(days=1)
+    for d, name in off_days:
+        if spans:
+            prev_name, prev_dates = spans[-1]
+            if name == prev_name and d == prev_dates[-1] + one_day:
+                prev_dates.append(d)
+                continue
+        spans.append((name, [d]))
+    return spans
+
+
+def display_window(today: datetime.date, months_ahead: int):
+    """展示窗口：本月 1 号 → 往后 months_ahead 个月的月末。
+    只决定底部要不要出现这段假期，不裁切假期的真实起止日。"""
+    window_start = today.replace(day=1)
     y, m = today.year, today.month
-    for _ in range(months_ahead):
-        months.append((y, m))
+    for _ in range(months_ahead - 1):
         m += 1
         if m > 12:
             m = 1
             y += 1
+    window_end = datetime.date(y, m, calendar.monthrange(y, m)[1])
+    return window_start, window_end
 
-    # 聚合假期同名连续日期
-    holiday_groups = {}
-    for d, (name, is_off) in holiday_map.items():
-        if not is_off:
-            continue
-        # 只取目标月份内的
-        if (d.year, d.month) in months:
-            holiday_groups.setdefault(name, []).append(d)
 
+def collect_upcoming_holidays(today: datetime.date, holiday_map: dict, months_ahead: int = 2):
+    """收集窗口内尚未结束的假期段。
+
+    每条:
+      name / start / end  — 真实假期（不被窗口裁切）
+      total_days          — 放假天数（连续段长度）
+      days_until          — 未开始时的倒计时；进行中为 0
+      day_n               — 0=未开始；1=第一天；2=第二天…
+    """
+    window_start, window_end = display_window(today, months_ahead)
     result = []
-    for name in sorted(holiday_groups.keys(), key=lambda n: min(holiday_groups[n])):
-        dates = sorted(holiday_groups[name])
+    for name, dates in off_day_spans(holiday_map):
         start, end = dates[0], dates[-1]
-        if end >= today:  # 假期未结束
-            days = (start - today).days
-            if days < 0:
-                days = 0
-            result.append((name, start, end, days, (end - start).days + 1))
+        if end < today:
+            continue
+        if end < window_start or start > window_end:
+            continue
+        in_progress = start <= today
+        result.append({
+            "name": name,
+            "start": start,
+            "end": end,
+            "total_days": len(dates),
+            "days_until": 0 if in_progress else (start - today).days,
+            "day_n": (dates.index(today) + 1) if in_progress else 0,
+        })
     return result
+
+
+def format_holiday_line(item: dict) -> str:
+    """底部提示 / 日志共用同一条文案，避免两处各算各的。"""
+    name, start, end = item["name"], item["start"], item["end"]
+    total, day_n = item["total_days"], item["day_n"]
+    if day_n == 0:
+        return (
+            f"📅 {name} ({start.month}/{start.day}–{end.month}/{end.day})"
+            f" · 还有 {item['days_until']} 天 · 共 {total} 天"
+        )
+    return f"🎉 今天是 {name} 假期第{cn_day_word(day_n)}天！共 {total} 天"
 
 
 def month_calendar(year: int, month: int):
@@ -372,14 +429,10 @@ def main():
 
     # 两个月内所有假期提示
     count_y = footer_y + 24
-    for i, (name, start, end, days, total_days) in enumerate(upcoming):
+    for i, item in enumerate(upcoming):
         cy = count_y + i * 20
-        if days == 0:
-            text = f"🎉 今天是 {name} 假期第一天！共 {total_days} 天"
-        else:
-            text = f"📅 {name} ({start.month}/{start.day}–{end.month}/{end.day}) · 还有 {days} 天 · 共 {total_days} 天"
         body_parts.append(
-            f'<text x="{legend_x}" y="{cy}" font-size="13" fill="{COLORS["holiday_fg"]}" font-weight="600">{text}</text>'
+            f'<text x="{legend_x}" y="{cy}" font-size="13" fill="{COLORS["holiday_fg"]}" font-weight="600">{format_holiday_line(item)}</text>'
         )
 
     # 数据来源（动态 y 坐标）
@@ -421,8 +474,8 @@ def main():
         f.write(svg_content)
 
     print(f"✅ 已生成: {out_path}")
-    for name, start, end, days, total in upcoming:
-        print(f"   📅 {name} ({start.month}/{start.day}-{end.month}/{end.day}) 还有 {days} 天 · 共 {total} 天")
+    for item in upcoming:
+        print(f"   {format_holiday_line(item)}")
 
     # 供 GitHub Actions 判断是否有变化
     if "--check" in sys.argv:
