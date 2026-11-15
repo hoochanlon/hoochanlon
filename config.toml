@@ -1,40 +1,10 @@
+# Hugo 只负责把 static/ 原样发布。
+# 首页 = CRT 终端（static/index.html），不再使用 Lynx 主题。
+#
+# 不要把 home 放进 disableKinds：Hugo 0.164 组装首页时会 panic。
+# 没有 theme/layouts 时 Hugo 不会生成首页，static/index.html 会原样复制。
 baseURL = "https://hoochanlon.github.io/hoochanlon/"
-defaultContentLanguage = "zh-cn"
-theme = "lynx-dev"
+title = "GitHub Profile — Chanlon Hoo"
+locale = "zh-CN"
 
-title = "Hoochanlon"
-
-enableEmoji = true
-disableKinds = ["taxonomy", "term"]
-
-[languages]
-  [languages.zh-cn]
-    locale = "zh-cn"
-    label = "简体中文"
-
-[params.author]
-  name = "Hoochanlon"
-  headline = "带砖底层劳工/内容生产者"
-  image = "img/author.jpg"  # 使用头像
-
-  links = [
-#   { link = { href = "/styles/", text = "链接样式展示", target = "_self" } },
-    { github = { href = "https://github.com/hoochanlon", text = "github", target = "_self" }},
-    { email = { href = "mailto:hoochanlon@outlok.com", text = "email", target = "_self" }},
-    { crt = { href = "hcl/index.html", text = "Geek Style", target = "_self" } },
-    { x = { href = "https://www.bilibili.com/video/BV1GJ411x7h7", text = "twitter", target = "_self" } },
-    { pinterest = { href = "https://www.pinterest.com", text = "pinterest", target = "_self" } },
-    { google = { href = "https://google.com", text = "google", target = "_self" }},
-  ]
-
-[markup.highlight]
-  noClasses = false
-
-[markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
-
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.86.1"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap", "robotsTXT"]

@@ -77,14 +77,11 @@ private/
 *.pem
 *.key
 
-# 音频文件
-*.mp3
+# 音频文件（默认忽略大体积；终端页背景乐必须能进仓库，否则 GitHub Pages 404）
 *.wav
-assets/music/
-static/hcl/assets/music/
-
-# Font Awesome 字体文件（大体积二进制）
-static/hcl/font-awesome/fonts/
+*.mp3
+!static/assets/music/
+!static/assets/music/*.mp3
 
 # 图片备份
 pictures/
