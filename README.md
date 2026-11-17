@@ -1,26 +1,10 @@
-<!--
-
-![](https://t.mwm.moe/fj)
-![](https://lipsum.app/random/1600x900)
-![](https://api.timelessq.com/bing/random)
-
-<div align="center">
-  <img alt="avatar" src="./static/img/avatar.gif" height="240";weight:"auto"/>
-
-<p>
-一个被社达抛弃的底层带砖失业民工，靠着画饼充饥维系着最基本的生存。<br>
-<small>An underclass unemployed vocational graduate discarded by Social Darwinism, surviving on empty promises.</small>
-</p>
-</div>
-
--->
-
-
 ![](https://profile-calendar.vercel.app/image?&textColor=%230F172A)
 
 
 <div align="center">
   <img alt="节假日日历" src="https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/holiday/holiday-calendar.svg" width="816"/>
+
+<img width="1260" height="709" alt="1032a518ddc86baf2078905251f24d4a" src="https://github.com/user-attachments/assets/5a39eaa5-40c2-4abc-9811-5f7ab3822a40" />
 </div>
 
 
