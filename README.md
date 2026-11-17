@@ -3,8 +3,6 @@
 
 <div align="center">
   <img alt="节假日日历" src="https://raw.githubusercontent.com/hoochanlon/hoochanlon/master/holiday/holiday-calendar.svg" width="816"/>
-
-<img width="1260" height="709" alt="1032a518ddc86baf2078905251f24d4a" src="https://github.com/user-attachments/assets/5a39eaa5-40c2-4abc-9811-5f7ab3822a40" />
 </div>
 
 
